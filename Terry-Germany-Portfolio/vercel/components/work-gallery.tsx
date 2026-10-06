@@ -1,0 +1,41 @@
+"use client";
+
+import { useState } from "react";
+import Image from "next/image";
+import { ArrowUpRight, Layers, Sparkles } from "lucide-react";
+import { CaseStudyLink } from "@/components/case-study-viewer";
+import { Dialog, DialogContent, DialogDescription, DialogTitle } from "@/components/ui/dialog";
+import type { Project } from "@/lib/portfolio";
+
+const filters = ["All work", "Portfolio", "Case studies"] as const;
+type GalleryFilter = typeof filters[number];
+
+function ProjectPreview({ slug }: { slug: string }) {
+ if (slug === "digital-assistance") return <div className="gallery-preview gallery-preview-insurance"><span className="gallery-preview-label">Digital assistance · Desktop + mobile</span><div className="gallery-devices"><Image className="gallery-laptop" src="/work/state-farm-hero-laptop.png" alt="State Farm quote continuation on a laptop" width={908} height={616}/><Image className="gallery-phone" src="/work/state-farm-hero-phone.png" alt="Conversational assistant with license scanning" width={205} height={393}/></div></div>;
+ if (slug === "upgather") return <div className="gallery-preview gallery-preview-platform"><span className="gallery-preview-label">Connected workflows · Enterprise</span><div className="gallery-artifact"><Image src="/work/editorial-ai.png" alt="Newsletter workflow design exploration" width={2048} height={427}/></div><div className="gallery-workflow" aria-hidden="true"><span>Create</span><span>Review</span><span>Publish</span></div></div>;
+ if (slug === "apple-intelligence") return <div className="gallery-preview gallery-preview-intelligence"><span className="gallery-preview-label">Intelligent interaction · Cross-platform</span><div className="gallery-intelligence-art" aria-hidden="true"><div className="gallery-orbit"/><div className="gallery-intelligence-core"><Sparkles size={44} strokeWidth={1.2}/></div><span className="gallery-context">Context</span><span className="gallery-interaction">Interaction</span></div><span className="gallery-art-caption">Experience principles</span></div>;
+ return <div className="gallery-preview gallery-preview-systems"><span className="gallery-preview-label">Reusable patterns · Design + engineering</span><div className="gallery-system-art" aria-hidden="true"><div className="gallery-system-header"><Layers size={20}/><span>Component foundations</span><i/></div><div className="gallery-system-palette"><i/><i/><i/><i/><i/></div><div className="gallery-system-controls"><span>Default</span><span>Selected</span><span>Disabled</span></div><div className="gallery-system-lines"><i/><i/><i/></div></div><span className="gallery-art-caption">Interaction standards</span></div>;
+}
+
+const portfolioPieces = [
+ {id:"shopping",company:"State Farm",title:"A guided shopping experience.",description:"Explore the Digital Assistant shopping simulator, from customer intent to guided next steps.",type:"Interactive prototype",href:"https://false-stark-55161277.figma.site/shopping",image:"/work/state-farm-hero-phone.png",alt:"State Farm Digital Assistant shopping interface",tags:["Conversational AI","Interaction design"]},
+ {id:"returning",company:"State Farm",title:"Pick up where you left off.",description:"A returning-customer prototype that brings quote continuation and personalized guidance into one experience.",type:"Interactive prototype",href:"https://easing-saint-57808727.figma.site/",image:"/work/state-farm-hero-laptop.png",alt:"State Farm returning customer experience on a laptop",tags:["Personalization","Product design"]},
+ {id:"event-flow",company:"Scoop News Group / Upgather",title:"From event setup to publishing.",description:"A workflow artifact showing how event owners create, review, and publish an event page.",type:"Workflow artifact",href:"",image:"/work/event-flow.png",alt:"Event creation and publishing workflow",tags:["Enterprise UX","Experience architecture"]},
+];
+
+function GalleryCardCopy({title,company,type,tags,role,description,action,featured}:{title:string;company:string;type:string;tags:readonly string[];role?:string;description:string;action:string;featured:boolean}) {
+ if(!featured) return <div className="gallery-card-copy gallery-copy-compact"><div className="gallery-title-row"><h3 title={title}>{title}</h3><ArrowUpRight size={17} aria-hidden="true"/></div><div className="gallery-compact-meta"><span className="gallery-compact-company" title={company}>{company}</span><span aria-hidden="true">·</span><span className="gallery-compact-type">{type}</span></div><div className="gallery-card-footer"><div className="gallery-tags">{tags.map(tag => <span key={tag}>{tag}</span>)}</div></div></div>;
+ return <div className="gallery-card-copy"><div className="gallery-card-company"><span>{company}</span><ArrowUpRight size={20} aria-hidden="true"/></div><span className="gallery-content-type">{type}</span><h3>{title}</h3>{role&&<p className="gallery-card-role">{role}</p>}<p className="gallery-card-description">{description}</p><div className="gallery-card-footer"><div className="gallery-tags">{tags.map(tag => <span key={tag}>{tag}</span>)}</div><span className="gallery-open">{action}</span></div></div>;
+}
+
+export default function WorkGallery({ projects, featured=false }: { projects: Project[]; featured?:boolean }) {
+ const [filter, setFilter] = useState<GalleryFilter>("All work");
+ const [artifactOpen, setArtifactOpen] = useState(false);
+ const showStudies = featured || filter !== "Portfolio";
+ const showPortfolio = !featured && filter !== "Case studies";
+ const count = (showStudies ? projects.length : 0) + (showPortfolio ? portfolioPieces.length : 0);
+ return <div className="work-gallery">{!featured && <div className="gallery-toolbar"><div className="gallery-filters" role="group" aria-label="Filter selected work">{filters.map(item => <button type="button" key={item} aria-pressed={filter === item} onClick={() => setFilter(item)}>{item}</button>)}</div><span className="gallery-count" aria-live="polite" aria-atomic="true">{count} {count === 1 ? "project" : "projects"}</span></div>}<div className="gallery-grid">{showStudies && projects.map(project => <CaseStudyLink key={project.slug} href={`/work/${project.slug}`} className="gallery-card" aria-label={`View ${project.company} case study: ${project.title}`}><ProjectPreview slug={project.slug}/><GalleryCardCopy title={project.title} company={project.company} type="Case study" tags={project.tags.slice(0,3)} role={project.role} description={project.subtitle} action="View case study" featured={featured}/></CaseStudyLink>)}{showPortfolio && portfolioPieces.map(piece => {
+ const body = <><div className={`gallery-preview gallery-piece-preview gallery-piece-${piece.id}`}><span className="gallery-preview-label">Portfolio · {piece.type}</span><Image src={piece.image} alt={piece.alt} width={piece.id === "shopping" ? 205 : piece.id === "returning" ? 908 : 2048} height={piece.id === "shopping" ? 393 : piece.id === "returning" ? 616 : 398}/></div><GalleryCardCopy title={piece.title} company={piece.company} type={piece.type} tags={piece.tags} description={piece.description} action={piece.href ? "Open prototype ↗" : "View artifact"} featured={featured}/></>;
+ return piece.href ? <a className="gallery-card" key={piece.id} href={piece.href} target="_blank" rel="noopener noreferrer" aria-label={`${piece.title} Open prototype in a new tab`}>{body}</a> : <button type="button" className="gallery-card gallery-artifact-button" key={piece.id} onClick={() => setArtifactOpen(true)} aria-label={`View artifact: ${piece.title}`}>{body}</button>;
+ })}</div><Dialog open={artifactOpen} onOpenChange={setArtifactOpen}><DialogContent className="gallery-artifact-dialog"><DialogTitle>From event setup to publishing.</DialogTitle><DialogDescription>Upgather workflow exploration: create an event, choose or reuse a page, review the details, and publish.</DialogDescription><div className="gallery-artifact-scroll"><Image src="/work/event-flow.png" alt="Upgather event owner workflow showing creation, page selection, review, publishing, and draft paths" width={2048} height={398}/></div><a href="/work/event-flow.png" target="_blank" rel="noopener noreferrer" className="text-link">Open full-size artifact ↗</a></DialogContent></Dialog></div>;
+}

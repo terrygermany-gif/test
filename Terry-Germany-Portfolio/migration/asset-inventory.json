@@ -1,0 +1,87 @@
+[
+  {
+    "path": "public/human-ai-orbit.png",
+    "bytes": 1837182,
+    "sha256": "5eac6516d93c9b993f59373ef286e484bedc4e19081f9a1718613fcc00367cc2"
+  },
+  {
+    "path": "public/favicon.svg",
+    "bytes": 259,
+    "sha256": "734b5ac58bd993bf0ed9b2ac82cb72b5b683b12591892bf86ed1174de8863f0a"
+  },
+  {
+    "path": "public/Terry-Germany-Resume.pdf",
+    "bytes": 96209,
+    "sha256": "ecb234d5e416c19f393f5a7eb3ed9206bd0ddfc1e856a627c43c9547c9e955e2"
+  },
+  {
+    "path": "public/fonts/Inter-OFL.txt",
+    "bytes": 4377,
+    "sha256": "5b9321a4298cfeb6b34354164a1c3afc3db114569984c502b9b35d988fd58c57"
+  },
+  {
+    "path": "public/fonts/state-farm-inter.woff",
+    "bytes": 457780,
+    "sha256": "425d676fc28a98e26f5f4d3b580f6d17b0913d635f4a301e08e72676bcefa28b"
+  },
+  {
+    "path": "public/work/campaign-storyboard.png",
+    "bytes": 276698,
+    "sha256": "1e175d10b582190fb7acc4654fdea55130486870dd00f3cbf740c575bd9d259f"
+  },
+  {
+    "path": "public/work/state-farm-digital-assistant-walkthrough.vtt",
+    "bytes": 554,
+    "sha256": "8aba114b5ada752de009937725152498d2b368456a4be6b31d503a2df5fb00c2"
+  },
+  {
+    "path": "public/work/state-farm-digital-assistant-walkthrough.mp4",
+    "bytes": 617903,
+    "sha256": "6e4c55225901c0c9698cdac1a3fa25ae08811d9857584f9d335b889002fc729a"
+  },
+  {
+    "path": "public/work/state-farm-digital-assistant-walkthrough.jpg",
+    "bytes": 146327,
+    "sha256": "a6ff0a5711cf7e06585847c012a1a7058af6ec6d0f70e535a7707fbedb162fa9"
+  },
+  {
+    "path": "public/work/state-farm-assistant.png",
+    "bytes": 185838,
+    "sha256": "ce277e2fa4e9d09b0234994a87b4b882cc238c018416aaa2fa2384a27d9ec857"
+  },
+  {
+    "path": "public/work/state-farm-hero-laptop.png",
+    "bytes": 243854,
+    "sha256": "b1867686810ba4a178f2f27aba3581124691cee7ddb8e5f88999c078963a854a"
+  },
+  {
+    "path": "public/work/state-farm-hero-phone.png",
+    "bytes": 21278,
+    "sha256": "d7b94fc240d8a5806107b8bc004e7f861a5d7646d0ef6a3601c0d2ec783ce9e8"
+  },
+  {
+    "path": "public/work/editorial-ai.png",
+    "bytes": 138176,
+    "sha256": "45d0ede0cfb2e9e3117c1fc52e004c5cdd5ce050c625476e6757950c178fc589"
+  },
+  {
+    "path": "public/work/event-flow.png",
+    "bytes": 124818,
+    "sha256": "bd258958697fed36ad89944c3d8dfb560f3bb6bb84a088d5ea9b7ba50cdc3177"
+  },
+  {
+    "path": "public/hero-media/cyan.png",
+    "bytes": 1794938,
+    "sha256": "7c5e699139d8a031c918731646e11e7871030daaaed7083a609ac0c10707337d"
+  },
+  {
+    "path": "public/hero-media/violet.png",
+    "bytes": 1818863,
+    "sha256": "9bcc3d21f0fa37eed30a8e7156906ea3ccd6529d03752f3878e7ef2072b1a7aa"
+  },
+  {
+    "path": "public/hero-media/silver.png",
+    "bytes": 1726587,
+    "sha256": "532e7355544ec8ae1cd9aaf876a6a7fbe786f711d6729f5568e0d1a29f689169"
+  }
+]
