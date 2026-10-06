@@ -6,59 +6,59 @@
 
 .work-page{padding-top:54px;padding-bottom:72px}.work-page-intro{padding-bottom:30px;border-bottom:1px solid var(--border)}.work-page-intro h1{font-size:clamp(40px,5vw,64px);line-height:1.08;letter-spacing:-.045em;font-weight:500;margin:18px 0}.work-page-intro p{max-width:720px;font-size:17px;line-height:1.7;color:var(--muted-foreground);margin:0}.featured-work-action{display:flex;justify-content:center;margin-top:30px}.header-nav a[aria-current=page]{color:var(--foreground);text-decoration:underline;text-underline-offset:7px}.work-page .work-gallery{margin-top:28px}@media(max-width:760px){.work-page{padding-top:35px;padding-bottom:48px}.work-page-intro p{font-size:15px}.featured-work-action .button{text-align:center}}
 
-/* Compact browsing cards on the dedicated Work page. */
+/* Shared compact cards for the homepage preview and Work page. */
 .work-page.wrap{width:min(1440px,calc(100% - 64px))}
-.work-page .gallery-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
-.work-page .gallery-card{border-radius:12px}
-.work-page .gallery-preview{container-type:inline-size;aspect-ratio:16/10}
-.work-page .gallery-preview-label{top:12px;left:14px;right:14px;font-size:9px;line-height:1.4;letter-spacing:.04em}
-.work-page .gallery-devices{margin-top:20px}
-.work-page .gallery-card-copy{padding:17px 16px 16px;overflow-wrap:anywhere}
-.work-page .gallery-card-company{font-size:11px;line-height:1.5;gap:8px}
-.work-page .gallery-card-company svg{width:16px;height:16px;flex-shrink:0}
-.work-page .gallery-content-type{font-size:9px;margin-top:10px;letter-spacing:.07em}
-.work-page .gallery-card-copy h3{font-size:19px;line-height:1.25;letter-spacing:-.025em;margin:8px 0 10px;min-height:2.5em}
-.work-page .gallery-card-role{font-size:11px;line-height:1.5;margin-bottom:10px}
-.work-page .gallery-card-description{font-size:12px;line-height:1.6;margin-bottom:16px}
-.work-page .gallery-card-footer{flex-wrap:wrap;gap:12px;padding-top:13px}
-.work-page .gallery-tags{gap:5px}
-.work-page .gallery-tags span{font-size:9px;padding:4px 6px}
-.work-page .gallery-open{font-size:11px}
-.work-page .gallery-intelligence-core{width:24cqw;height:24cqw;border-radius:7cqw}
-.work-page .gallery-intelligence-core svg{width:12cqw;height:12cqw}
-.work-page .gallery-orbit{box-shadow:0 0 0 6cqw #ffffff04,0 0 0 calc(6cqw + 1px) #ffffff12}
-.work-page .gallery-context,.work-page .gallery-interaction{padding:6px 9px;font-size:9px;border-radius:6px}
-.work-page .gallery-art-caption{bottom:11px;font-size:9px}
-.work-page .gallery-system-art{width:78%;padding:11px;border-radius:9px;margin-top:12px;box-shadow:7px 7px 0 #758aae12}
-.work-page .gallery-system-header{font-size:9px;gap:6px}
-.work-page .gallery-system-header svg{width:14px;height:14px;flex-shrink:0}
-.work-page .gallery-system-palette{gap:7px;margin:12px 0}
-.work-page .gallery-system-palette i{width:6cqw;height:6cqw}
-.work-page .gallery-system-controls{font-size:8px;gap:5px}
-.work-page .gallery-system-controls span{padding:5px 6px}
-.work-page .gallery-system-lines{margin-top:10px;gap:4px}
-.work-page .gallery-system-lines i{height:3px}
-.work-page .gallery-workflow{bottom:11px;font-size:9px;gap:20px}
-.work-page .gallery-piece-preview>img{margin-top:16px}
-@media(max-width:1199px){.work-page .gallery-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:959px){.work-page .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
-@media(max-width:599px){.work-page.wrap{width:calc(100% - 36px)}.work-page .gallery-grid{grid-template-columns:minmax(0,1fr);gap:20px}.work-page .gallery-preview{aspect-ratio:16/9}.work-page .gallery-card-copy h3{min-height:0;font-size:20px}.work-page .gallery-toolbar{gap:12px}.work-page .gallery-card-description{font-size:13px}}
+:is(.work-page, .portfolio-simple .work-section) .gallery-grid{grid-template-columns:repeat(4,minmax(0,1fr));gap:20px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-card{border-radius:12px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-preview{container-type:inline-size;aspect-ratio:16/10}
+:is(.work-page, .portfolio-simple .work-section) .gallery-preview-label{top:12px;left:14px;right:14px;font-size:9px;line-height:1.4;letter-spacing:.04em}
+:is(.work-page, .portfolio-simple .work-section) .gallery-devices{margin-top:20px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-card-copy{padding:17px 16px 16px;overflow-wrap:anywhere}
+:is(.work-page, .portfolio-simple .work-section) .gallery-card-company{font-size:11px;line-height:1.5;gap:8px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-card-company svg{width:16px;height:16px;flex-shrink:0}
+:is(.work-page, .portfolio-simple .work-section) .gallery-content-type{font-size:9px;margin-top:10px;letter-spacing:.07em}
+:is(.work-page, .portfolio-simple .work-section) .gallery-card-copy h3{font-size:19px;line-height:1.25;letter-spacing:-.025em;margin:8px 0 10px;min-height:2.5em}
+:is(.work-page, .portfolio-simple .work-section) .gallery-card-role{font-size:11px;line-height:1.5;margin-bottom:10px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-card-description{font-size:12px;line-height:1.6;margin-bottom:16px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-card-footer{flex-wrap:wrap;gap:12px;padding-top:13px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-tags{gap:5px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-tags span{font-size:9px;padding:4px 6px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-open{font-size:11px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-intelligence-core{width:24cqw;height:24cqw;border-radius:7cqw}
+:is(.work-page, .portfolio-simple .work-section) .gallery-intelligence-core svg{width:12cqw;height:12cqw}
+:is(.work-page, .portfolio-simple .work-section) .gallery-orbit{box-shadow:0 0 0 6cqw #ffffff04,0 0 0 calc(6cqw + 1px) #ffffff12}
+:is(.work-page, .portfolio-simple .work-section) .gallery-context,:is(.work-page, .portfolio-simple .work-section) .gallery-interaction{padding:6px 9px;font-size:9px;border-radius:6px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-art-caption{bottom:11px;font-size:9px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-system-art{width:78%;padding:11px;border-radius:9px;margin-top:12px;box-shadow:7px 7px 0 #758aae12}
+:is(.work-page, .portfolio-simple .work-section) .gallery-system-header{font-size:9px;gap:6px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-system-header svg{width:14px;height:14px;flex-shrink:0}
+:is(.work-page, .portfolio-simple .work-section) .gallery-system-palette{gap:7px;margin:12px 0}
+:is(.work-page, .portfolio-simple .work-section) .gallery-system-palette i{width:6cqw;height:6cqw}
+:is(.work-page, .portfolio-simple .work-section) .gallery-system-controls{font-size:8px;gap:5px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-system-controls span{padding:5px 6px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-system-lines{margin-top:10px;gap:4px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-system-lines i{height:3px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-workflow{bottom:11px;font-size:9px;gap:20px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-piece-preview>img{margin-top:16px}
+@media(max-width:1199px){:is(.work-page, .portfolio-simple .work-section) .gallery-grid{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:959px){:is(.work-page, .portfolio-simple .work-section) .gallery-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}}
+@media(max-width:599px){.work-page.wrap{width:calc(100% - 36px)}:is(.work-page, .portfolio-simple .work-section) .gallery-grid{grid-template-columns:minmax(0,1fr);gap:20px}:is(.work-page, .portfolio-simple .work-section) .gallery-preview{aspect-ratio:16/9}:is(.work-page, .portfolio-simple .work-section) .gallery-card-copy h3{min-height:0;font-size:20px}:is(.work-page, .portfolio-simple .work-section) .gallery-toolbar{gap:12px}:is(.work-page, .portfolio-simple .work-section) .gallery-card-description{font-size:13px}}
 
 /* Image-led gallery tiles with a short caption and bottom tags. */
-.work-page .gallery-card{border-radius:16px}
-.work-page .gallery-preview{aspect-ratio:3/2;border-bottom:0;border-radius:15px}
-.work-page .gallery-preview-label{display:none}
-.work-page .gallery-copy-compact{padding:14px 15px 15px;gap:10px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-card{border-radius:16px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-preview{aspect-ratio:3/2;border-bottom:0;border-radius:15px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-preview-label{display:none}
+:is(.work-page, .portfolio-simple .work-section) .gallery-copy-compact{padding:14px 15px 15px;gap:10px}
 .gallery-title-row{display:flex;align-items:center;gap:10px;min-width:0}
 .gallery-title-row svg{flex-shrink:0;color:var(--muted-foreground)}
-.work-page .gallery-title-row h3{margin:0;min-height:0;font-size:15px;line-height:1.4;font-weight:600;letter-spacing:-.025em;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
+:is(.work-page, .portfolio-simple .work-section) .gallery-title-row h3{margin:0;min-height:0;font-size:15px;line-height:1.4;font-weight:600;letter-spacing:-.025em;overflow:hidden;white-space:nowrap;text-overflow:ellipsis}
 .gallery-compact-meta{display:flex;align-items:center;gap:6px;min-width:0;color:var(--muted-foreground);font-size:11px;line-height:1.5}
 .gallery-compact-company{min-width:0;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .gallery-compact-type{flex-shrink:0;font-size:10px}
-.work-page .gallery-copy-compact .gallery-card-footer{border:0;padding:0;margin:0;gap:0}
-.work-page .gallery-copy-compact .gallery-tags{gap:5px}
-.work-page .gallery-copy-compact .gallery-tags span{font-size:9px;line-height:1.4;padding:4px 7px}
-.work-page .gallery-devices{margin-top:0;width:88%;height:87%}
-.work-page .gallery-piece-preview>img{margin-top:0;height:86%}
-.work-page .gallery-system-art{margin-top:0}
-@media(max-width:599px){.work-page .gallery-preview{aspect-ratio:3/2}.work-page .gallery-copy-compact{padding:14px 16px 16px}.work-page .gallery-title-row h3{font-size:16px}.gallery-compact-meta{font-size:12px}.gallery-compact-type{font-size:11px}}
+:is(.work-page, .portfolio-simple .work-section) .gallery-copy-compact .gallery-card-footer{border:0;padding:0;margin:0;gap:0}
+:is(.work-page, .portfolio-simple .work-section) .gallery-copy-compact .gallery-tags{gap:5px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-copy-compact .gallery-tags span{font-size:9px;line-height:1.4;padding:4px 7px}
+:is(.work-page, .portfolio-simple .work-section) .gallery-devices{margin-top:0;width:88%;height:87%}
+:is(.work-page, .portfolio-simple .work-section) .gallery-piece-preview>img{margin-top:0;height:86%}
+:is(.work-page, .portfolio-simple .work-section) .gallery-system-art{margin-top:0}
+@media(max-width:599px){:is(.work-page, .portfolio-simple .work-section) .gallery-preview{aspect-ratio:3/2}:is(.work-page, .portfolio-simple .work-section) .gallery-copy-compact{padding:14px 16px 16px}:is(.work-page, .portfolio-simple .work-section) .gallery-title-row h3{font-size:16px}.gallery-compact-meta{font-size:12px}.gallery-compact-type{font-size:11px}}
