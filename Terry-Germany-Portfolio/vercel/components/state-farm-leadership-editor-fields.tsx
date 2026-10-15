@@ -1,0 +1,7 @@
+"use client";
+import type {StateFarmReturning} from '@/lib/state-farm-returning';
+type Leadership=StateFarmReturning['leadership'];
+function Field({label,value,onChange,multiline=false}:{label:string;value:string;onChange:(value:string)=>void;multiline?:boolean}){return <label className="editor-field"><span>{label}</span>{multiline?<textarea value={value} rows={4} onChange={event=>onChange(event.target.value)}/>:<input value={value} onChange={event=>onChange(event.target.value)}/>}</label>;}
+export default function StateFarmLeadershipEditorFields({value,onUpdate}:{value:Leadership;onUpdate:(edit:(draft:Leadership)=>void)=>void}){
+ return <section className="editor-card"><h2>My Leadership & Impact</h2><p className="editor-note">A dedicated section after the overview. The introduction, responsibilities, and impact statement are editable.</p><Field label="Leadership section heading" value={value.title} onChange={v=>onUpdate(d=>{d.title=v;})}/><Field label="Leadership introduction" value={value.intro} multiline onChange={v=>onUpdate(d=>{d.intro=v;})}/>{value.responsibilities.map((item,i)=><div className="editor-subcard" key={i}><Field label={'Responsibility '+(i+1)+' title'} value={item.title} onChange={v=>onUpdate(d=>{d.responsibilities[i].title=v;})}/><Field label={'Responsibility '+(i+1)+' description'} value={item.description} multiline onChange={v=>onUpdate(d=>{d.responsibilities[i].description=v;})}/></div>)}<Field label="Impact statement" value={value.impact} multiline onChange={v=>onUpdate(d=>{d.impact=v;})}/></section>;
+}

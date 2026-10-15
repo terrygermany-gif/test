@@ -2,10 +2,11 @@ import { r2Request, storageConfigured } from './r2-bucket';
 import { applyStateFarmEvidenceUpdate } from './state-farm-evidence-update';
 import { applyStateFarmCopyUpdate } from './state-farm-copy-update';
 import { contentSchema, defaultContent, type PortfolioContent } from './portfolio-content';
+import publishedSnapshot from './published-snapshot.json';
 export type StoredDocument={content:PortfolioContent;revision:number;updatedAt:string|null};
 type Documents={draft?:StoredDocument;published?:StoredDocument};
 const key='portfolio/documents.json';
-const fallback=():StoredDocument=>({content:defaultContent,revision:0,updatedAt:null});
+const fallback=():StoredDocument=>({content:contentSchema.parse(publishedSnapshot),revision:0,updatedAt:null});
 const normalize=(doc:StoredDocument):StoredDocument=>({...doc,content:applyStateFarmEvidenceUpdate(applyStateFarmCopyUpdate(contentSchema.parse(doc.content)))});
 async function documents() {
  if(!storageConfigured())return {data:{} as Documents,etag:undefined};

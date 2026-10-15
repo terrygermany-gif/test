@@ -1,4 +1,13 @@
+import {stateFarmReturningSchema} from './state-farm-returning';
+import {stateFarmShoppingSchema} from './state-farm-shopping';
+import {neurotradeSchema} from './neurotrade';
 import { z } from 'zod';
+import {adaHealthcareSchema} from './ada-healthcare';
+import {fintechIrmpSchema} from './fintech-irmp';
+import {appleMusicSchema} from './apple-music';
+import {oneofSuperlogicSchema} from './oneof-superlogic';
+import {availityEssentialsSchema} from './availity-essentials';
+import { defaultPortfolioHeroes,portfolioHeroesSchema } from './portfolio-heroes';
 import { projects } from './portfolio';
 import { getProof } from './project-proof';
 import { projectStrategies } from './project-strategy';
@@ -12,11 +21,17 @@ const strategy=z.object({context:text,comparisons:z.array(z.object({title:short,
 const editableProject=z.object({slug:short,company:short,title:short,subtitle:text,role:short,domain:short,challenge:text,contribution:z.array(text).min(1).max(8),evidence:text,takeaway:text,decisions:z.array(z.object({title:short,text})).min(2).max(8)}).strict();
 const caseDetails=z.object({timeframe:z.string().trim().max(400).optional(),assessmentDate:z.string().trim().max(400).optional(),researchObservation:z.string().trim().max(8000).optional(),designChange:z.string().trim().max(8000).optional(),researchArtifactSrc:z.union([z.literal(''),mediaSrc]).optional(),deliveryExample:z.string().trim().max(8000).optional()}).strict();
 const study=z.object({caseDetails:caseDetails.optional(),project:editableProject,scope:text,collaboration:text,visualLabel:short,researchIntro:text,researchNote:text,outcomeNote:text,insights:z.array(text).min(1).max(8),choice:text,why:text,directional:text,strategy,evidence:z.array(z.object({id:short,title:short,status:z.enum(['Project summary','Artifact available','Placeholder']),summary:text,detail:text,src:z.string().regex(/^\/(work\/|api\/portfolio-media\/)[a-zA-Z0-9/_.-]+$/).optional()})).max(20),media:z.array(z.object({title:short,caption:z.string().max(2000),src:mediaSrc,type:z.enum(['image','video'])})).max(12),sectionOrder:z.array(section).min(5).max(6)}).strict();
-export const contentSchema=z.object({stateFarmCopyVersion:z.literal(1).optional(),stateFarmEvidenceVersion:z.union([z.literal(1),z.literal(2)]).optional(),home:z.object({heroBadge:short,heroLines:z.array(short).length(4),heroDescription:text,workTitle:short,workDescription:text,aboutTitle:short,aboutParagraphs:z.array(text).length(2)}).strict(),projectOrder:z.array(short).length(4),studies:z.record(study),maturity:z.object({contribution:text,levels:z.array(z.object({level:z.number().int().min(1).max(3),name:short,principle:short,stage:short,summary:text,capabilities:z.array(short).min(1).max(6),product:text,engineering:text,customer:text,example:text,exampleResponse:text})).length(3)}).strict()}).strict().superRefine((value,ctx)=>{
+export const contentSchema=z.object({stateFarmReturningBadgeVersion:z.literal(1).optional(),stateFarmReturningTitleVersion:z.union([z.literal(1),z.literal(2)]).optional(),stateFarmReturning:stateFarmReturningSchema,stateFarmShopping:stateFarmShoppingSchema,neurotrade:neurotradeSchema,appleMusic:appleMusicSchema,fintechIrmp:fintechIrmpSchema,adaHealthcare:adaHealthcareSchema,oneofSuperlogic:oneofSuperlogicSchema,availityEssentials:availityEssentialsSchema,portfolioHeroes:portfolioHeroesSchema,stateFarmCopyVersion:z.literal(1).optional(),stateFarmEvidenceVersion:z.union([z.literal(1),z.literal(2)]).optional(),home:z.object({heroBadge:short,heroLines:z.array(short).length(4),heroDescription:text,workTitle:short,workDescription:text,aboutTitle:short,aboutParagraphs:z.array(text).length(2)}).strict(),projectOrder:z.array(short).length(4),studies:z.record(study),maturity:z.object({contribution:text,levels:z.array(z.object({level:z.number().int().min(1).max(3),name:short,principle:short,stage:short,summary:text,capabilities:z.array(short).min(1).max(6),product:text,engineering:text,customer:text,example:text,exampleResponse:text})).length(3)}).strict()}).strict().superRefine((value,ctx)=>{
  const slugs=projects.map(p=>p.slug);
  if(new Set(value.projectOrder).size!==4||value.projectOrder.some(s=>!slugs.includes(s))||Object.keys(value.studies).sort().join()!==[...slugs].sort().join())ctx.addIssue({code:'custom',message:'Keep the four existing projects.'});
  for(const slug of slugs){const s=value.studies[slug];if(!s)continue;const required=slug==='digital-assistance'?['maturity','evidence','research','strategy','decisions','impact']:['evidence','research','strategy','decisions','impact'];if(s.project.slug!==slug||[...s.sectionOrder].sort().join()!==required.sort().join())ctx.addIssue({code:'custom',message:'Keep each case-study section once.'});}
  if(value.maturity.levels.map(l=>l.level).join()!=='1,2,3')ctx.addIssue({code:'custom',message:'Keep maturity levels 1, 2, and 3.'});
+ }).transform(value=>{
+ const hero=value.portfolioHeroes.returning;
+ const title=!value.stateFarmReturningTitleVersion&&hero.title==='Pick up where you left off.'?defaultPortfolioHeroes.returning.title:hero.title;
+ const description=value.stateFarmReturningTitleVersion!==2&&hero.description==='A returning-customer prototype that brings quote continuation and personalized guidance into one experience.'?defaultPortfolioHeroes.returning.description:hero.description;
+ const badge=!value.stateFarmReturningBadgeVersion&&hero.badge==='State Farm / Portfolio'?defaultPortfolioHeroes.returning.badge:hero.badge;
+ return {...value,stateFarmReturningBadgeVersion:1 as const,stateFarmReturningTitleVersion:2 as const,portfolioHeroes:{...value.portfolioHeroes,returning:{...hero,badge,title,description}}};
 });
 export type PortfolioContent=z.infer<typeof contentSchema>;
 export const sectionLabels:Record<string,string>={maturity:'AI Maturity Model',evidence:'Follow the evidence',research:'Research',strategy:'Competitive Intelligence + Engagement Strategy',decisions:'Design decisions',impact:'Outcomes & lessons'};
