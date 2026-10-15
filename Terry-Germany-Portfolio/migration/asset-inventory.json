@@ -1,18 +1,13 @@
 [
   {
-    "path": "public/human-ai-orbit.png",
-    "bytes": 1837182,
-    "sha256": "5eac6516d93c9b993f59373ef286e484bedc4e19081f9a1718613fcc00367cc2"
+    "path": "public/Terry-Germany-Resume.pdf",
+    "bytes": 96209,
+    "sha256": "ecb234d5e416c19f393f5a7eb3ed9206bd0ddfc1e856a627c43c9547c9e955e2"
   },
   {
     "path": "public/favicon.svg",
     "bytes": 259,
     "sha256": "734b5ac58bd993bf0ed9b2ac82cb72b5b683b12591892bf86ed1174de8863f0a"
-  },
-  {
-    "path": "public/Terry-Germany-Resume.pdf",
-    "bytes": 96209,
-    "sha256": "ecb234d5e416c19f393f5a7eb3ed9206bd0ddfc1e856a627c43c9547c9e955e2"
   },
   {
     "path": "public/fonts/Inter-OFL.txt",
@@ -25,39 +20,269 @@
     "sha256": "425d676fc28a98e26f5f4d3b580f6d17b0913d635f4a301e08e72676bcefa28b"
   },
   {
+    "path": "public/hero-media/cyan.png",
+    "bytes": 1794938,
+    "sha256": "7c5e699139d8a031c918731646e11e7871030daaaed7083a609ac0c10707337d"
+  },
+  {
+    "path": "public/hero-media/silver.png",
+    "bytes": 1726587,
+    "sha256": "532e7355544ec8ae1cd9aaf876a6a7fbe786f711d6729f5568e0d1a29f689169"
+  },
+  {
+    "path": "public/hero-media/violet.png",
+    "bytes": 1818863,
+    "sha256": "9bcc3d21f0fa37eed30a8e7156906ea3ccd6529d03752f3878e7ef2072b1a7aa"
+  },
+  {
+    "path": "public/human-ai-orbit.png",
+    "bytes": 1837182,
+    "sha256": "5eac6516d93c9b993f59373ef286e484bedc4e19081f9a1718613fcc00367cc2"
+  },
+  {
+    "path": "public/work/ada-2-ada-Welcome-Screen.png",
+    "bytes": 89196,
+    "sha256": "ad6a032e15abb154793cee1f7b376b34ed2422ae9dfded93292fa647869ea0eb"
+  },
+  {
+    "path": "public/work/ada-20-ada-Blood-Pressure2.png",
+    "bytes": 60270,
+    "sha256": "d3b28e22d29bbd11a8398de6462815c8caa040bc9331ee69fc7b938a1f75d697"
+  },
+  {
+    "path": "public/work/ada-21-ada-Heart-Rate.png",
+    "bytes": 50632,
+    "sha256": "9627cad7deff19d6ccf257e7af3efc95d5caa7730ed16c7561dd4c3370dfa4e3"
+  },
+  {
+    "path": "public/work/ada-22-ada-Heart-Rate-Details.png",
+    "bytes": 59900,
+    "sha256": "dc10cb845cecc0e653d11cdf37e5368a17458d62a2d8d9afd3125eaac1efd0bb"
+  },
+  {
+    "path": "public/work/ada-23-ada-Steps.png",
+    "bytes": 36475,
+    "sha256": "ba52d8275b67c7593f0196be3b26c703e5088534cf7114881d138d80ea3428b7"
+  },
+  {
+    "path": "public/work/ada-25-ada-Wellness-AI-Chatbot.png",
+    "bytes": 61917,
+    "sha256": "dc2cc3c9346a706e3166d3c0996e8ae375906f70be54810996a0930a8a895980"
+  },
+  {
+    "path": "public/work/ada-3-ada-Welcome-Screen.png",
+    "bytes": 57741,
+    "sha256": "c6d6ba3bd2230384e451da6d10afc8c85f48c19e3ad89a8c0ff16e06409c255e"
+  },
+  {
+    "path": "public/work/ada-4-ada-Welcome-Screen.png",
+    "bytes": 41825,
+    "sha256": "4ebdd54c2e66c66bfa00592cb1e0045fa9587476cf1374eb9a5fb01315efe45e"
+  },
+  {
+    "path": "public/work/ada-5-ada-Welcome-Screen.png",
+    "bytes": 61902,
+    "sha256": "788ebb723d361ebfc6a56a51a6a43ff335e5b667cb9cf5654e98ac9262331ee2"
+  },
+  {
+    "path": "public/work/ada-6-ada-Welcome-Screen.png",
+    "bytes": 124331,
+    "sha256": "591aa98c5ed3321c7e59a52e1229d38dcdc0b4059bc5cf672fa364aca3a4e7a1"
+  },
+  {
+    "path": "public/work/ada-7-Onboarding-Health-Assessment.png",
+    "bytes": 18956,
+    "sha256": "82b619ee7d8dc5ed075b9b33a8de563d0352ff482af44cdcb3a4e345b997889d"
+  },
+  {
+    "path": "public/work/ada-8-Onboarding-Health-Assessment.png",
+    "bytes": 19479,
+    "sha256": "a8f27ea0cdabe9e8cf2b75715427811e02b0809fde62d31334df4e9297056ba5"
+  },
+  {
+    "path": "public/work/ada-9-Onboarding-Health-Assessment.png",
+    "bytes": 47941,
+    "sha256": "f750ca51d2afe35097a2fba5f8ea6ba65e043be206fcf357e76ca40ca0482d64"
+  },
+  {
+    "path": "public/work/ada-Onboarding-Health-Assessment-1.png",
+    "bytes": 24124,
+    "sha256": "199e86f6185a22364cd70e67e715142503a2389e44645085276bc06f66d66828"
+  },
+  {
+    "path": "public/work/ada-Onboarding-Health-Assessment-2.png",
+    "bytes": 21039,
+    "sha256": "07c2cecf41c11f415c031fce414b80b4b6d1c5aa7e1c306cd4495b521b2c70eb"
+  },
+  {
+    "path": "public/work/ada-Onboarding-Health-Assessment-3.png",
+    "bytes": 44941,
+    "sha256": "8b14017aac80854ca0097b8e904fb8f182dfe993286d49ae6f230f8ff5264880"
+  },
+  {
+    "path": "public/work/ada-Onboarding-Health-Assessment-4.png",
+    "bytes": 53942,
+    "sha256": "107d8d9602cacd545b95cd601d3b189a45a09e2173db2a770cd76437969db01b"
+  },
+  {
+    "path": "public/work/ada-Onboarding-Health-Assessment-5.png",
+    "bytes": 39607,
+    "sha256": "4bfb15285fdb808c164a52ae41b5b039615cdfa657229a8b820619a4899a4a09"
+  },
+  {
+    "path": "public/work/ada-Onboarding-Health-Assessment.png",
+    "bytes": 47954,
+    "sha256": "a4fbd8930c532b9df3b919972232f68b90fb587a424b177d58400e8b9ac599f8"
+  },
+  {
+    "path": "public/work/ada-ada-ai-frame.png",
+    "bytes": 480456,
+    "sha256": "0eff771a76e8b1be1970d1e5bdcff44c090417b37d754978a7598edbd52f65be"
+  },
+  {
+    "path": "public/work/ada-ada-ai.png",
+    "bytes": 200729,
+    "sha256": "1efc357df27c7290726872e58b0362d2907a9a39bbe3225b38a66ce066ef7600"
+  },
+  {
+    "path": "public/work/ada-ada-img-side-2.png",
+    "bytes": 365421,
+    "sha256": "5b21c03f47b124df1537d3641598b641733ce6cd93faa9ad5e142ed57673071f"
+  },
+  {
+    "path": "public/work/ada-ada-img-side-3.png",
+    "bytes": 246850,
+    "sha256": "618c831be5afd3250cd422e0e3cd7a8c136ff3858556b8af4544d5ed1e79815f"
+  },
+  {
+    "path": "public/work/ada-ada-logo-768x380.png",
+    "bytes": 23540,
+    "sha256": "73e2d8bf1c741b33f8d408e097576b36a6e9fa1586ad3f2e6abc75c6c3cc0872"
+  },
+  {
+    "path": "public/work/apple-music-Apple-Music-portfolio-THUMBNAIL.jpg",
+    "bytes": 807157,
+    "sha256": "c0a6ca056347d0ff0834cd58878ee7c88b74543471ec5cb3ca9ba61f03d1b778"
+  },
+  {
+    "path": "public/work/apple-music-UPNEXT.gif",
+    "bytes": 3807873,
+    "sha256": "1baee9a40434b1cf46595981558b13d6013a6eb51acc89bcc9fcbea2188d7dd0"
+  },
+  {
+    "path": "public/work/apple-music-USER-FLOW-LOGIN-scaled.jpg",
+    "bytes": 76250,
+    "sha256": "3cacbe5eccb13e7a15101ee5247b891c40186f8595981356eab0e50ea1f6e71f"
+  },
+  {
+    "path": "public/work/apple-music-USER-FLOW-NAVIGATION-scaled-1.webp",
+    "bytes": 40270,
+    "sha256": "f49ef3483e2c2b987497d27498816a01cd7dc47b2fd9e1e78eb446401b6b2b83"
+  },
+  {
+    "path": "public/work/apple-music-apple-music-header-1.png",
+    "bytes": 758986,
+    "sha256": "5f55fb4c5fc675cbc95ac05618cc0e425f42abd0a5013dafbcb2a51bcbb367c0"
+  },
+  {
+    "path": "public/work/apple-music-apple-sketch-2.png",
+    "bytes": 2550101,
+    "sha256": "c6f365dd73646211fa64b1459a5f0eb7e3cd161937bbaebfdb4e81770a598ab2"
+  },
+  {
+    "path": "public/work/apple-music-apple-sketch2-scaled.jpg",
+    "bytes": 243464,
+    "sha256": "c9d8cf7f24db8bca5fc9fc4087869fd9ab8765e84a71d3ce1696246dcd025b97"
+  },
+  {
+    "path": "public/work/apple-music-apple1a-portfolio-2-1.jpg",
+    "bytes": 462145,
+    "sha256": "9d80bdb7120fc5d05011ea5d87c2182c026b02348d40dfc3919096084f80a6d4"
+  },
+  {
+    "path": "public/work/availity-Dashboard-V1.png",
+    "bytes": 193442,
+    "sha256": "4b8f4afb246c52923ad58b2fb442b1b3183d9229555f4f5f2105b31522ad04bc"
+  },
+  {
+    "path": "public/work/availity-Dashboard-v2.png",
+    "bytes": 171193,
+    "sha256": "2efa97f78f7d888de613b04a8a5c56fe2ba120ed57c57504a8415724a769c068"
+  },
+  {
+    "path": "public/work/availity-avaibility-iphone-20.png",
+    "bytes": 287341,
+    "sha256": "6ee517a38e16598e1fa976d45602aa57821a6597ea08c772655ade7d1bf546e9"
+  },
+  {
+    "path": "public/work/availity-avaibility-iphone-21.png",
+    "bytes": 211336,
+    "sha256": "638d452590659b1e5a36bb90cb7d4d44894fb86b2a25530466ed75e3bc9ce81d"
+  },
+  {
+    "path": "public/work/availity-avaibility-iphone-22.png",
+    "bytes": 149712,
+    "sha256": "545528d0d86bd05b99d330f3be79ce3b8fdd85f4d28f8a2eea3edc63398c795e"
+  },
+  {
+    "path": "public/work/availity-avaibility-iphone-23.png",
+    "bytes": 229995,
+    "sha256": "c9781b03333c596d91dbc6333cf77d734397ef042ae11e66763136e21705168b"
+  },
+  {
+    "path": "public/work/availity-avaibility-iphone-24.png",
+    "bytes": 210827,
+    "sha256": "4e98649b2067de6ba1e84da889488b0b2abeb9f8863500462824477ff4eb5742"
+  },
+  {
+    "path": "public/work/availity-avaibility-iphone-25.png",
+    "bytes": 182833,
+    "sha256": "91a5596f1b02a97103fb13e3817655cd91a4b293109ac0ef6a3c9e96acc67802"
+  },
+  {
+    "path": "public/work/availity-avaibility-iphone-26.png",
+    "bytes": 204360,
+    "sha256": "3c4962a94afc4fd791c3ad7f66402fc7c85b7c39a8bed78f32f7ef48d5bc3e07"
+  },
+  {
+    "path": "public/work/availity-avaibility-iphone-5.png",
+    "bytes": 197885,
+    "sha256": "dca9c1d9da683c88d59e88c8224e4759cb641be66abd97cecdc28e0dec5750c5"
+  },
+  {
+    "path": "public/work/availity-availity-img-iphones-3.png",
+    "bytes": 387063,
+    "sha256": "3ba06c57f19e2d74204580e3870b78654a503261a5ecbee6891cdd98bd0782e4"
+  },
+  {
+    "path": "public/work/availity-availity-mac-laptop-2-1.png",
+    "bytes": 278844,
+    "sha256": "5fc9ab9828857fda638c6136f2acbd99814bbfb77180218949d8df2576aaa32b"
+  },
+  {
+    "path": "public/work/availity-availity-workflow1.png",
+    "bytes": 289456,
+    "sha256": "4fe7a31dca47e6a60240b2e665194630db2719f8f7ff9e4e901b0a0b3a94179c"
+  },
+  {
+    "path": "public/work/availity-availity-workflow2.png",
+    "bytes": 392704,
+    "sha256": "eb9efc407a71336046cf1361497877dca86abdd4fec6bbf22f42e0ac79ace0db"
+  },
+  {
+    "path": "public/work/availity-availity-workflow3.png",
+    "bytes": 400624,
+    "sha256": "d96b0c27a139de2dd33df86142cb5004fcdfc5830abc2d1d1ad5334202038c82"
+  },
+  {
+    "path": "public/work/availity-availity-workflow5.png",
+    "bytes": 526501,
+    "sha256": "fe3645b31799ec3d87b79f7d2782644844c59933ed802cb0393d03231208a2db"
+  },
+  {
     "path": "public/work/campaign-storyboard.png",
     "bytes": 276698,
     "sha256": "1e175d10b582190fb7acc4654fdea55130486870dd00f3cbf740c575bd9d259f"
-  },
-  {
-    "path": "public/work/state-farm-digital-assistant-walkthrough.vtt",
-    "bytes": 554,
-    "sha256": "8aba114b5ada752de009937725152498d2b368456a4be6b31d503a2df5fb00c2"
-  },
-  {
-    "path": "public/work/state-farm-digital-assistant-walkthrough.mp4",
-    "bytes": 617903,
-    "sha256": "6e4c55225901c0c9698cdac1a3fa25ae08811d9857584f9d335b889002fc729a"
-  },
-  {
-    "path": "public/work/state-farm-digital-assistant-walkthrough.jpg",
-    "bytes": 146327,
-    "sha256": "a6ff0a5711cf7e06585847c012a1a7058af6ec6d0f70e535a7707fbedb162fa9"
-  },
-  {
-    "path": "public/work/state-farm-assistant.png",
-    "bytes": 185838,
-    "sha256": "ce277e2fa4e9d09b0234994a87b4b882cc238c018416aaa2fa2384a27d9ec857"
-  },
-  {
-    "path": "public/work/state-farm-hero-laptop.png",
-    "bytes": 243854,
-    "sha256": "b1867686810ba4a178f2f27aba3581124691cee7ddb8e5f88999c078963a854a"
-  },
-  {
-    "path": "public/work/state-farm-hero-phone.png",
-    "bytes": 21278,
-    "sha256": "d7b94fc240d8a5806107b8bc004e7f861a5d7646d0ef6a3601c0d2ec783ce9e8"
   },
   {
     "path": "public/work/editorial-ai.png",
@@ -70,18 +295,513 @@
     "sha256": "bd258958697fed36ad89944c3d8dfb560f3bb6bb84a088d5ea9b7ba50cdc3177"
   },
   {
-    "path": "public/hero-media/cyan.png",
-    "bytes": 1794938,
-    "sha256": "7c5e699139d8a031c918731646e11e7871030daaaed7083a609ac0c10707337d"
+    "path": "public/work/irmp-1Wizard-Payroll-wages-Light-1.png",
+    "bytes": 64830,
+    "sha256": "d51193f91ea4dc297a75dd51ac46c908f6885f5f56e9a22db814d878c7d02299"
   },
   {
-    "path": "public/hero-media/violet.png",
-    "bytes": 1818863,
-    "sha256": "9bcc3d21f0fa37eed30a8e7156906ea3ccd6529d03752f3878e7ef2072b1a7aa"
+    "path": "public/work/irmp-2Wizard-Payroll-wages-Light-2.png",
+    "bytes": 64898,
+    "sha256": "6df16449bed12760face46a1e35c2cb4691e217735f2c611a8590eef3445c5ca"
   },
   {
-    "path": "public/hero-media/silver.png",
-    "bytes": 1726587,
-    "sha256": "532e7355544ec8ae1cd9aaf876a6a7fbe786f711d6729f5568e0d1a29f689169"
+    "path": "public/work/irmp-3Wizard-Payroll-wages-Light-3.png",
+    "bytes": 65680,
+    "sha256": "3556120762e23d39c95a88e20210bd5d2741a7e43087c2700eccd58cf6b97671"
+  },
+  {
+    "path": "public/work/irmp-4Wizard-Payroll-wages-Light-4.png",
+    "bytes": 52605,
+    "sha256": "9b2259b79973de7c8c56a9685fdb268781df6ded4799b349270a78543bb64647"
+  },
+  {
+    "path": "public/work/irmp-5Wizard-Payroll-wages-Light.png",
+    "bytes": 60105,
+    "sha256": "f062f9fe5f7a5da313752bb4d039a61120f26def7929b70971090080c7f31109"
+  },
+  {
+    "path": "public/work/irmp-ERC-Pre-qualification-Dark-1.png",
+    "bytes": 37965,
+    "sha256": "936de4532d89a809bb4b31ef2bc24d696444beff948bd241e9ecbb14e827ae3f"
+  },
+  {
+    "path": "public/work/irmp-ERC-Pre-qualification-Dark-2.png",
+    "bytes": 36419,
+    "sha256": "6452164f091e54615c4d0305f15e6b43ff88e64f0ef964c4e7fee025187445f2"
+  },
+  {
+    "path": "public/work/irmp-ERC-Pre-qualification-Dark-4.png",
+    "bytes": 61183,
+    "sha256": "a54173ea7ce8f5897b9aa7dda554e5f19ca70ad065a614f3dc080dd723d822a1"
+  },
+  {
+    "path": "public/work/irmp-ERC-Pre-qualification-Light-2.png",
+    "bytes": 26727,
+    "sha256": "56e150697dc55f64575a90239419594ab939fa420055c5b979e302a9957950e0"
+  },
+  {
+    "path": "public/work/irmp-ERC-Pre-qualification-Light-3.png",
+    "bytes": 98711,
+    "sha256": "4ab0d0ba44cccc00cdaa140b2401b8971dbcb0d3620bda548b50b8293ce3c312"
+  },
+  {
+    "path": "public/work/irmp-ERC-Pre-qualification-Light.png",
+    "bytes": 27649,
+    "sha256": "6bbb2b62f19c38e5100a8de039fc28d7f6b7f6b39996c3b8444084e455579b94"
+  },
+  {
+    "path": "public/work/irmp-HoneyShake-pre-qualification-App-workflow-1.jpg",
+    "bytes": 875521,
+    "sha256": "6eed7523a6ccdbc470d6356cafb3a40847c31a1fc0455840293de5e2c8c19039"
+  },
+  {
+    "path": "public/work/irmp-IR-2-6-iphone-dark-2.png",
+    "bytes": 152679,
+    "sha256": "d65ab9b66ec2d9924ae59bdaa456f7fbabb1bda865b2817d6ef5420ce34634e5"
+  },
+  {
+    "path": "public/work/irmp-IR-2-6-iphone-dark.png",
+    "bytes": 118590,
+    "sha256": "37dd09a755e640b6bd7ae4376fcbba08b9aabd9049c7c3e62295537f41f1843d"
+  },
+  {
+    "path": "public/work/irmp-IR-2-6-iphone-light.png",
+    "bytes": 123768,
+    "sha256": "15408c3972230b6b052d649188b536863601ed68e96a03ac8c6ab66c17ca498e"
+  },
+  {
+    "path": "public/work/irmp-IR-26-UI-Flows-1.jpg",
+    "bytes": 318167,
+    "sha256": "965a11c563e1884da9818197c8d9f3be8d5248f0f3c5cf1ce664db63139c0ec5"
+  },
+  {
+    "path": "public/work/irmp-IR-ERC-FINTECH-TAX-Iphone-Mockup.png",
+    "bytes": 552266,
+    "sha256": "4bc19ae53ddaa8e801729a746be87d568acc7326aa4d3503c34264d8330560a1"
+  },
+  {
+    "path": "public/work/irmp-IR-ERC-Phone-mockup4.png",
+    "bytes": 206887,
+    "sha256": "b4f7580bb921c9be72877fd86b69a85124b5854f1dc96d39b54f651431de6699"
+  },
+  {
+    "path": "public/work/irmp-IR-ERCA_promo_v2.mp4",
+    "bytes": 16076223,
+    "sha256": "9acded6f59b3dd445d21234799f035240924c789f124293fb6e782013a298aa8"
+  },
+  {
+    "path": "public/work/irmp-IR-VOICE-TEXT-VIDEO.mp4",
+    "bytes": 987530,
+    "sha256": "922e514479da2976498dc7a7a62ef3287d85ca60076c1ac2895d5c8ff26a7087"
+  },
+  {
+    "path": "public/work/irmp-IR-Wizard-Checkboxes-DARK3.png",
+    "bytes": 52171,
+    "sha256": "4d7ce3f2485dfbfc58d17f662d67ad758f88b1906988102b8d75b71b671e58d2"
+  },
+  {
+    "path": "public/work/irmp-IR-Wizard-Checkboxes-Light.png",
+    "bytes": 48020,
+    "sha256": "2d840a4bbbce501f8941166ff0665125b63e8af49938b92fd03906e218ffccc0"
+  },
+  {
+    "path": "public/work/irmp-IR-Wizard-Input-fields-DARK1.png",
+    "bytes": 30008,
+    "sha256": "9d4569b36adceb0c14eec160e593eb534f8789cf279efeeeed287121af3b8b4e"
+  },
+  {
+    "path": "public/work/irmp-IR-Wizard-Input-fields-Light.png",
+    "bytes": 25299,
+    "sha256": "562c53847b706ac7ecf1d292dec2fb24a945826240a540f2f63a319def34bd62"
+  },
+  {
+    "path": "public/work/irmp-IR-Wizard-Radio-buttons-DARK4.png",
+    "bytes": 54498,
+    "sha256": "67c97afcdf826565b6e81df5fd02a56a9fd2c4f5089718b67018cb43f8d2b4f7"
+  },
+  {
+    "path": "public/work/irmp-IR-Wizard-Radio-buttons-Light.png",
+    "bytes": 50510,
+    "sha256": "d950aa9127dc7eab2c7655d243c37fec408f6322e27178eaca336d323479187f"
+  },
+  {
+    "path": "public/work/irmp-IR-Wizard-Segment-buttons-DARK2.png",
+    "bytes": 45823,
+    "sha256": "6820e3c772998a12428d47aa0a1db764b7af60576315eb755d1dfa5a2528d983"
+  },
+  {
+    "path": "public/work/irmp-IR-Wizard-Segment-buttons-Light.png",
+    "bytes": 41735,
+    "sha256": "3bcc850b4895fe73b4530e2eff474308923faead7531f0e125f66208bdf9f4ab"
+  },
+  {
+    "path": "public/work/irmp-IR2-6-THUMBNAIL.jpg",
+    "bytes": 1036525,
+    "sha256": "c28e7ab1e93da676ef8bb6ef1adf40557d046bc2812324821a3282c09f3af7d9"
+  },
+  {
+    "path": "public/work/irmp-UXResearch-Blueprint-Audit-ERC2.jpg",
+    "bytes": 303222,
+    "sha256": "587351066b7d009c94586dab2787f167b503d4c679ae732c90449e7f20ec8ac2"
+  },
+  {
+    "path": "public/work/irmp-User-Interviews-IR.jpg",
+    "bytes": 253185,
+    "sha256": "109c4c976e13e817d9bf1dc811dc0656a36fb61c21041b9548136ae8e304571c"
+  },
+  {
+    "path": "public/work/irmp-Wizard-Payroll-wages-Dark.png",
+    "bytes": 56133,
+    "sha256": "4afa2fc2f2acabc727271226c7b8b94fec71af194811ef2306ebbf68198a5e32"
+  },
+  {
+    "path": "public/work/irmp-Wizard-Payroll-wages-Light-1.png",
+    "bytes": 125016,
+    "sha256": "d369dc609ae923c50eb0351a83d66f94f077c9f950822e6594040a1de1e49aac"
+  },
+  {
+    "path": "public/work/irmp-Wizard-Payroll-wages-Light-2.png",
+    "bytes": 57637,
+    "sha256": "891a3cf0217fce16f4831798cd9656d57ca6251fdf40fa6690dcfb09b97e52a2"
+  },
+  {
+    "path": "public/work/irmp-Wizard-Payroll-wages-Light-3.png",
+    "bytes": 58529,
+    "sha256": "790321ab4ffc8a6d910090cde2ee3f788a21d9d7c658801a737b54e649f375dd"
+  },
+  {
+    "path": "public/work/irmp-Wizard-Payroll-wages-Light.png",
+    "bytes": 62429,
+    "sha256": "aebd0a5c94c65fb89a60f18e54fd10caa54efad140de7b0e86c25cd42cd689f4"
+  },
+  {
+    "path": "public/work/irmp-icon_discovery1.svg",
+    "bytes": 9039,
+    "sha256": "d6540d7cb300383b785dea58df070340ab5a66807c344b6fcbe8f7bc9fdb5c9c"
+  },
+  {
+    "path": "public/work/irmp-icon_research1.svg",
+    "bytes": 6143,
+    "sha256": "727aecdd784566e1c46aeca19229bf941cf2a4a31d51548c65e14d333e8bbb5c"
+  },
+  {
+    "path": "public/work/irmp-icon_uidesign1.svg",
+    "bytes": 3596,
+    "sha256": "acf81c4f098e85f492236988d02c59efadf6e7848ecde22607cda02d24a12424"
+  },
+  {
+    "path": "public/work/irmp-icon_uxdesign1-1.svg",
+    "bytes": 2553,
+    "sha256": "4050c5b8dc29adb2e706828a6a41a6bbc11bdcf122adca770be85ebb1a324b4c"
+  },
+  {
+    "path": "public/work/irmp-wireframe-Iphone-Mockup.png",
+    "bytes": 427039,
+    "sha256": "14d8348cf1ff758103fcd56dd9dc56198c1b09b5ede62284c0f1ac0cd07dbdb2"
+  },
+  {
+    "path": "public/work/oneof-1-user-dashboard-v.1-dark-oneof.png",
+    "bytes": 249230,
+    "sha256": "cb137263bca5b099b85a37a72e4a7e2e4b84d96e010154a41b76f892aaeee72a"
+  },
+  {
+    "path": "public/work/oneof-2-step-1-dark-oneof.png",
+    "bytes": 86262,
+    "sha256": "39842f522e02d7f493ee6cbf094a43c204d385d68561d06b9393afbc446ff8ae"
+  },
+  {
+    "path": "public/work/oneof-2-user-dashboard-v.1-dark-oneof.png",
+    "bytes": 345101,
+    "sha256": "4e4474dd54d84eb7bf4bc733823e406b6f1cf05fe5944a1811da849954342a24"
+  },
+  {
+    "path": "public/work/oneof-3-list-v.1-dark-oneof.png",
+    "bytes": 430693,
+    "sha256": "bcd4a3b75f59d23267a74a209225bfc98acb7d995e5e7c37970796e3917141b5"
+  },
+  {
+    "path": "public/work/oneof-3-step-2-dark-oneof.png",
+    "bytes": 77780,
+    "sha256": "ef0398a9ac403ed5ad48e1d375767750d879c26efb2223847d36b637ffbf33d8"
+  },
+  {
+    "path": "public/work/oneof-4-empty-payouts-dark-oneof.png",
+    "bytes": 155454,
+    "sha256": "27d347534afd52985c9c4f5fcd657ee27a6818c8d3221967703885444aee11dd"
+  },
+  {
+    "path": "public/work/oneof-4-items-payouts-dark-oneof.png",
+    "bytes": 324593,
+    "sha256": "b4ecdbe8cb62756c0bb40be42fb9e3222644702a28f5edeac1b04047bdbf2931"
+  },
+  {
+    "path": "public/work/oneof-4-step-3-dark-oneof.png",
+    "bytes": 71227,
+    "sha256": "e3edbf3d587bb492d96fc54d7154538a2499889b49d35db03db4fa2fc35af154"
+  },
+  {
+    "path": "public/work/oneof-5-step-4-dark-oneof.png",
+    "bytes": 92444,
+    "sha256": "6ec61ec9a342812ad15526d8702d11355764e9ab2b03b4b8e2c5f0a51feee6ee"
+  },
+  {
+    "path": "public/work/oneof-6-step-5-dark-oneof.png",
+    "bytes": 156676,
+    "sha256": "0abca8b6b369d4b8ff33f91a4aedfcf6140ba3d845bca39d0c4716d5b7cd308c"
+  },
+  {
+    "path": "public/work/oneof-7-step-6-dark-oneof.png",
+    "bytes": 103290,
+    "sha256": "8b9ba7612abcf9056574a3f68560e2a948d6b35e1b4d60251ddafbccb1923f32"
+  },
+  {
+    "path": "public/work/oneof-8-step-7-dark-oneof.png",
+    "bytes": 379230,
+    "sha256": "73148b43aa511f40442b555af83ee1e7e21e081dd47063f7a23764606a0c8284"
+  },
+  {
+    "path": "public/work/oneof-dashboard-choose-blockchain-iphone1.png",
+    "bytes": 157225,
+    "sha256": "fcf2048cb5b2844b56ea9ecb46247d080029ec6aa9cb90d93cab6e58b655f05c"
+  },
+  {
+    "path": "public/work/oneof-dashboard-choose-list-iphone1.png",
+    "bytes": 251308,
+    "sha256": "c1414556e52ce9e6edb37a445705d877526c3de841b7e210043f6d2105f0e2ba"
+  },
+  {
+    "path": "public/work/oneof-dashboard-choose-selectitem-iphone1.png",
+    "bytes": 151299,
+    "sha256": "663347f9d539ae6d91ffc532ef5fe243161e662d9ee49b74b1847e89770f9d8e"
+  },
+  {
+    "path": "public/work/oneof-dashboard-fp-top-header2.png",
+    "bytes": 221582,
+    "sha256": "ba7015964b7f5a87f606893f9cd059a4aedd962fdddd94fe64190d5c92b7ec11"
+  },
+  {
+    "path": "public/work/oneof-dashboard-v1-iphone1.png",
+    "bytes": 196248,
+    "sha256": "9dcab13181889d51b742d04dd844e568c04d50444f3164d0a5269956d5c1ddce"
+  },
+  {
+    "path": "public/work/oneof-dashboard-v2-iphone1.png",
+    "bytes": 163102,
+    "sha256": "5ddf3a07b42f4dd4aba4d292222ebd982511faf848f523b3b37f64cd97a5a6f9"
+  },
+  {
+    "path": "public/work/oneof-macbook-pro-1024x603.png",
+    "bytes": 157341,
+    "sha256": "1a50f48baead399ae8b20f1a8870f38896ae310f72246804a4a80ee768f089b8"
+  },
+  {
+    "path": "public/work/oneof-mobile2.png",
+    "bytes": 108713,
+    "sha256": "f4ac1bfbd358b0449bfdb17d94f8b71d06be93ac8cd1289ccdf4cdf9dbfb2aec"
+  },
+  {
+    "path": "public/work/oneof-mobile3.png",
+    "bytes": 122069,
+    "sha256": "7efe7660223e013d9e216126fd2d981cccf5178c9a36349a689140c326103495"
+  },
+  {
+    "path": "public/work/oneof-one-of-miro-process-1.png",
+    "bytes": 339268,
+    "sha256": "bf9b1e5923d571c741ad6ecfe94717d61da6bd8c41b2867f7989893b395458a5"
+  },
+  {
+    "path": "public/work/oneof-one-of-miro-process-2.png",
+    "bytes": 721923,
+    "sha256": "c1d4ea81365e19f0c48c9b3d956f78491eed3be5c792a7126a8123b13fd5f535"
+  },
+  {
+    "path": "public/work/state-farm-assistant.png",
+    "bytes": 185838,
+    "sha256": "ce277e2fa4e9d09b0234994a87b4b882cc238c018416aaa2fa2384a27d9ec857"
+  },
+  {
+    "path": "public/work/state-farm-case-study-hero.png",
+    "bytes": 1290394,
+    "sha256": "9635469dcdb4cf46a0c9ae3e67689aba1716345c0ccb183ee92271dcc3a7d37d"
+  },
+  {
+    "path": "public/work/state-farm-case-study-thumbnail.jpg",
+    "bytes": 251455,
+    "sha256": "3b71352883fc67eb2696fd818abc229d6627c45cb4f3637813b8aeeb9c36c985"
+  },
+  {
+    "path": "public/work/state-farm-digital-assistant-walkthrough.jpg",
+    "bytes": 146327,
+    "sha256": "a6ff0a5711cf7e06585847c012a1a7058af6ec6d0f70e535a7707fbedb162fa9"
+  },
+  {
+    "path": "public/work/state-farm-digital-assistant-walkthrough.mp4",
+    "bytes": 617903,
+    "sha256": "6e4c55225901c0c9698cdac1a3fa25ae08811d9857584f9d335b889002fc729a"
+  },
+  {
+    "path": "public/work/state-farm-digital-assistant-walkthrough.vtt",
+    "bytes": 554,
+    "sha256": "8aba114b5ada752de009937725152498d2b368456a4be6b31d503a2df5fb00c2"
+  },
+  {
+    "path": "public/work/state-farm-hero-laptop.png",
+    "bytes": 243854,
+    "sha256": "b1867686810ba4a178f2f27aba3581124691cee7ddb8e5f88999c078963a854a"
+  },
+  {
+    "path": "public/work/state-farm-hero-phone.png",
+    "bytes": 21278,
+    "sha256": "d7b94fc240d8a5806107b8bc004e7f861a5d7646d0ef6a3601c0d2ec783ce9e8"
+  },
+  {
+    "path": "public/work/upgather-card-thumbnail.png",
+    "bytes": 1099144,
+    "sha256": "79bd15811992674074161d2d9376564939ffeaeb66218b90b55bc7d253abd501"
+  },
+  {
+    "path": "public/work/upgather-figma/0ac51.svg",
+    "bytes": 195,
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+  },
+  {
+    "path": "public/work/upgather-figma/2847d.svg",
+    "bytes": 195,
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+  },
+  {
+    "path": "public/work/upgather-figma/409ba.png",
+    "bytes": 195,
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+  },
+  {
+    "path": "public/work/upgather-figma/4c2fe.svg",
+    "bytes": 195,
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+  },
+  {
+    "path": "public/work/upgather-figma/4ce18.svg",
+    "bytes": 195,
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+  },
+  {
+    "path": "public/work/upgather-figma/5c0fa.png",
+    "bytes": 195,
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+  },
+  {
+    "path": "public/work/upgather-figma/6a8b0.png",
+    "bytes": 195,
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+  },
+  {
+    "path": "public/work/upgather-figma/87dc2.png",
+    "bytes": 195,
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+  },
+  {
+    "path": "public/work/upgather-figma/935e2.svg",
+    "bytes": 195,
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+  },
+  {
+    "path": "public/work/upgather-figma/a9ff1.svg",
+    "bytes": 195,
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+  },
+  {
+    "path": "public/work/upgather-figma/ad08a.svg",
+    "bytes": 195,
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+  },
+  {
+    "path": "public/work/upgather-figma/c687a.svg",
+    "bytes": 195,
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+  },
+  {
+    "path": "public/work/upgather-figma/component.svg",
+    "bytes": 2421,
+    "sha256": "5c4a7dc06398013570e0bea3b9b7e5e2f5f6368389b1562096d2a711f63a4ff6"
+  },
+  {
+    "path": "public/work/upgather-figma/d82e0.svg",
+    "bytes": 195,
+    "sha256": "5b131ca14aa96311d3432b0062c7443d3b0e6346ec279bd376a75f0a76bcd5d7"
+  },
+  {
+    "path": "public/work/upgather-figma/hero.png",
+    "bytes": 792686,
+    "sha256": "b8d85d51ca2c4798aecf4e7016d711c6adcd5df4d63ab0580eaad403af27f7af"
+  },
+  {
+    "path": "public/work/upgather-figma/north-star.png",
+    "bytes": 578837,
+    "sha256": "7974b31c6f4a87c25143bccf6c66ab8824ca88277d986ce49f0e82a6b4470daa"
+  },
+  {
+    "path": "public/work/upgather-figma/panels-top-left.svg",
+    "bytes": 397,
+    "sha256": "8c68f477cd8d5f31ce2298d1e90ece4beb2ea0749a9a9aacd036dd4b8d5738c7"
+  },
+  {
+    "path": "public/work/upgather-figma/product-north-star.png",
+    "bytes": 154598,
+    "sha256": "90b3f5118267c7a2e50b94b26d2bccd13fa560adc10fb12094005403659efbc2"
+  },
+  {
+    "path": "public/work/upgather-figma/product-prototype.png",
+    "bytes": 59484,
+    "sha256": "aacd7890888bb0687c666d2e9b37468b8e6d2f5b62c654dd1970d0b7f39c2072"
+  },
+  {
+    "path": "public/work/upgather-figma/product-workflow.png",
+    "bytes": 52230,
+    "sha256": "549dfc5f15c22fe245a873b5510108946ac22914194ef0e63a474cf405c42eeb"
+  },
+  {
+    "path": "public/work/upgather-figma/scan-eye.svg",
+    "bytes": 1298,
+    "sha256": "d28631930d4bf015c9b02bdeddf0e3c9d97ebe0acf8c34bbaf1cfdf652526fe0"
+  },
+  {
+    "path": "public/work/upgather-figma/search.svg",
+    "bytes": 393,
+    "sha256": "67ba98ab3427652ed65006cfa561373c994f64f4a6c86d41cc977cd5ada5042f"
+  },
+  {
+    "path": "public/work/upgather-figma/users.svg",
+    "bytes": 909,
+    "sha256": "c4b7ace8fb1d63d96bba672aafedae804cfa9f1c618be4f9a21c8c7780121235"
+  },
+  {
+    "path": "public/work/upgather-figma/workflow-a.png",
+    "bytes": 247081,
+    "sha256": "1b512b57876f4ada795e4df1c898727a4f109665711c8c5fb18e4230f67c6444"
+  },
+  {
+    "path": "public/work/upgather-figma/workflow-b.png",
+    "bytes": 239595,
+    "sha256": "8b1c594b50efddd2577bfb021d5b67193cc1b94be15c2d1d07bcac92d8e1100f"
+  },
+  {
+    "path": "public/work/upgather-figma/workflow.svg",
+    "bytes": 700,
+    "sha256": "59fca235d97454f8d0561daafbf96cc75c2d9b39ef13dbba1af5ace7e876ebbb"
+  },
+  {
+    "path": "public/work/upgather-portfolio-hero-light.png",
+    "bytes": 683849,
+    "sha256": "0043ab26eb2fe00d2f236df680dee1285f1afee6bd8780352f6e38eeea0ba8d7"
+  },
+  {
+    "path": "public/work/upgather-portfolio-hero-v2.png",
+    "bytes": 686009,
+    "sha256": "4078842da758359fc9ba27653bb6c183d5519bf01edc9d22ec47b63e2dcb5ac7"
+  },
+  {
+    "path": "public/work/upgather-portfolio-hero.png",
+    "bytes": 1099144,
+    "sha256": "79bd15811992674074161d2d9376564939ffeaeb66218b90b55bc7d253abd501"
   }
 ]

@@ -1,4 +1,956 @@
 {
+  "appleMusic": {
+    "cardCompany": "Apple Music",
+    "cardTitle": "Apple Music, from experience to design system.",
+    "cardDescription": "Lead product design, a Sketch-to-Figma design-system migration, and an MCP-connected repository workflow.",
+    "cardImage": "/work/apple-music-Apple-Music-portfolio-THUMBNAIL.jpg",
+    "cardAlt": "Apple Music UI enhancement portfolio artwork with mobile interface designs",
+    "client": "Apple",
+    "role": "Lead Product Designer · Consultant",
+    "timeline": "5 months",
+    "tools": "Sketch, Figma, Jira, Miro, MCP",
+    "overview": "I led product design across Apple Music experience improvements and the design foundations behind the work. The scope combined interface exploration, research and prototyping with a move from Sketch to Figma and a connected design-to-code workflow.",
+    "contributionTitle": "Experience, systems, and implementation context.",
+    "contributions": [
+      {
+        "title": "Product experience",
+        "description": "Led interface exploration, user-centered design and rapid prototyping, working within Apple Music’s established patterns across desktop and mobile."
+      },
+      {
+        "title": "Sketch → Figma",
+        "description": "Converted Sketch design work into a Figma design system and shared libraries, bringing reusable design foundations into the new workflow."
+      },
+      {
+        "title": "MCP → repository",
+        "description": "Connected MCP-assisted workflows with the code repository so design and implementation context could be reviewed together."
+      }
+    ],
+    "galleryTitle": "From exploration to the listening experience.",
+    "galleryIntro": "Original project artifacts show the Now Playing direction and the Sketch explorations behind the interface work. Open a design for a closer look.",
+    "gallery": [
+      {
+        "title": "Now Playing",
+        "description": "Original interface explorations for the listening experience.",
+        "image": "/work/apple-music-apple1a-portfolio-2-1.jpg",
+        "alt": "Apple Music Now Playing explorations shown on two phones"
+      },
+      {
+        "title": "Interaction sketches",
+        "description": "Annotated sketches explore how the interface and controls could work together.",
+        "image": "/work/apple-music-apple-sketch2-scaled.jpg",
+        "alt": "Annotated Apple Music interface sketches"
+      },
+      {
+        "title": "Sketch exploration board",
+        "description": "A broader view of the original Sketch explorations.",
+        "image": "/work/apple-music-apple-sketch-2.png",
+        "alt": "Apple Music Sketch exploration board"
+      }
+    ],
+    "workflowTitle": "A connected path from design to code.",
+    "workflowIntro": "A summary of my Sketch-to-Figma migration and MCP/repository work. Expand a stage for context.",
+    "workflow": [
+      {
+        "title": "Sketch",
+        "description": "The existing Sketch work provided the starting point for the migration."
+      },
+      {
+        "title": "Figma system",
+        "description": "Rebuilt the design foundations as a Figma design system and shared libraries."
+      },
+      {
+        "title": "MCP",
+        "description": "Connected MCP (Model Context Protocol) workflows with the repository to share relevant design and implementation context."
+      },
+      {
+        "title": "Repository",
+        "description": "Connected the workflow with the repository to support the move from design intent to implementation."
+      }
+    ],
+    "researchTitle": "Research & supporting flows",
+    "researchIntro": "Research explored listening and discovery needs, compared streaming features, and informed task flows and low-fidelity exploration. The work considered how new interactions could fit Apple Music’s existing design patterns.",
+    "research": [
+      {
+        "title": "Login flow",
+        "description": "Original user-flow artifact for access and entry into the experience.",
+        "image": "/work/apple-music-USER-FLOW-LOGIN-scaled.jpg",
+        "alt": "Apple Music login user-flow diagram"
+      },
+      {
+        "title": "Navigation flow",
+        "description": "Original map of navigation and the connections between interface states.",
+        "image": "/work/apple-music-USER-FLOW-NAVIGATION-scaled-1.webp",
+        "alt": "Apple Music navigation user-flow diagram"
+      }
+    ],
+    "motionTitle": "Explore the interaction.",
+    "motionNote": "Play the original interaction preview when you want to see the listening flow in motion.",
+    "motion": {
+      "src": "/work/apple-music-UPNEXT.gif",
+      "poster": "/work/apple-music-apple1a-portfolio-2-1.jpg",
+      "kind": "image",
+      "alt": "Apple Music interaction preview showing the Now Playing and Up Next experience"
+    },
+    "prototypeUrl": "",
+    "closing": "I connected hands-on interface design with shared design foundations and an MCP-assisted path toward implementation."
+  },
+  "fintechIrmp": {
+    "cardCompany": "FinTech IRMP",
+    "cardTitle": "Making tax-credit workflows easier to navigate.",
+    "cardDescription": "Innovation Refunds mobile product design, from pre-qualification to payroll information and reusable interface patterns.",
+    "cardImage": "/work/irmp-IR2-6-THUMBNAIL.jpg",
+    "cardAlt": "Innovation Refunds FinTech App 2.6 mobile interface designs",
+    "client": "Innovation Refunds",
+    "role": "Product design · Research, UX & UI",
+    "timeline": "4 months",
+    "tools": "Figma, FigJam, Miro, Bravo Studio",
+    "overview": "I worked across research, concept development, visual design and testing for ERC Mobile App 2.6. The design connects business information, payroll documents and financial progress through focused mobile workflows.",
+    "researchTitle": "Research shaped the product direction.",
+    "researchIntro": "Discovery combined domain research, stakeholder input, competitor analysis, a product audit and user interviews. Personas, flows, wireframes and prototypes supported the design process.",
+    "methods": [
+      {
+        "title": "Discover & evaluate",
+        "description": "Review MVP requirements and audit the experience through usability heuristics and the enterprise design framework."
+      },
+      {
+        "title": "Research & synthesize",
+        "description": "Combine competitor review, stakeholder perspectives and user interviews through thematic analysis."
+      },
+      {
+        "title": "Structure the experience",
+        "description": "Develop user flows and wireframes to connect the key tasks."
+      },
+      {
+        "title": "Prototype & test",
+        "description": "Bring the visual direction into high-fidelity screens and an interactive prototype."
+      }
+    ],
+    "onboardingTitle": "Start with the business, one step at a time.",
+    "onboardingIntro": "The pre-qualification exploration separates company information, employee counts and the initial estimate into focused steps. Original light and dark variants follow the page theme.",
+    "onboarding": [
+      {
+        "title": "Company information",
+        "description": "A focused form for the business details at the start of the journey.",
+        "image": "/work/irmp-ERC-Pre-qualification-Dark-1.png",
+        "alt": "Innovation Refunds mobile interface: Company information",
+        "lightImage": "/work/irmp-ERC-Pre-qualification-Light.png"
+      },
+      {
+        "title": "Employee information",
+        "description": "A dedicated question for yearly employee counts.",
+        "image": "/work/irmp-ERC-Pre-qualification-Dark-2.png",
+        "alt": "Innovation Refunds mobile interface: Employee information",
+        "lightImage": "/work/irmp-ERC-Pre-qualification-Light-2.png"
+      },
+      {
+        "title": "Initial estimate",
+        "description": "An estimate screen introduces the next stage of the application. Values are design examples.",
+        "image": "/work/irmp-ERC-Pre-qualification-Dark-4.png",
+        "alt": "Innovation Refunds mobile interface: Initial estimate",
+        "lightImage": "/work/irmp-ERC-Pre-qualification-Light-3.png"
+      }
+    ],
+    "assessmentTitle": "Keep the next action visible.",
+    "assessmentIntro": "Payroll screens explore document lists, uploads, connection states and confirmation. Each state supports a different moment in the workflow.",
+    "assessment": [
+      {
+        "title": "Payroll document list",
+        "description": "Monthly records and an upload option organize the payroll task.",
+        "image": "/work/irmp-Wizard-Payroll-wages-Light-2.png",
+        "alt": "Innovation Refunds mobile interface: Payroll document list",
+        "lightImage": "/work/irmp-1Wizard-Payroll-wages-Light-1.png"
+      },
+      {
+        "title": "Next payroll period",
+        "description": "The workflow continues into another reporting period.",
+        "image": "/work/irmp-2Wizard-Payroll-wages-Light-2.png",
+        "alt": "Innovation Refunds mobile interface: Next payroll period"
+      },
+      {
+        "title": "Completed records",
+        "description": "Completed months use a visible status indicator.",
+        "image": "/work/irmp-3Wizard-Payroll-wages-Light-3.png",
+        "alt": "Innovation Refunds mobile interface: Completed records"
+      },
+      {
+        "title": "Upload in progress",
+        "description": "Progress indicators and file actions make the upload state visible.",
+        "image": "/work/irmp-5Wizard-Payroll-wages-Light.png",
+        "alt": "Innovation Refunds mobile interface: Upload in progress"
+      },
+      {
+        "title": "Connection needs attention",
+        "description": "A connection-error state keeps retry and provider options available.",
+        "image": "/work/irmp-Wizard-Payroll-wages-Dark.png",
+        "alt": "Innovation Refunds mobile interface: Connection needs attention",
+        "lightImage": "/work/irmp-4Wizard-Payroll-wages-Light-4.png"
+      },
+      {
+        "title": "Upload confirmation",
+        "description": "A confirmation state marks the completion of the document step.",
+        "image": "/work/irmp-Wizard-Payroll-wages-Light.png",
+        "alt": "Innovation Refunds mobile interface: Upload confirmation"
+      },
+      {
+        "title": "Document actions",
+        "description": "A dark interface exploration for viewing and managing uploaded records.",
+        "image": "/work/irmp-Wizard-Payroll-wages-Light-3.png",
+        "alt": "Innovation Refunds mobile interface: Document actions"
+      }
+    ],
+    "wellnessTitle": "Consistent patterns across the experience.",
+    "wellnessIntro": "Shared form controls, benefit-document views and a data-protection explanation connect the product. These are original interface explorations, with sample content.",
+    "wellness": [
+      {
+        "title": "Benefit documents",
+        "description": "A mobile view of records, statuses and file actions.",
+        "image": "/work/irmp-IR-2-6-iphone-dark.png",
+        "alt": "Innovation Refunds mobile interface: Benefit documents",
+        "lightImage": "/work/irmp-IR-2-6-iphone-light.png"
+      },
+      {
+        "title": "Input fields",
+        "description": "A consistent pattern for entering company details.",
+        "image": "/work/irmp-IR-Wizard-Input-fields-DARK1.png",
+        "alt": "Innovation Refunds mobile interface: Input fields",
+        "lightImage": "/work/irmp-IR-Wizard-Input-fields-Light.png"
+      },
+      {
+        "title": "Segmented choices",
+        "description": "A grouped choice pattern for focused questions.",
+        "image": "/work/irmp-IR-Wizard-Segment-buttons-DARK2.png",
+        "alt": "Innovation Refunds mobile interface: Segmented choices",
+        "lightImage": "/work/irmp-IR-Wizard-Segment-buttons-Light.png"
+      },
+      {
+        "title": "Multiple selections",
+        "description": "Checkboxes support questions with more than one selection.",
+        "image": "/work/irmp-IR-Wizard-Checkboxes-DARK3.png",
+        "alt": "Innovation Refunds mobile interface: Multiple selections",
+        "lightImage": "/work/irmp-IR-Wizard-Checkboxes-Light.png"
+      },
+      {
+        "title": "Single selection",
+        "description": "Radio controls support a single answer within a group.",
+        "image": "/work/irmp-IR-Wizard-Radio-buttons-DARK4.png",
+        "alt": "Innovation Refunds mobile interface: Single selection",
+        "lightImage": "/work/irmp-IR-Wizard-Radio-buttons-Light.png"
+      },
+      {
+        "title": "Data-protection explanation",
+        "description": "An explanatory overlay appears within the document workflow.",
+        "image": "/work/irmp-IR-2-6-iphone-dark-2.png",
+        "alt": "Innovation Refunds mobile interface: Data-protection explanation",
+        "lightImage": "/work/irmp-Wizard-Payroll-wages-Light-1.png"
+      }
+    ],
+    "prototypeTitle": "Explore the product and its design system.",
+    "prototypeIntro": "The original project includes an interactive prototype and a shared design-system file.",
+    "prototypeUrl": "https://www.figma.com/proto/aNCW7O2L29U7wznCdnZdih/IR---Project-Wirth?mode=design&node-id=2046-83576&page-id=2046%3A77693&scaling=scale-down&starting-point-node-id=2046%3A83576",
+    "prototypeNote": "Open the original Figma resources in a separate tab. Figma access may be required.",
+    "prototypeImage": "/work/irmp-IR-ERC-FINTECH-TAX-Iphone-Mockup.png",
+    "prototypeAlt": "Innovation Refunds mobile product shown on two phones",
+    "visualTitle": "Research artifacts & early direction",
+    "visualIntro": "Explore the audit blueprint, interview synthesis, journey maps and wireframe direction behind the mobile work.",
+    "visuals": [
+      {
+        "title": "Product audit blueprint",
+        "description": "The original research and audit board.",
+        "image": "/work/irmp-UXResearch-Blueprint-Audit-ERC2.jpg",
+        "alt": "Innovation Refunds UX research blueprint and audit board"
+      },
+      {
+        "title": "Interview synthesis",
+        "description": "Original interview notes organized around insights and feelings.",
+        "image": "/work/irmp-User-Interviews-IR.jpg",
+        "alt": "Innovation Refunds interview synthesis board"
+      },
+      {
+        "title": "Pre-qualification workflow",
+        "description": "A workflow map for the early application journey.",
+        "image": "/work/irmp-HoneyShake-pre-qualification-App-workflow-1.jpg",
+        "alt": "Innovation Refunds pre-qualification workflow diagram"
+      },
+      {
+        "title": "Interface flows",
+        "description": "A map connecting the mobile interface states.",
+        "image": "/work/irmp-IR-26-UI-Flows-1.jpg",
+        "alt": "Innovation Refunds mobile interface flow map"
+      },
+      {
+        "title": "Wireframe direction",
+        "description": "Early campaign and company-information interface explorations.",
+        "image": "/work/irmp-wireframe-Iphone-Mockup.png",
+        "alt": "Innovation Refunds wireframe interfaces shown on phones"
+      },
+      {
+        "title": "Company-information concept",
+        "description": "An alternate visual exploration for company details.",
+        "image": "/work/irmp-IR-ERC-Phone-mockup4.png",
+        "alt": "Innovation Refunds company-information screen on a phone"
+      }
+    ],
+    "closing": "The work connects research, clear mobile workflows, document states and reusable interface patterns across light and dark themes.",
+    "designSystemUrl": "https://www.figma.com/file/DoAeHMmfvf30WQEX1rkSFF/IR---Design-System-4.0?mode=design&node-id=6-13",
+    "walkthroughTitle": "See the interactions in motion.",
+    "walkthroughIntro": "Original project videos show the product direction and a voice interaction exploration. Play each video when you want a closer look.",
+    "walkthroughs": [
+      {
+        "title": "Product overview",
+        "description": "Original Innovation Refunds mobile app presentation.",
+        "src": "/work/irmp-IR-ERCA_promo_v2.mp4",
+        "poster": "/work/irmp-IR2-6-THUMBNAIL.jpg"
+      },
+      {
+        "title": "Voice interaction",
+        "description": "A short recording of the voice and text interaction exploration.",
+        "src": "/work/irmp-IR-VOICE-TEXT-VIDEO.mp4",
+        "poster": "/work/irmp-IR-ERC-Phone-mockup4.png"
+      }
+    ]
+  },
+  "adaHealthcare": {
+    "cardCompany": "Ada Driven Healthcare & Wellness",
+    "cardTitle": "A clearer path to everyday wellness.",
+    "cardDescription": "Mobile product design for health assessment, wellness tracking and conversational AI.",
+    "cardImage": "/work/ada-ada-img-side-2.png",
+    "cardAlt": "Ada health and wellness interfaces presented on two phones",
+    "client": "ada",
+    "role": "Product design · Research, UX & UI",
+    "timeline": "3 months",
+    "tools": "Figma, FigJam, AI, Miro, Framer, Bravo Studio",
+    "overview": "I worked across research, conceptualization, visual design and testing to explore a connected healthcare and wellness experience. The mobile designs bring onboarding, personal health information, activity tracking and AI conversations into one product direction.",
+    "researchTitle": "From research to a connected mobile experience.",
+    "researchIntro": "The original project combined personas, a sitemap, wireframes and high-fidelity prototyping. My role spanned the complete product design process.",
+    "methods": [
+      {
+        "title": "Understand the person",
+        "description": "Use personas to frame the needs behind the health and wellness experience."
+      },
+      {
+        "title": "Structure the journey",
+        "description": "Connect the product’s information architecture and wireframes before developing the visual direction."
+      },
+      {
+        "title": "Make it tangible",
+        "description": "Bring the experience into high-fidelity screens and a prototype for exploration and testing."
+      }
+    ],
+    "onboardingTitle": "A welcoming start, with a clear next step.",
+    "onboardingIntro": "The introduction explains the wellness experience through focused screens for personalization, fitness, AI conversation and medication tracking.",
+    "onboarding": [
+      {
+        "title": "Welcome to Ada",
+        "description": "An illustrated introduction with a clear starting action.",
+        "image": "/work/ada-2-ada-Welcome-Screen.png",
+        "alt": "Ada mobile interface: Welcome to Ada"
+      },
+      {
+        "title": "Personalize the experience",
+        "description": "Introduce the idea of a personalized health and wellness experience.",
+        "image": "/work/ada-3-ada-Welcome-Screen.png",
+        "alt": "Ada mobile interface: Personalize the experience"
+      },
+      {
+        "title": "Fitness at a glance",
+        "description": "Introduce fitness tracking before asking for personal details.",
+        "image": "/work/ada-4-ada-Welcome-Screen.png",
+        "alt": "Ada mobile interface: Fitness at a glance"
+      },
+      {
+        "title": "Conversational support",
+        "description": "Explain the AI chatbot as part of the wellness experience.",
+        "image": "/work/ada-5-ada-Welcome-Screen.png",
+        "alt": "Ada mobile interface: Conversational support"
+      },
+      {
+        "title": "Medication tracking",
+        "description": "Introduce another part of the connected wellness journey.",
+        "image": "/work/ada-6-ada-Welcome-Screen.png",
+        "alt": "Ada mobile interface: Medication tracking"
+      }
+    ],
+    "assessmentTitle": "One question at a time.",
+    "assessmentIntro": "A progressive assessment uses focused questions and visual controls for personal information, habits and preferences.",
+    "assessment": [
+      {
+        "title": "Weight",
+        "description": "A unit selector and scale keep the question focused.",
+        "image": "/work/ada-7-Onboarding-Health-Assessment.png",
+        "alt": "Ada mobile interface: Weight"
+      },
+      {
+        "title": "Blood type",
+        "description": "A dedicated selection screen with a visible continuation action.",
+        "image": "/work/ada-8-Onboarding-Health-Assessment.png",
+        "alt": "Ada mobile interface: Blood type"
+      },
+      {
+        "title": "Fitness level",
+        "description": "An illustrated step selector for the current activity level.",
+        "image": "/work/ada-9-Onboarding-Health-Assessment.png",
+        "alt": "Ada mobile interface: Fitness level"
+      },
+      {
+        "title": "Sleep habits",
+        "description": "A vertical selector presents a range of sleep durations.",
+        "image": "/work/ada-Onboarding-Health-Assessment-1.png",
+        "alt": "Ada mobile interface: Sleep habits"
+      },
+      {
+        "title": "How you feel",
+        "description": "A visual selector explores emotional well-being.",
+        "image": "/work/ada-Onboarding-Health-Assessment-2.png",
+        "alt": "Ada mobile interface: How you feel"
+      },
+      {
+        "title": "Eating habits",
+        "description": "Cards organize the available dietary preferences.",
+        "image": "/work/ada-Onboarding-Health-Assessment-3.png",
+        "alt": "Ada mobile interface: Eating habits"
+      },
+      {
+        "title": "Medications",
+        "description": "A searchable selection pattern for medication information.",
+        "image": "/work/ada-Onboarding-Health-Assessment-4.png",
+        "alt": "Ada mobile interface: Medications"
+      },
+      {
+        "title": "Symptoms and allergies",
+        "description": "A selection interface for additional health context.",
+        "image": "/work/ada-Onboarding-Health-Assessment-5.png",
+        "alt": "Ada mobile interface: Symptoms and allergies"
+      }
+    ],
+    "wellnessTitle": "Make daily wellness easier to explore.",
+    "wellnessIntro": "The ongoing experience brings health indicators, activity and AI conversation into dedicated mobile views. Values shown are interface examples.",
+    "wellness": [
+      {
+        "title": "Blood pressure",
+        "description": "A visual exploration of trends and related health information.",
+        "image": "/work/ada-20-ada-Blood-Pressure2.png",
+        "alt": "Ada mobile interface: Blood pressure"
+      },
+      {
+        "title": "Heart rate",
+        "description": "A daily view combines a prominent reading with a trend chart.",
+        "image": "/work/ada-21-ada-Heart-Rate.png",
+        "alt": "Ada mobile interface: Heart rate"
+      },
+      {
+        "title": "Heart analysis",
+        "description": "A detail screen organizes related indicators in one view.",
+        "image": "/work/ada-22-ada-Heart-Rate-Details.png",
+        "alt": "Ada mobile interface: Heart analysis"
+      },
+      {
+        "title": "Daily activity",
+        "description": "Progress and a weekly chart bring activity information together.",
+        "image": "/work/ada-23-ada-Steps.png",
+        "alt": "Ada mobile interface: Daily activity"
+      },
+      {
+        "title": "AI conversations",
+        "description": "An overview of conversations and the assistant experience.",
+        "image": "/work/ada-25-ada-Wellness-AI-Chatbot.png",
+        "alt": "Ada mobile interface: AI conversations"
+      }
+    ],
+    "prototypeTitle": "Explore the connected experience.",
+    "prototypeIntro": "Move from individual screens to the original interactive prototype.",
+    "prototypeUrl": "https://www.figma.com/proto/aNCW7O2L29U7wznCdnZdih/IR---Project-Wirth?mode=design&node-id=2046-83576&page-id=2046%3A77693&scaling=scale-down&starting-point-node-id=2046%3A83576&t=gvMUdRkLd1dCZR2Z-1&type=design&viewport=5053%2C-5686%2C0.25",
+    "prototypeNote": "Open the original Figma prototype in a separate tab. Figma access may be required.",
+    "prototypeImage": "/work/ada-ada-img-side-3.png",
+    "prototypeAlt": "Ada conversational AI interface on two phones",
+    "visualTitle": "A consistent visual language.",
+    "visualIntro": "Rounded forms, illustration and a shared color palette connect the mobile experience.",
+    "visuals": [
+      {
+        "title": "Illustration and visual tone",
+        "description": "Wellness illustration from the original project.",
+        "image": "/work/ada-ada-ai-frame.png",
+        "alt": "Ada wellness illustration of a seated person"
+      },
+      {
+        "title": "AI conversation interface",
+        "description": "The mobile conversation overview combines topic cards, search and recent activity.",
+        "image": "/work/ada-ada-ai.png",
+        "alt": "Ada AI conversation overview on a phone"
+      }
+    ],
+    "closing": "The work connects a welcoming introduction, focused assessment and ongoing wellness into one mobile product experience."
+  },
+  "oneofSuperlogic": {
+    "client": "OneOf",
+    "role": "Research lead · UX & UI design",
+    "timeline": "2 months",
+    "tools": "Figma, FigJam, Miro",
+    "overview": "A dashboard experience for people collecting and creating digital assets. My work brought collections, activity, payouts, and NFT creation together across desktop and mobile.",
+    "deliveryStatus": "Shipped product",
+    "deliverySummary": "Design exploration → Tested prototype → Shipped product",
+    "approachTitle": "From product structure to interface detail.",
+    "approachIntro": "My work spanned research, product visualization, prototyping, and testing over a two-month project. These artifacts show how the experience was mapped and explored.",
+    "approach": [
+      {
+        "title": "Map the experience",
+        "description": "Use personas, sitemaps, and process maps to organize the dashboard experience before refining the screens."
+      },
+      {
+        "title": "Explore across devices",
+        "description": "Develop low- and high-fidelity directions for dashboards, collections, payouts, and creation on desktop and mobile."
+      },
+      {
+        "title": "Connect the journey",
+        "description": "Bring the screen designs into interactive prototyping and testing as part of the product design process."
+      }
+    ],
+    "startingTitle": "Product maps & early structure",
+    "startingIntro": "The original process maps capture the structure behind the dashboard and creation workflows.",
+    "starting": [
+      {
+        "title": "Product structure",
+        "description": "An overview of the product structure and the connections between its key areas.",
+        "image": "/work/oneof-one-of-miro-process-1.png",
+        "alt": "OneOf process map — view 1"
+      },
+      {
+        "title": "Workflow detail",
+        "description": "A closer look at the mapped product flows that informed the interface explorations.",
+        "image": "/work/oneof-one-of-miro-process-2.png",
+        "alt": "OneOf process map — view 2"
+      }
+    ],
+    "directionTitle": "Early visual directions",
+    "directionIntro": "Additional mobile and desktop explorations show how the visual language carried across screen sizes.",
+    "overviewVisuals": [
+      {
+        "title": "Mobile direction 01",
+        "description": "An early mobile presentation of the dashboard experience.",
+        "image": "/work/oneof-mobile2.png",
+        "alt": "OneOf mobile overview — direction 1"
+      },
+      {
+        "title": "Mobile direction 02",
+        "description": "An alternate mobile direction within the same product family.",
+        "image": "/work/oneof-mobile3.png",
+        "alt": "OneOf mobile overview — direction 2"
+      },
+      {
+        "title": "Desktop direction",
+        "description": "A desktop overview bringing the dashboard into its device context.",
+        "image": "/work/oneof-macbook-pro-1024x603.png",
+        "alt": "OneOf desktop overview"
+      }
+    ],
+    "desktopTitle": "One workspace. The details that matter.",
+    "desktopIntro": "Explore the dashboard directions, collection listings, and payout states. Each view makes a different part of managing digital assets visible.",
+    "desktop": [
+      {
+        "title": "Activity dashboard",
+        "description": "A summary of sales activity, key figures, and individual assets in one desktop view.",
+        "image": "/work/oneof-1-user-dashboard-v.1-dark-oneof.png",
+        "alt": "OneOf user dashboard — direction 1"
+      },
+      {
+        "title": "Analytics direction",
+        "description": "An alternate dashboard combines sales history and a sales breakdown with asset-level detail.",
+        "image": "/work/oneof-2-user-dashboard-v.1-dark-oneof.png",
+        "alt": "OneOf user dashboard — direction 2"
+      },
+      {
+        "title": "Collection listings",
+        "description": "A list-based view brings item details, status, value, and available actions into a consistent structure.",
+        "image": "/work/oneof-3-list-v.1-dark-oneof.png",
+        "alt": "OneOf collection list"
+      },
+      {
+        "title": "Items & payouts",
+        "description": "A dedicated view for reviewing items and payout information.",
+        "image": "/work/oneof-4-items-payouts-dark-oneof.png",
+        "alt": "OneOf items and payouts"
+      },
+      {
+        "title": "Payout empty state",
+        "description": "The payout experience also accounts for a state with no payout activity to display.",
+        "image": "/work/oneof-4-empty-payouts-dark-oneof.png",
+        "alt": "OneOf payouts — empty state"
+      }
+    ],
+    "creationTitle": "A complex task, one decision at a time.",
+    "creationIntro": "A seven-screen flow for creating a digital collectible (NFT), from blockchain selection to a final publishing review. Choose a step to see the design.",
+    "creation": [
+      {
+        "title": "Choose a blockchain",
+        "description": "Begin with the blockchain and payment options before moving into the creation details.",
+        "image": "/work/oneof-2-step-1-dark-oneof.png",
+        "alt": "OneOf nft creation — step 1"
+      },
+      {
+        "title": "Choose what to create",
+        "description": "Select a single item or a collection to define the next part of the journey.",
+        "image": "/work/oneof-3-step-2-dark-oneof.png",
+        "alt": "OneOf nft creation — step 2"
+      },
+      {
+        "title": "Upload the asset",
+        "description": "A focused upload step gives the asset its own space before the details are entered.",
+        "image": "/work/oneof-4-step-3-dark-oneof.png",
+        "alt": "OneOf nft creation — step 3"
+      },
+      {
+        "title": "Add item details",
+        "description": "Enter the item name, description, properties, and pricing information.",
+        "image": "/work/oneof-5-step-4-dark-oneof.png",
+        "alt": "OneOf nft creation — step 4"
+      },
+      {
+        "title": "Choose a collection",
+        "description": "Create a new collection or select an existing collection for the item.",
+        "image": "/work/oneof-6-step-5-dark-oneof.png",
+        "alt": "OneOf nft creation — step 5"
+      },
+      {
+        "title": "Set preferences",
+        "description": "Review communication preferences with individual controls for each option.",
+        "image": "/work/oneof-7-step-6-dark-oneof.png",
+        "alt": "OneOf nft creation — step 6"
+      },
+      {
+        "title": "Review & publish",
+        "description": "A final item preview provides a checkpoint before publishing.",
+        "image": "/work/oneof-8-step-7-dark-oneof.png",
+        "alt": "OneOf nft creation — step 7"
+      }
+    ],
+    "mobileTitle": "The same product, made for a smaller screen.",
+    "mobileIntro": "Swipe through dashboard and selection screens. The mobile work keeps the focus on one task at a time.",
+    "mobile": [
+      {
+        "title": "Dashboard overview",
+        "description": "A mobile view of the dashboard and its key product information.",
+        "image": "/work/oneof-dashboard-v1-iphone1.png",
+        "alt": "OneOf mobile dashboard — direction 1"
+      },
+      {
+        "title": "Dashboard alternative",
+        "description": "An alternate mobile dashboard direction.",
+        "image": "/work/oneof-dashboard-v2-iphone1.png",
+        "alt": "OneOf mobile dashboard — direction 2"
+      },
+      {
+        "title": "Choose a collection",
+        "description": "A focused collection-selection screen for the mobile workflow.",
+        "image": "/work/oneof-dashboard-choose-list-iphone1.png",
+        "alt": "OneOf choose a collection"
+      },
+      {
+        "title": "Select an item",
+        "description": "Item selection presented as a dedicated mobile task.",
+        "image": "/work/oneof-dashboard-choose-selectitem-iphone1.png",
+        "alt": "OneOf select an item"
+      },
+      {
+        "title": "Choose a blockchain",
+        "description": "Blockchain selection adapted to a narrow screen.",
+        "image": "/work/oneof-dashboard-choose-blockchain-iphone1.png",
+        "alt": "OneOf choose a blockchain"
+      }
+    ],
+    "closing": "The work connects a desktop dashboard, mobile views, and a guided creation flow into one coherent product direction.",
+    "contribution": {
+      "title": "Turning complexity into clear product decisions.",
+      "led": "I led research, UX and UI design across desktop and mobile—from product structure and flows to prototyping and testing.",
+      "learned": "My design takeaway: managing digital assets and creating a collectible need different experiences. One calls for an overview; the other, a focused sequence of decisions.",
+      "changed": "I designed connected activity, collection and payout views, a guided NFT creation flow, and mobile screens.",
+      "evidenceTitle": "Design decisions & supporting screens",
+      "evidence": [
+        {
+          "title": "Separate managing assets from creating them",
+          "description": "I gave ongoing activity and asset information a dashboard view, while creation starts in a dedicated flow. These screens show how I separated monitoring from making a new collectible.",
+          "references": [
+            {
+              "group": "desktop",
+              "index": 0
+            },
+            {
+              "group": "creation",
+              "index": 0
+            }
+          ]
+        },
+        {
+          "title": "Clarity before commitment",
+          "description": "I organized NFT creation into focused decisions and separated item details from the final publishing review. My intent was to give creators a clear sequence and a checkpoint to review their collectible before publishing.",
+          "references": [
+            {
+              "group": "creation",
+              "index": 3
+            },
+            {
+              "group": "creation",
+              "index": 6
+            }
+          ]
+        },
+        {
+          "title": "Design the payout experience before data exists",
+          "description": "I included both a payout view and an empty state, so the interface also accounts for an account with no payout activity to display.",
+          "references": [
+            {
+              "group": "desktop",
+              "index": 3
+            },
+            {
+              "group": "desktop",
+              "index": 4
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "availityEssentials": {
+    "client": "Elevance Health",
+    "role": "Product design · Research to visualization",
+    "timeline": "1.5 months",
+    "tools": "Figma, FigJam, Miro",
+    "overview": "A healthcare information network connecting eligibility, authorizations, claims, and remittances. I worked across research, workflow design, UI, and data visualization to make complex information easier to navigate.",
+    "researchTitle": "Understanding the work behind healthcare decisions",
+    "researchIntro": "The research explored digital interactions and habits, then translated those observations into UI and UX direction, wireframes, and high-fidelity prototypes.",
+    "methods": [
+      {
+        "title": "Understand users",
+        "description": "Study digital interactions and habits to understand how people work across healthcare information and operational tasks."
+      },
+      {
+        "title": "Map the experience",
+        "description": "Use personas, sitemaps, and wireframes to connect user needs with the product’s goals."
+      },
+      {
+        "title": "Make the direction tangible",
+        "description": "Build high-fidelity prototypes and supporting visual assets to explore the proposed experience."
+      }
+    ],
+    "auditTitle": "Evaluate the product before defining the solution",
+    "auditIntro": "A product audit reviewed usability heuristics and the enterprise design framework, identified problem areas, and informed design recommendations.",
+    "audit": [
+      {
+        "title": "Heuristic evaluation",
+        "description": "Review the interface against usability principles and identify where the experience creates friction."
+      },
+      {
+        "title": "Overall findings",
+        "description": "Bring observations together to clarify problem areas and opportunities for the design."
+      },
+      {
+        "title": "Enterprise design validation",
+        "description": "Consider the existing design framework and validate the direction against enterprise needs."
+      }
+    ],
+    "directionTitle": "Connect workflows, data, and decisions",
+    "directionIntro": "The design exploration brought direct data entry and data visualization together, from eligibility and authorizations to claims and remittances. The clinical-data concept explored how teams could review information and support decision-making.",
+    "prototypeUrl": "https://www.figma.com/proto/aNCW7O2L29U7wznCdnZdih/IR---Project-Wirth?mode=design&node-id=2046-83576&page-id=2046%3A77693&scaling=scale-down&starting-point-node-id=2046%3A83576",
+    "prototypeImage": "/work/availity-availity-img-iphones-3.png",
+    "prototypeAlt": "Availity Essentials mobile screens presented on three phones",
+    "workflowTitle": "From information to connected workflows",
+    "workflowIntro": "Original workflow artifacts show the starting points behind the product direction.",
+    "prototypeNote": "Explore the original high-fidelity design prototype in Figma. Access may require signing in. These visuals document design explorations; no measured production outcomes are presented.",
+    "workflows": [
+      {
+        "title": "Workflow exploration 1",
+        "description": "Original workflow artifact from the Availity Essentials project.",
+        "image": "/work/availity-availity-workflow1.png",
+        "alt": "Availity Essentials workflow exploration 1"
+      },
+      {
+        "title": "Workflow exploration 2",
+        "description": "Original workflow artifact from the Availity Essentials project.",
+        "image": "/work/availity-availity-workflow3.png",
+        "alt": "Availity Essentials workflow exploration 2"
+      },
+      {
+        "title": "Workflow exploration 3",
+        "description": "Original workflow artifact from the Availity Essentials project.",
+        "image": "/work/availity-availity-workflow2.png",
+        "alt": "Availity Essentials workflow exploration 3"
+      },
+      {
+        "title": "Workflow exploration 4",
+        "description": "Original workflow artifact from the Availity Essentials project.",
+        "image": "/work/availity-availity-workflow5.png",
+        "alt": "Availity Essentials workflow exploration 4"
+      }
+    ],
+    "desktopTitle": "Desktop experience",
+    "desktopIntro": "Dashboard and data visualization explorations for the desktop experience.",
+    "desktop": [
+      {
+        "title": "Dashboard direction 1",
+        "description": "A desktop dashboard exploration from the original project.",
+        "image": "/work/availity-Dashboard-V1.png",
+        "alt": "Availity Essentials desktop dashboard direction 1"
+      },
+      {
+        "title": "Dashboard direction 2",
+        "description": "A desktop dashboard exploration from the original project.",
+        "image": "/work/availity-Dashboard-v2.png",
+        "alt": "Availity Essentials desktop dashboard direction 2"
+      }
+    ],
+    "mobileTitle": "Mobile experience",
+    "mobileIntro": "Mobile interface explorations showing how the experience carries across smaller screens.",
+    "mobile": [
+      {
+        "title": "Mobile exploration 1",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-21.png",
+        "alt": "Availity Essentials mobile interface exploration 1"
+      },
+      {
+        "title": "Mobile exploration 2",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-23.png",
+        "alt": "Availity Essentials mobile interface exploration 2"
+      },
+      {
+        "title": "Mobile exploration 3",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-26.png",
+        "alt": "Availity Essentials mobile interface exploration 3"
+      },
+      {
+        "title": "Mobile exploration 4",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-24.png",
+        "alt": "Availity Essentials mobile interface exploration 4"
+      },
+      {
+        "title": "Mobile exploration 5",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-25.png",
+        "alt": "Availity Essentials mobile interface exploration 5"
+      },
+      {
+        "title": "Mobile exploration 6",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-20.png",
+        "alt": "Availity Essentials mobile interface exploration 6"
+      },
+      {
+        "title": "Mobile exploration 7",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-22.png",
+        "alt": "Availity Essentials mobile interface exploration 7"
+      }
+    ],
+    "closing": "The work connected research, an enterprise product audit, workflow design, and visual prototyping into one product direction."
+  },
+  "portfolioHeroes": {
+    "shopping": {
+      "badge": "State Farm / Portfolio",
+      "title": "A guided shopping experience.",
+      "description": "Explore the Digital Assistant shopping simulator, from customer intent to guided next steps.",
+      "tags": [
+        "Conversational AI",
+        "Interaction design"
+      ],
+      "image": "/work/state-farm-hero-phone.png",
+      "lightImage": "",
+      "imageAlt": "State Farm Digital Assistant shopping interface",
+      "framing": "full"
+    },
+    "returning": {
+      "badge": "State Farm / Portfolio",
+      "title": "Pick up where you left off.",
+      "description": "A returning-customer prototype that brings quote continuation and personalized guidance into one experience.",
+      "tags": [
+        "Personalization",
+        "Product design"
+      ],
+      "image": "/work/state-farm-hero-laptop.png",
+      "lightImage": "",
+      "imageAlt": "State Farm returning customer experience on a laptop",
+      "framing": "full"
+    },
+    "event-flow": {
+      "badge": "Scoop News Group / Upgather / Portfolio",
+      "title": "Simplifying complex enterprise experiences.",
+      "description": "I connect UX research, product strategy, and hands-on design to make complex enterprise workflows easier to navigate.",
+      "tags": [
+        "Enterprise UX",
+        "Experience architecture"
+      ],
+      "image": "/api/portfolio-media/e0dd9824-2536-493a-ab6c-a164ed148e50",
+      "lightImage": "/work/upgather-portfolio-hero-light.png",
+      "imageAlt": "Upgather dashboard for event operations, registrations, and task management",
+      "framing": "full"
+    },
+    "oneof-superlogic": {
+      "badge": "OneOf–Superlogic / Portfolio",
+      "title": "Making Web3 dashboards easier to navigate.",
+      "description": "Mobile and desktop dashboard design for collectors and creators.",
+      "tags": [
+        "Web3 UX",
+        "Product design"
+      ],
+      "image": "/work/oneof-dashboard-fp-top-header2.png",
+      "lightImage": "",
+      "imageAlt": "OneOf dashboard design explorations",
+      "framing": "full"
+    },
+    "availity-essentials": {
+      "badge": "Availity — Essentials / Portfolio",
+      "title": "Making healthcare workflows easier to navigate.",
+      "description": "Healthcare product design, data visualization, and prototypes for eligibility, authorizations, claims, and remittances.",
+      "tags": [
+        "Healthcare UX",
+        "Data visualization"
+      ],
+      "image": "/work/availity-availity-mac-laptop-2-1.png",
+      "lightImage": "",
+      "imageAlt": "Availity Essentials desktop interface presented on a laptop",
+      "framing": "full"
+    },
+    "ada-healthcare-wellness": {
+      "badge": "Ada Driven Healthcare & Wellness / Portfolio",
+      "title": "A clearer path to everyday wellness.",
+      "description": "Mobile product design for health assessment, wellness tracking and conversational AI.",
+      "tags": [
+        "Healthcare UX",
+        "Conversational AI"
+      ],
+      "image": "/work/ada-ada-img-side-2.png",
+      "lightImage": "",
+      "imageAlt": "Ada health and wellness interfaces presented on two phones",
+      "framing": "full"
+    },
+    "fintech-irmp": {
+      "badge": "FinTech IRMP / Portfolio",
+      "title": "Making tax-credit workflows easier to navigate.",
+      "description": "Innovation Refunds mobile product design, from pre-qualification to payroll information and reusable interface patterns.",
+      "tags": [
+        "FinTech UX",
+        "Mobile product design"
+      ],
+      "image": "/work/irmp-IR-ERC-FINTECH-TAX-Iphone-Mockup.png",
+      "lightImage": "",
+      "imageAlt": "Innovation Refunds mobile application shown on two phones",
+      "framing": "full"
+    },
+    "apple-music": {
+      "badge": "Apple Music / Portfolio",
+      "title": "Refining Apple Music. Connecting design to code.",
+      "description": "Lead product design, a Sketch-to-Figma design-system migration, and an MCP-connected repository workflow.",
+      "tags": [
+        "Product design",
+        "Design systems"
+      ],
+      "image": "/work/apple-music-apple-music-header-1.png",
+      "lightImage": "",
+      "imageAlt": "Apple Music mobile interfaces for listening, discovery and radio",
+      "framing": "full"
+    }
+  },
   "stateFarmCopyVersion": 1,
   "stateFarmEvidenceVersion": 2,
   "home": {
@@ -30,10 +982,10 @@
         "slug": "digital-assistance",
         "company": "State Farm",
         "title": "Making complex insurance feel human.",
-        "subtitle": "B2C Digital Assistant + AI: experience strategy, research, and product design across insurance journeys.",
-        "role": "Senior Experience Lead · AI & Digital Assistance",
-        "domain": "B2C AI experience strategy",
-        "challenge": "Insurance journeys and emerging AI initiatives were spread across separate teams, forms, and digital surfaces. I defined an assistance model around customer intent: understand the goal, guide complex decisions, explain recommendations, and connect people to human support when needed.",
+        "subtitle": "State Farm Digital Assistant + AI — B2C Experience",
+        "role": "Senior Experience Lead, AI & Digital Assistance",
+        "domain": "Focus: AI Experience Strategy · Conversational AI · Generative AI · Agentic Experiences · Research · Product Design · Experience Architecture · Design Systems · Team Leadership",
+        "challenge": "State Farm had multiple digital journeys, service experiences, and emerging AI initiatives being developed across separate teams. Customers often had to navigate complex forms, disconnected experiences, and traditional task-based interfaces to accomplish relatively simple goals.\nThe opportunity was to rethink those experiences around an AI-first assistance model—one capable of understanding customer intent, guiding users through complex insurance decisions, completing tasks, explaining recommendations, and escalating to a human when appropriate.",
         "contribution": [
           "Led 25+ specialists across Design, Research, Data Science, Engineering, Product, Content, and AI.",
           "Owned strategy across 12+ journeys: SmartQuote, quote review/purchase, service, registration/onboarding, claims/FNOL, and policy/vehicle management.",
@@ -56,7 +1008,7 @@
           }
         ]
       },
-      "scope": "25+ multidisciplinary team members · 12+ customer journeys · 10M+ customer ecosystem",
+      "scope": "Led the B2C AI and Digital Assistant experience across 12+ customer journeys, guiding a 25+ person cross-functional team across Product Design, Research, Data Science, Engineering, Content, and Product.",
       "collaboration": "Aligned Product, Engineering, Research, Data Science, and Content around a shared Digital Assistance vision. Mentored designers and connected experience standards, experimentation, and delivery planning.",
       "visualLabel": "Conversational assistant prototype",
       "researchIntro": "I embedded research in product strategy, partnering with researchers, data scientists, Product, and Engineering to evaluate whether AI felt useful, understandable, trustworthy, and appropriate for the State Farm brand.",

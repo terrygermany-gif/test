@@ -1,12 +1,14 @@
-# Verification
+# Export verification
 
-- Source checkout confirmed the exact requested commit.
-- `pnpm build`: passed on Node 24.19.0, pnpm 11.25.0, Next.js 16.3.4. Production compilation, TypeScript, route generation, and optimization completed.
-- `pnpm typecheck`: passed.
-- Production HTTP smoke checks: home, work gallery, all four case-study routes, resume PDF, local font, walkthrough MP4, and hero-media index returned 200.
-- Without secrets: `/edit` returned 503 and the editor API returned 403, as expected; public routes stayed available.
-- Storage/auth adapter tests with mocked R2 responses: valid/invalid password checks, SigV4 request structure, content reads, draft saves, publishing, stale revision rejection, conditional-write conflicts, and metadata passed.
-- All 17 bundled public files match the restored source byte for byte. All top-level app CSS files and `components/case-study-viewer.tsx` match byte for byte. The original pnpm lockfile was retained.
-- Two components change only upload-limit wording from 50 MB to 4 MB: work-showcase and portfolio-editor. The editor pages change only their Sites-specific sign-in dependency.
+- Saved Sites version: 101.
+- Source commit: `61c4446b9c22a8acd52b7f50ebd8d1b841e7c74f`.
+- All 361 exported source files match their Git blob hashes at that exact commit.
+- All 161 bundled public assets inventoried with SHA-256 hashes.
+- Complete published provider-content JSON parsed, including current Apple Music, FinTech IRMP, Ada, OneOf and Availity modules and eight portfolio hero entries.
+- One referenced uploaded PNG downloaded successfully and hashed. Live hero metadata returned successfully with no active upload overrides.
+- No Git directory, installed dependencies, runtime credentials, local environment files or generated build output packaged.
+- Credential-shaped literal scan passed for exported code/configuration files.
+- ZIP CRC/integrity and required-file checks passed.
+- This export did not modify application source, the published site, GitHub, database rows or storage objects.
 
-Limits: a local Playwright browser binary was unavailable, so interactive desktop/mobile modal and Escape behavior were not browser-tested. Their implementation and CSS are unchanged. R2 requests and owner editing were not tested against a real bucket because no S3 credentials were supplied. No production deployment was run. Extra uploaded media and the complete saved D1 draft were unavailable as explained in README.md.
+This was a source export. A new build, browser QA and Vercel migration were not performed. Version 101 was previously built and checked when published; those earlier checks are not represented as a fresh build of this exported copy.

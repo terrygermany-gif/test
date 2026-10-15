@@ -1,0 +1,64 @@
+.apple-music-portfolio { --apple-gutter:clamp(20px,5cqw,72px);--primary:#ff6a7d; }
+:root.light .apple-music-portfolio { --primary:#b52948; }
+.apple-music-portfolio :is(h1,h2,h3,p,dt,dd,a,button,summary) { overflow-wrap:anywhere; }
+.apple-music-portfolio .upgather-toolbar { padding-inline:var(--apple-gutter);min-height:80px;height:auto; }
+.apple-music-portfolio .upgather-toolbar-actions { flex-shrink:0; }
+.apple-music-portfolio .apple-music-hero { position:relative;display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.05fr);align-items:center;gap:24px 48px;padding:24px var(--apple-gutter) 32px;border-bottom:1px solid var(--border); }
+.apple-music-portfolio .apple-music-hero::after { content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:var(--border);box-shadow:0 0 0 100vmax var(--border);clip-path:inset(0 -100vmax);pointer-events:none; }
+.apple-music-portfolio .apple-music-hero-heading { grid-column:1/-1;display:flex;justify-content:space-between;align-items:center;gap:16px; }
+.apple-music-portfolio .apple-music-hero-heading .availity-eyebrow { margin:0!important;font-size:12px; }
+.apple-music-portfolio .apple-music-edit-link { display:inline-flex;gap:6px;align-items:center;min-height:44px;flex-shrink:0;font-size:12px;color:var(--muted-foreground); }
+.apple-music-portfolio .apple-music-hero-copy h1 { max-width:21ch;font-size:clamp(32px,3.4cqw,46px);line-height:1.13;letter-spacing:-.045em;font-weight:600;text-wrap:balance; }
+.apple-music-portfolio .apple-music-hero-copy>p { color:var(--muted-foreground);font-size:16px;line-height:1.8;max-width:46ch;margin-top:20px; }
+.apple-music-portfolio .apple-music-hero-art img { display:block;width:100%;height:auto;max-height:440px;object-fit:contain; }
+.apple-music-portfolio .apple-music-hero-art .apple-image-light { display:none; }
+:root.light .apple-music-portfolio .apple-music-hero-art .apple-image-light { display:block; }
+:root.light .apple-music-portfolio .apple-music-hero-art .apple-image-dark { display:none; }
+.apple-music-portfolio .apple-music-primary-link { display:inline-flex;align-items:center;justify-content:center;gap:12px;padding:12px 18px;min-height:44px;margin-top:24px;border:0;border-radius:100px;background:var(--primary);color:var(--background);font:inherit;font-size:13px;font-weight:550;text-decoration:none;cursor:pointer; }
+.apple-music-portfolio .availity-section { padding:40px var(--apple-gutter);scroll-margin-top:20px; }
+.apple-music-portfolio .apple-music-overview { padding-top:0; }
+.apple-music-portfolio .availity-facts dt { font-size:12px; }
+.apple-music-portfolio .availity-facts dd { font-size:14px;line-height:1.7; }
+.apple-music-portfolio .availity-overview { max-width:100%; }
+.apple-music-portfolio .availity-eyebrow { font-size:12px; }
+.apple-music-portfolio .availity-heading-row { gap:32px; }
+.apple-music-portfolio h2 { font-size:clamp(26px,2.6cqw,34px);line-height:1.2;letter-spacing:-.035em;font-weight:550; }
+.apple-music-portfolio .availity-heading-row h2 { font-size:clamp(26px,2.6cqw,34px);line-height:1.2; }
+.apple-music-portfolio .availity-heading-row>p { font-size:14px;line-height:1.8; }
+.apple-music-portfolio .apple-music-contribution-grid { display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:28px;margin-top:28px; }
+.apple-music-portfolio .apple-music-contribution-grid>div { border-top:1px solid var(--border);padding-top:16px; }
+.apple-music-portfolio .apple-music-contribution-grid>div>span { color:var(--primary);font-size:11px; }
+.apple-music-portfolio .apple-music-contribution-grid h3 { margin:10px 0;font-size:17px;line-height:1.5;font-weight:500; }
+.apple-music-portfolio .apple-music-contribution-grid p { color:var(--muted-foreground);font-size:14px;line-height:1.8; }
+.apple-music-portfolio .oneof-filmstrip-thumb img { object-fit:contain; }
+.apple-music-portfolio .apple-music-workflow-steps { display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:24px;padding:0;margin:0;list-style:none;align-items:start; }
+.apple-music-portfolio .apple-music-workflow-steps li { position:relative; }
+.apple-music-portfolio .apple-music-workflow-steps li:not(:last-child)::after { content:"→";position:absolute;top:26px;right:-19px;color:var(--primary);font-size:16px; }
+.apple-music-portfolio .apple-music-workflow-steps details { border:1px solid var(--border);border-radius:12px;background:var(--card); }
+.apple-music-portfolio .apple-music-workflow-steps summary { display:flex;align-items:center;gap:10px;min-height:76px;padding:16px;list-style:none;cursor:pointer;font-size:14px;line-height:1.6; }
+.apple-music-portfolio .apple-music-workflow-steps summary>span:nth-child(2) { flex:1; }
+.apple-music-portfolio .apple-music-workflow-steps summary svg { flex-shrink:0;color:var(--primary); }
+.apple-music-portfolio .apple-music-workflow-steps summary::-webkit-details-marker { display:none; }
+.apple-music-portfolio .apple-music-workflow-steps details[open] summary svg { transform:rotate(180deg); }
+.apple-music-portfolio .apple-music-step-number { color:var(--primary);font-size:11px; }
+.apple-music-portfolio .apple-music-workflow-steps details>p { color:var(--muted-foreground);font-size:12px;line-height:1.8;padding:0 16px 16px; }
+.apple-music-portfolio .apple-music-motion { display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1fr);gap:48px;align-items:center; }
+.apple-music-portfolio .apple-music-motion-copy>p:not(.availity-eyebrow) { font-size:14px;line-height:1.8;color:var(--muted-foreground);margin-top:16px;max-width:48ch; }
+.apple-music-portfolio .apple-music-prototype-link { display:inline-flex;align-items:center;gap:8px;min-height:44px;margin-top:20px;font-size:13px;color:var(--primary); }
+.apple-music-portfolio .apple-music-motion-preview { display:grid;place-items:center;min-height:300px;background:var(--card);border:1px solid var(--border);border-radius:16px;padding:20px; }
+.apple-music-portfolio .apple-music-motion-preview :is(img,video) { display:block;width:100%;height:300px;object-fit:contain; }
+.apple-music-portfolio .apple-music-research>details>summary { display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:48px;font-size:17px;line-height:1.6;list-style:none;cursor:pointer; }
+.apple-music-portfolio .apple-music-research summary::-webkit-details-marker { display:none; }
+.apple-music-portfolio .apple-music-research summary svg { flex-shrink:0;color:var(--primary); }
+.apple-music-portfolio .apple-music-research details[open]>summary svg { transform:rotate(180deg); }
+.apple-music-portfolio .apple-music-research details>p { max-width:88ch;margin-top:16px;font-size:14px;line-height:1.8;color:var(--muted-foreground); }
+.apple-music-portfolio .apple-music-research-grid { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;margin-top:24px; }
+.apple-music-portfolio .apple-music-research-grid button { display:block;width:100%;padding:0;border:1px solid var(--border);border-radius:12px;overflow:hidden;background:var(--card);cursor:zoom-in; }
+.apple-music-portfolio .apple-music-research-grid img { display:block;width:100%;height:220px;object-fit:contain; }
+.apple-music-portfolio .apple-music-research-grid h3 { margin:16px 0 8px;font-size:15px;line-height:1.6;font-weight:500; }
+.apple-music-portfolio .apple-music-research-grid p { font-size:12px;line-height:1.8;color:var(--muted-foreground); }
+.apple-music-portfolio :is(a,button,summary):focus-visible { outline:2px solid var(--primary);outline-offset:4px; }
+.gallery-piece-apple-music { background:var(--secondary); }
+@container(max-width:900px) { .apple-music-portfolio .availity-heading-row { grid-template-columns:minmax(0,1fr);gap:16px; } .apple-music-portfolio .apple-music-workflow-steps { grid-template-columns:repeat(2,minmax(0,1fr));gap:16px; } .apple-music-portfolio .apple-music-workflow-steps li::after { display:none; } }
+@container(max-width:760px) { .apple-music-portfolio .apple-music-hero { grid-template-columns:minmax(0,1fr);gap:24px; } .apple-music-portfolio .apple-music-hero-art { max-width:580px;justify-self:center; } .apple-music-portfolio .apple-music-hero-art img { max-height:340px; } .apple-music-portfolio .availity-section { padding-block:28px; } .apple-music-portfolio .apple-music-overview { padding-top:0; } .apple-music-portfolio .apple-music-contribution-grid { grid-template-columns:minmax(0,1fr);gap:20px; } .apple-music-portfolio .apple-music-motion { grid-template-columns:minmax(0,1fr);gap:24px; } .apple-music-portfolio .apple-music-hero-heading { flex-wrap:wrap;gap:8px; } }
+@container(max-width:500px) { .apple-music-portfolio .apple-music-research-grid,.apple-music-portfolio .apple-music-workflow-steps { grid-template-columns:minmax(0,1fr); } }

@@ -6,9 +6,18 @@ import { CaseStudyProvider } from "@/components/case-study-viewer";
 import "./case-study.css";
 import "./portfolio-editor.css";
 import "./work-gallery.css";
+import "./portfolio-project.css";
+import "./upgather-portfolio.css";
+import "./availity-portfolio.css";
+import "./oneof-portfolio.css";
+import "./ada-portfolio.css";
+import "./irmp-portfolio.css";
+import "./apple-music-portfolio.css";
+import { PortfolioViewerProvider } from "@/components/portfolio-viewer";
 import { PortfolioContentProvider } from "@/components/portfolio-content-provider";
 import { readPublished } from "@/lib/portfolio-store";
 import { isPortfolioOwner } from "@/lib/editor-owner";
+import { deploymentRecoveryScript } from "@/lib/deployment-recovery";
 export const dynamic="force-dynamic";
 
 export const metadata: Metadata = {
@@ -28,7 +37,8 @@ export default async function RootLayout({
   const [published, canEdit] = await Promise.all([readPublished(),isPortfolioOwner()]);
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className="antialiased"><ThemeProvider><PortfolioContentProvider content={published.content} canEdit={canEdit}><CaseStudyProvider>{children}</CaseStudyProvider></PortfolioContentProvider></ThemeProvider></body>
+      <head><script dangerouslySetInnerHTML={{__html:deploymentRecoveryScript}}/></head>
+      <body className="antialiased"><ThemeProvider><PortfolioContentProvider content={published.content} canEdit={canEdit}><CaseStudyProvider><PortfolioViewerProvider>{children}</PortfolioViewerProvider></CaseStudyProvider></PortfolioContentProvider></ThemeProvider></body>
     </html>
   );
 }

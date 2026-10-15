@@ -408,3 +408,37 @@ html.light .sf-maturity-level,html.light .sf-maturity-detail{--stage-color:#8861
 .sf-simulator-open:focus-visible{outline:2px solid var(--proof-accent);outline-offset:5px}
 .sf-shopping-simulator figcaption a{color:inherit;text-decoration:underline;text-underline-offset:3px}
 @media(max-width:700px){.sf-shopping-frame{height:720px}.sf-simulator-open{align-self:flex-start}}
+
+/* Supplied State Farm hero artwork stays centered above the existing copy. */
+.sf-hero-artwork{position:absolute;left:8.333333%;top:9%;width:83.333333%;height:63%;display:block;padding:0;margin:0;border:0;background:none;cursor:zoom-in;z-index:1;overflow:hidden}
+.sf-hero-artwork img{display:block;width:100%;height:100%;object-fit:contain;object-position:center;max-width:none;transform:scale(1.5);transform-origin:50% 22%}
+@media(max-width:900px){.sf-hero-artwork{left:24px;top:70px;width:calc(100% - 48px);height:calc(clamp(365px,57vw,525px) - 94px)}}
+@media(max-width:480px){.sf-hero-artwork{left:20px;width:calc(100% - 40px);height:calc(clamp(330px,88vw,410px) - 94px)}}
+
+/* Gentle motion keeps the hero copy still and the artwork at its enlarged size. */
+.sf-hero-artwork img{animation:sf-hero-drift 6s ease-in-out infinite}
+@keyframes sf-hero-drift{0%,100%{transform:translateY(0) scale(1.5)}50%{transform:translateY(-5px) scale(1.5)}}
+.sf-hero-canvas[data-motion-paused="true"] .sf-hero-artwork img{animation-play-state:paused}
+.sf-hero-motion-toggle{position:absolute;right:8.333333%;top:10%;z-index:4;border:0;background:none;color:var(--muted-foreground);padding:4px 0;font:inherit;font-size:12px;line-height:1.5;cursor:pointer}
+.sf-hero-motion-toggle:hover{color:var(--foreground);text-decoration:underline;text-underline-offset:4px}
+@media(max-width:900px){.sf-hero-motion-toggle{right:24px;top:48px}}
+@media(prefers-reduced-motion:reduce){.sf-hero-artwork img{animation:none}.sf-hero-motion-toggle{display:none}}
+
+/* Upgather's cover uses the full window width, with readable copy below. */
+.case-study-viewer.case-study-viewer-upgather[data-slot=dialog-content]{inset:0;top:0;left:0;width:100vw;height:100dvh;border:0;border-radius:0;box-shadow:none}
+.proof-toolbar.proof-toolbar-upgather{height:0;min-height:0;padding:0;border:0;display:block;background:transparent;overflow:visible}
+.proof-toolbar-upgather .proof-toolbar-left{position:absolute;left:28px;top:28px}
+.proof-toolbar-upgather .proof-toolbar-name{display:none}
+.proof-toolbar-upgather .proof-back{background:var(--background);border:1px solid var(--border);border-radius:100px;padding:0 16px}
+.proof-toolbar-upgather .proof-toolbar-actions{position:absolute;right:28px;top:28px;gap:12px}
+.proof-toolbar-upgather .proof-toolbar-actions>:is(button,a){min-width:44px;min-height:44px;background:var(--background);border:1px solid var(--border);border-radius:100px}
+.proof-toolbar-upgather .study-copy-status{top:80px}
+.study-cover.study-cover-upgather{min-height:0;padding:0;gap:0;background:var(--card)}
+.study-cover-upgather .study-cover-artifact{position:relative;right:auto;top:auto;width:100%;height:auto;margin:0;opacity:1;z-index:1}
+.study-cover-upgather .study-cover-artifact button{position:relative;display:block;width:100%;padding:0;border:0;background:transparent}
+.study-cover-upgather .study-cover-artifact img{display:block;width:100%;height:auto;max-width:100%;max-height:none;border-radius:0}
+.study-cover-upgather .proof-visual-inspect{position:absolute;bottom:20px;right:28px;color:#fff;background:#171a2ee6;border:1px solid #ffffff40;border-radius:100px;padding:8px 12px}
+.study-cover-upgather.study-cover-with-artifact .study-cover-title{max-width:none;padding:48px max(40px,calc((100% - var(--study-width))/2));pointer-events:auto}
+.study-cover-upgather .study-cover-title>.study-cover-label{display:block;margin-bottom:20px}
+@media(max-width:900px){.study-cover-upgather.study-cover-with-artifact .study-cover-title{padding:40px 32px}}
+@media(max-width:700px){.proof-toolbar-upgather .proof-toolbar-left{left:16px;top:16px}.proof-toolbar-upgather .proof-toolbar-actions{right:16px;top:16px;gap:8px}.proof-toolbar-upgather .study-copy-status{top:68px;right:16px}.study-cover-upgather.study-cover-with-artifact .study-cover-title{padding:32px 20px}.study-cover-upgather .proof-visual-inspect{bottom:12px;right:16px}}

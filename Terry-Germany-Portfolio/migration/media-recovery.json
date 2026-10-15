@@ -1,0 +1,14 @@
+[
+  {
+    "path": "/api/hero-media",
+    "status": 200
+  },
+  {
+    "path": "/api/portfolio-media/e0dd9824-2536-493a-ab6c-a164ed148e50",
+    "status": 200,
+    "content_type": "image/png",
+    "file": "uploaded-media/uploaded-1.png",
+    "bytes": 1099310,
+    "sha256": "646ddd9a5bb421f44c641a74f138a6b4f638c5450dd28c9af909c2c36ae4a107"
+  }
+]

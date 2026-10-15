@@ -1,0 +1,11 @@
+{
+  "project_id": "appgprj_6abff415802c819196a800db664ff60a",
+  "version": 101,
+  "commit": "61c4446b9c22a8acd52b7f50ebd8d1b841e7c74f",
+  "source": "Sites source repository",
+  "published_content_source": "Serialized public-facing provider content from the current live Work page",
+  "export_date": "2026-10-15",
+  "excluded_generated_files": [
+    "tsconfig.tsbuildinfo"
+  ]
+}

@@ -1,0 +1,17 @@
+.irmp-portfolio .availity-prototype .portfolio-prototype-link { margin-right:20px; }
+.irmp-portfolio .irmp-design-system-link { margin-left:0; }
+.irmp-portfolio .availity-note-grid { grid-template-columns:repeat(4,minmax(0,1fr)); }
+.ada-visual-grid .mobile-image-light { display:none; }
+.light .ada-visual-grid .mobile-image-dark { display:none; }
+.light .ada-visual-grid .mobile-image-light { display:block; }
+.irmp-portfolio .irmp-video-grid { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px;align-items:start; }
+.irmp-portfolio .irmp-video-grid figure { overflow:hidden;border:1px solid var(--border);border-radius:12px;background:var(--card); }
+.irmp-portfolio .irmp-video-grid video { display:block;width:100%;height:280px;object-fit:contain;background:var(--background); }
+.irmp-portfolio .irmp-video-grid figcaption { padding:20px; }
+.irmp-portfolio .irmp-video-grid h3 { font-size:16px;line-height:1.6;font-weight:500;margin-bottom:8px; }
+.irmp-portfolio .irmp-video-grid p { color:var(--muted-foreground);font-size:13px;line-height:1.8; }
+.gallery-piece-fintech-irmp { background:var(--secondary); }
+.gallery-piece-fintech-irmp>img { object-fit:contain; }
+@container(max-width:1000px) { .irmp-portfolio .availity-note-grid { grid-template-columns:repeat(2,minmax(0,1fr)); } }
+@container(max-width:760px) { .irmp-portfolio .irmp-video-grid { grid-template-columns:minmax(0,1fr); } .irmp-portfolio .irmp-design-system-link { margin-left:0;margin-right:20px; } }
+@container(max-width:600px) { .irmp-portfolio .availity-note-grid { grid-template-columns:minmax(0,1fr); } }
