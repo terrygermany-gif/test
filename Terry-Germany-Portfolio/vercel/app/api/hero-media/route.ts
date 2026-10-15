@@ -1,7 +1,11 @@
 import { heroSlots } from "@/lib/hero-media";
 import { describeMedia, readMedia } from "@/lib/hero-media-store";
 
+import { storageConfigured } from '@/lib/r2-bucket';
+import heroSnapshot from '@/lib/hero-media-snapshot.json';
+
 export async function GET() {
+  if (!storageConfigured()) return Response.json({media:heroSnapshot},{headers:{'Cache-Control':'no-store'}});
   try {
     const media = await Promise.all(heroSlots.map(async slot => {
       const record = await readMedia(slot);

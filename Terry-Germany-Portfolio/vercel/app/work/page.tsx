@@ -6,4 +6,4 @@ export const metadata: Metadata = {
  description: "Portfolio projects, interactive prototypes, and case studies in AI experience strategy, enterprise product design, and design systems.",
 };
 
-export default function Page() { return <WorkPage/>; }
+export default async function Page({searchParams}:{searchParams:Promise<{view?:string}>}) { const {view}=await searchParams;return <WorkPage portfolioOnly={view==="portfolio"}/>; }

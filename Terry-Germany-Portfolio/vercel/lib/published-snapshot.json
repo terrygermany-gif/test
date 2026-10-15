@@ -1,0 +1,2418 @@
+{
+  "stateFarmReturning": {
+    "cardCompany": "State Farm",
+    "cardTitle": "Pick up where you left off.",
+    "cardDescription": "A returning-customer prototype that brings quote continuation and personalized guidance into one experience.",
+    "cardImage": "/work/state-farm-hero-laptop.png",
+    "cardAlt": "State Farm returning-customer experience on a laptop",
+    "client": "State Farm",
+    "role": "Senior Experience Lead · AI & Digital Assistance",
+    "format": "Interactive prototype",
+    "scope": "Quote continuation, personalization & contextual assistance",
+    "overview": "I explored how a returning-customer homepage could help people resume an unfinished auto quote with less effort. The concept brings the saved quote, its status, and a clear continuation action together, with personalized guidance and Digital Assistance close to the task.",
+    "simulatorUrl": "https://easing-saint-57808727.figma.site/",
+    "simulatorNote": "Returning-customer prototype · Open the simulator in a new tab if it does not load here.",
+    "decisionStory": {
+      "title": "Make returning feel like continuing.",
+      "problem": "A customer with an unfinished quote needs to recognize where they left off and find the next action without navigating the site again.",
+      "decision": "I made the saved quote and continuation action prominent on the homepage, supported by contextual recommendations and a Digital Assistant entry point.",
+      "result": "A returning-customer homepage prototype that makes quote continuation visible and connects the next step with relevant guidance.",
+      "note": "This is a prototype direction. Quote-completion and conversion improvements have not been measured here.",
+      "evidenceTitle": "Explore the supporting designs",
+      "evidence": [
+        {
+          "title": "Bring the unfinished quote forward",
+          "description": "The homepage concept pairs a welcome-back message and saved auto quote with a prominent Continue action, recommendations, and contextual assistance.",
+          "image": "/work/state-farm-hero-laptop.png",
+          "alt": "State Farm returning-customer homepage prototype with a saved auto quote and Continue action on a laptop"
+        },
+        {
+          "title": "Keep assistance connected to the task",
+          "description": "A related Digital Assistance exploration shows how conversation, verification, coverage choices, and continuation actions can work together. It provides context for the shared assistance patterns.",
+          "image": "/work/state-farm-assistant.png",
+          "alt": "Related State Farm Digital Assistance shopping exploration with conversation and task controls"
+        }
+      ]
+    },
+    "contributionTitle": "Connect continuity, personalization, and assistance.",
+    "contributions": [
+      {
+        "title": "Experience strategy",
+        "description": "Connected the returning-customer direction with the broader Digital Assistance strategy, centering the customer’s existing task and next step."
+      },
+      {
+        "title": "Homepage & interaction direction",
+        "description": "Explored how saved-quote status, continuation, personalized recommendations, and assistance could share one coherent starting point."
+      },
+      {
+        "title": "Research & shared standards",
+        "description": "Directed research and prototypes across the broader program, working with Product, Engineering, Research, and Data Science on reusable Digital Assistance patterns."
+      }
+    ],
+    "workflowTitle": "A clear route back to the quote.",
+    "workflowIntro": "The interaction model explored in the returning-customer prototype. Expand a step for context.",
+    "workflow": [
+      {
+        "title": "Recognize the return",
+        "description": "Welcome the customer back and make the unfinished auto quote recognizable on the homepage."
+      },
+      {
+        "title": "Recover the context",
+        "description": "Bring the saved quote and its status forward so the customer can understand where they left off."
+      },
+      {
+        "title": "Continue the task",
+        "description": "Make the next action prominent, with recommendations and Digital Assistance available alongside the quote."
+      },
+      {
+        "title": "Stay oriented",
+        "description": "Keep the current task and continuation route visible as the customer explores relevant guidance."
+      }
+    ],
+    "researchTitle": "Research & experience principles",
+    "researchIntro": "The broader State Farm program explored discovery, usefulness, trust, and continuity through usability studies, experimentation, and prototype validation. These questions frame the returning-customer direction; they are not presented as measured results for this homepage.",
+    "research": [
+      {
+        "title": "Can people recognize their saved quote?",
+        "description": "Evaluate whether the welcome-back message, quote information, status, and continuation action help a returning customer regain context."
+      },
+      {
+        "title": "Does personalization support the task?",
+        "description": "Test whether recommendations feel relevant while the unfinished quote remains easy to find and continue."
+      },
+      {
+        "title": "Is assistance useful at the point of need?",
+        "description": "Evaluate the Digital Assistant entry point, explanations, transitions, and access to human support alongside the customer’s current task."
+      }
+    ],
+    "closing": "A useful returning experience restores context, makes the next action clear, and keeps assistance close to the customer’s goal.",
+    "researchStrategy": {
+      "title": "Research-Led. Human-Centered. AI-Enabled.",
+      "intro": "Led research-informed experience strategy to understand how customers navigate insurance decisions, interact with AI assistance, and build trust in personalized digital experiences.",
+      "translation": "Translated findings into actionable design principles that shaped conversational quoting, embedded AI guidance, quote continuation, and future agentic experiences.",
+      "process": [
+        {
+          "title": "Research & Discovery",
+          "description": "Customer friction, AI perceptions, usability feedback, entry-point exploration"
+        },
+        {
+          "title": "Experience Insights",
+          "description": "Context matters, guidance should be relevant, trust requires control"
+        },
+        {
+          "title": "Design Principles",
+          "description": "Embedded intelligence, purposeful personalization, progressive disclosure"
+        },
+        {
+          "title": "Prototype Validation",
+          "description": "Conversational quotes, continuation, responsive AI patterns; future concepts remain exploratory"
+        }
+      ],
+      "focus": [
+        {
+          "title": "Customer Intent & Behavior",
+          "description": "Explored customer needs, friction points, and decision-making patterns across quoting, onboarding, and self-service journeys."
+        },
+        {
+          "title": "AI Trust & Transparency",
+          "description": "Evaluated how customers perceive AI recommendations, contextual assistance, transparency, and control when making insurance decisions."
+        },
+        {
+          "title": "Interaction & Usability",
+          "description": "Explored AI entry points, conversational interfaces, and responsive layouts, including embedded widgets, side panels, and full-page experiences."
+        },
+        {
+          "title": "Personalization & Context",
+          "description": "Investigated opportunities to recognize returning customers, preserve journey context, and surface relevant next steps without overwhelming users."
+        }
+      ],
+      "evidence": [
+        {
+          "title": "Service friction that framed the opportunity",
+          "description": "Of 27,700 onboarding and service interactions analyzed, 13,088 needed additional support. This broader program evidence framed the opportunity for clearer guidance and human handoff; it is not a quote-specific usability result.",
+          "label": "Program data"
+        },
+        {
+          "title": "Research and experimentation",
+          "description": "Directed research and experimentation with Research, Data Science, Product, and Engineering. Prototypes and interface variations supported moderated research and A/B testing around entry points, usefulness, trust, AI identity, and human handoff.",
+          "label": "Project record"
+        },
+        {
+          "title": "Prototype artifacts",
+          "description": "The saved-quote homepage and related Digital Assistance exploration make the experience direction tangible. They show design decisions, rather than measured launch outcomes or participant-level findings.",
+          "label": "Design evidence"
+        }
+      ],
+      "principles": [
+        {
+          "title": "Intelligence Without Intrusion",
+          "description": "Embed AI naturally within customer journeys, offering assistance when relevant rather than interrupting the experience."
+        },
+        {
+          "title": "Personalization With Purpose",
+          "description": "Use customer context to simplify decisions, reduce repetition, and provide relevant guidance."
+        },
+        {
+          "title": "Trust Through Transparency",
+          "description": "Make AI recommendations understandable, editable, and easy to verify."
+        },
+        {
+          "title": "Progressive AI Maturity",
+          "description": "Evolve from reactive assistance toward contextual, predictive, and agentic capabilities as customer trust and technical readiness grow."
+        },
+        {
+          "title": "Human Control by Design",
+          "description": "Keep customers in control of their information, coverage decisions, and when to engage with human assistance."
+        }
+      ],
+      "applications": [
+        {
+          "title": "Restore the quote context",
+          "question": "Can returning customers recognize their saved quote and understand how to continue?",
+          "principle": "Personalization With Purpose",
+          "change": "Bring the saved auto quote, status, and Continue action into the homepage, with relevant next steps nearby.",
+          "validation": "Evaluate recognition and continuation in the prototype. No quote-completion lift is claimed."
+        },
+        {
+          "title": "Keep guidance inside the task",
+          "question": "Where can customers find useful assistance without losing their place?",
+          "principle": "Intelligence Without Intrusion",
+          "change": "Explore contextual assistance alongside the quote and conversational UI with task controls, across widget, side-panel, and full-page patterns.",
+          "validation": "Evaluate entry-point discovery, usefulness, and whether customers stay oriented. Specific post-test changes are not supplied in the project records."
+        },
+        {
+          "title": "Make AI understandable and controllable",
+          "question": "Can customers understand a recommendation, change information, and reach a person?",
+          "principle": "Trust Through Transparency · Human Control by Design",
+          "change": "Use explanations, editable information, confirmation steps, and paths to human help in the shared assistance model.",
+          "validation": "Evaluate trust, comprehension, and handoff. Predictive and agentic task completion remain future-state directions."
+        }
+      ],
+      "contextNote": "Project record summaries and design rationale are shown here. Participant observations, survey questionnaires, and study-level results are not published in this section. Applied examples connect documented questions to prototype choices, rather than asserting new test findings.",
+      "strategicOutcome": "Established research-informed experience principles that connected customer needs, business goals, and AI maturity—creating a scalable design foundation for more intelligent insurance experiences.",
+      "leadershipTitle": "Connecting Research to AI Experience Strategy",
+      "leadershipStatement": "Directed research-informed design decisions across multidisciplinary teams, translating customer insights into experience principles, scalable AI interaction patterns, and high-fidelity prototypes. Established a foundation for progressing from conversational assistance toward personalized, predictive, and agentic insurance experiences."
+    },
+    "continuation": {
+      "title": "Pick Up Where You Left Off. Smarter.",
+      "intro": "Reimagined the returning-customer experience by bringing quote continuation, AI-powered personalization, and contextual guidance into one seamless journey across Auto, Home, and Renters insurance.",
+      "rationale": "Rather than forcing customers to restart or navigate disconnected experiences, the prototype explored how embedded AI could recognize customer intent, restore progress, and recommend the most relevant next action.",
+      "problem": "Traditional quoting experiences can create friction when customers leave and return. Repeated questions, disconnected journeys, and limited contextual guidance increase cognitive effort and introduce opportunities for abandonment.",
+      "experienceIntro": "Designed an intelligent continuation experience centered on four capabilities. Explore each stage to see the capability behind it.",
+      "stages": [
+        {
+          "title": "Recognize",
+          "subtitle": "Returning customer",
+          "capability": "Personalized Recommendations",
+          "description": "Tailor content, guidance, and coverage options to known customer information and intent."
+        },
+        {
+          "title": "Restore",
+          "subtitle": "Saved progress",
+          "capability": "Resume with Context",
+          "description": "Surface saved quote progress and guide customers directly to their next step."
+        },
+        {
+          "title": "Guide",
+          "subtitle": "Contextual AI",
+          "capability": "Embedded AI Assistance",
+          "description": "Provide contextual support directly within the quoting experience instead of requiring a separate chatbot."
+        },
+        {
+          "title": "Continue",
+          "subtitle": "Next best action",
+          "capability": "Customer Control",
+          "description": "Allow customers to review, edit, and confirm information before continuing."
+        }
+      ],
+      "decisions": [
+        {
+          "title": "Continuity over repetition.",
+          "description": "Prioritized saved progress and contextual next steps over restarting the journey."
+        },
+        {
+          "title": "Guidance over complexity.",
+          "description": "Simplified insurance decisions through progressive disclosure and relevant assistance."
+        },
+        {
+          "title": "Intelligence over automation.",
+          "description": "Introduced helpful AI recommendations while keeping customers in control."
+        }
+      ],
+      "contribution": "Led UX strategy, experience architecture, interaction design, and high-fidelity prototyping. Connected research insights with AI maturity goals to explore a scalable continuation experience and align cross-functional teams on future product direction.",
+      "intendedImpact": "Reduce unnecessary steps, increase quote completion opportunities, strengthen customer confidence, and establish a foundation for more predictive and agentic insurance experiences.",
+      "impactTitle": "From Disconnected Quotes to Intelligent Continuity",
+      "impactStatement": "Shifted the experience from repetitive, transactional interactions toward context-aware guidance—demonstrating how personalization and embedded AI could simplify quote completion while laying the groundwork for proactive insurance assistance.",
+      "statusNote": "Prototype exploration · The returning auto-quote screens illustrate the broader Auto, Home, and Renters direction. Intended outcomes are not measured results or a claim of shipped AI capabilities."
+    },
+    "designDecisions": {
+      "title": "Designing Intelligence Into Every Insurance Journey",
+      "intro": "Reimagined Auto, Home, and Renters insurance by shifting from static, transactional experiences toward personalized, AI-assisted journeys. Each design decision balanced customer trust, usability, business goals, and the evolution toward agentic AI.",
+      "cards": [
+        {
+          "title": "Personalized by Context",
+          "summary": "Relevant guidance based on intent and journey progress",
+          "description": "Designed contextual entry points, returning-customer journeys, and intelligent recommendations that adapt to customer needs, progress, and intent.",
+          "decision": "Make every interaction feel relevant, not repetitive."
+        },
+        {
+          "title": "AI Beyond Chat",
+          "summary": "Intelligence embedded into the insurance experience",
+          "description": "Explored AI guidance directly within quoting, coverage selection, onboarding, and self-service—reducing the need to leave the task to find assistance.",
+          "decision": "Bring intelligence into the experience, not just a chatbot."
+        },
+        {
+          "title": "Progressive AI Maturity",
+          "summary": "From reactive assistance toward proactive intelligence",
+          "description": "Defined a phased AI maturity approach, moving from reactive assistance to context-aware recommendations and future proactive, agentic capabilities.",
+          "decision": "Build customer trust before introducing autonomy."
+        },
+        {
+          "title": "Seamless Continuity",
+          "summary": "Resume quotes and decisions without starting over",
+          "description": "Designed returning-customer experiences that preserve quote progress, surface relevant next steps, and simplify moving between insurance tasks.",
+          "decision": "Make continuing easier than restarting."
+        }
+      ],
+      "leadershipTitle": "From AI Strategy to Experience Execution",
+      "leadershipStatement": "Led research-informed design decisions across product, engineering, and AI teams—translating AI maturity goals into scalable interaction patterns, high-fidelity prototypes, and testable experiences that shaped the future of digital insurance.",
+      "principles": [
+        {
+          "title": "Human Control Over Black-Box AI",
+          "description": "Prioritized transparent recommendations, editable inputs, clear next steps, and human support when needed.",
+          "decision": "Keep customers informed and in control of important coverage decisions."
+        },
+        {
+          "title": "Scalable Patterns Over One-Off Solutions",
+          "description": "Established reusable conversational UI patterns, responsive interactions, and AI-assisted components aligned with State Farm's design system.",
+          "decision": "Design once, scale across multiple insurance experiences."
+        }
+      ],
+      "designScope": "Experience strategy, research-led design, high-fidelity prototypes, and reusable interaction patterns. The screens below show the returning-customer concept and a related Digital Assistance exploration; they are not evidence of production deployment or measured conversion lift.",
+      "futureScope": "Proactive recommendations and agentic capabilities describe the longer-term AI maturity direction. They are separate from the designed and tested concepts and are not presented as delivered autonomous experiences."
+    },
+    "leadership": {
+      "title": "My Leadership & Impact",
+      "intro": "As Senior Experience Lead, I drove the AI experience vision across Auto, Home, and Renters insurance, aligning 25+ cross-functional stakeholders around a scalable AI maturity roadmap.",
+      "responsibilities": [
+        {
+          "title": "AI Strategy",
+          "description": "Defined the evolution from reactive assistance to contextual, personalized, and future agentic AI experiences."
+        },
+        {
+          "title": "UX Research",
+          "description": "Led experience validation, usability testing, and research-driven design decisions."
+        },
+        {
+          "title": "Experience Design",
+          "description": "Shaped end-to-end quoting, onboarding, and self-service journeys, identifying opportunities to reduce friction and improve engagement."
+        },
+        {
+          "title": "Prototyping",
+          "description": "Directed high-fidelity AI prototypes to validate conversational, embedded, and proactive assistance concepts."
+        },
+        {
+          "title": "Cross-Functional Leadership",
+          "description": "Connected product, engineering, research, and AI teams around shared design patterns and implementation priorities."
+        }
+      ],
+      "impact": "Established a strategic UX foundation for scaling intelligent insurance experiences, translating AI maturity goals into actionable product concepts and testable customer journeys."
+    }
+  },
+  "stateFarmShopping": {
+    "cardCompany": "State Farm",
+    "cardTitle": "A guided shopping experience.",
+    "cardDescription": "Explore the Digital Assistant shopping simulator, from customer intent to guided next steps.",
+    "cardImage": "/work/state-farm-hero-phone.png",
+    "cardAlt": "State Farm Digital Assistant shopping interface",
+    "client": "State Farm",
+    "role": "Senior Experience Lead · AI & Digital Assistance",
+    "format": "Interactive prototype",
+    "scope": "Conversational shopping & auto-quote guidance",
+    "overview": "I explored how Digital Assistance could make insurance shopping feel clearer: start with the customer’s goal, combine conversation with useful interface controls, and keep the next step visible. This portfolio focuses on the shopping prototype within my broader State Farm AI and Digital Assistance work.",
+    "simulatorUrl": "https://false-stark-55161277.figma.site/shopping",
+    "simulatorNote": "Interactive shopping prototype · Open the simulator in a new tab if it does not load here.",
+    "decisionStory": {
+      "title": "Make the next step easier to understand.",
+      "problem": "Insurance shopping asks people to share information, understand coverage, and move through unfamiliar decisions. Assistance needs to support the task as it unfolds.",
+      "decision": "I combined conversational guidance with task-specific controls: quick replies, license scanning with a manual-entry alternative, coverage cards, and visible continuation actions.",
+      "result": "A shopping prototype that makes the assistance model tangible, supported by interface explorations and shared Digital Assistance patterns.",
+      "note": "This prototype illustrates a design direction. Measured quote-completion or conversion improvements are not provided.",
+      "evidenceTitle": "Explore the supporting designs",
+      "evidence": [
+        {
+          "title": "Give customers a choice",
+          "description": "The mobile quote concept offers license scanning alongside manual entry, with a privacy message next to the action.",
+          "image": "/work/state-farm-hero-phone.png",
+          "alt": "State Farm mobile Digital Assistant quote concept showing license scanning and manual entry options"
+        },
+        {
+          "title": "Connect conversation to action",
+          "description": "The shopping exploration combines a customer’s question with verification, coverage choices, and save-or-continue actions in the same assistance surface.",
+          "image": "/work/state-farm-assistant.png",
+          "alt": "State Farm shopping assistant exploration with a quote request, coverage card, and save and continue controls"
+        }
+      ]
+    },
+    "contributionTitle": "Connect customer intent, interaction, and delivery.",
+    "contributions": [
+      {
+        "title": "Experience strategy",
+        "description": "Defined an assistance approach around the customer’s goal and connected shopping and quoting with the broader Digital Assistance strategy."
+      },
+      {
+        "title": "Interaction design",
+        "description": "Explored conversation alongside traditional controls, contextual guidance, suggestion chips, and transitions to human support."
+      },
+      {
+        "title": "Research & shared standards",
+        "description": "Directed prototypes and experimentation, and aligned Product, Research, Data Science, and Engineering through the Digital Assistance Design Kit and shared experience principles."
+      }
+    ],
+    "workflowTitle": "A guided path through the shopping task.",
+    "workflowIntro": "A concise view of the interaction model explored in the prototype. Expand any step for context.",
+    "workflow": [
+      {
+        "title": "Describe the goal",
+        "description": "Let the customer begin with what they want to accomplish, such as starting an auto quote."
+      },
+      {
+        "title": "Share the details",
+        "description": "Use contextual requests and useful controls to gather information, including scanning and a manual-entry alternative."
+      },
+      {
+        "title": "Review the guidance",
+        "description": "Present coverage choices and relevant explanations close to the customer’s question and current task."
+      },
+      {
+        "title": "Take the next step",
+        "description": "Make continuation actions visible and carry the customer toward the next part of the shopping journey."
+      }
+    ],
+    "researchTitle": "Research & experience principles",
+    "researchIntro": "The broader State Farm program explored discovery, usefulness, trust, and brand fit through usability studies, experimentation, and prototype validation. These questions frame the shopping direction; they are not presented as quote-specific measured findings.",
+    "research": [
+      {
+        "title": "Can people find the assistance?",
+        "description": "Evaluate entry points, CTA language, visual identity, and suggestion chips in the context of the customer’s task."
+      },
+      {
+        "title": "Does the interaction feel clear and trustworthy?",
+        "description": "Test whether customers understand the request, the available alternatives, and the privacy language around information sharing."
+      },
+      {
+        "title": "Can people move forward or get help?",
+        "description": "Evaluate continuity between conversation and traditional controls, recovery paths, and transitions to human support."
+      }
+    ],
+    "closing": "Useful AI assistance helps people understand the task, make an informed choice, and see what to do next."
+  },
+  "neurotrade": {
+    "cardCompany": "NeuroTrade",
+    "cardTitle": "Making AI trading easier to understand.",
+    "cardDescription": "Research, UX and UI design for AI trading agents, bot setup, and personal portfolio tracking.",
+    "cardImage": "/work/neurotrade-NeuroTrade-1-Dashboard-1024x728.png",
+    "cardAlt": "NeuroTrade dashboard showing portfolio assets, bot choices, and account activity",
+    "client": "NeuroTrade",
+    "role": "Principal Product Designer",
+    "timeline": "2 weeks",
+    "tools": "Figma, FigJam, Framer",
+    "status": "Design & prototype",
+    "overview": "I led research, UX, and UI design for an AI-assisted trading experience, connecting onboarding, exchange setup, bot configuration, and portfolio monitoring. My focus was making complex automation easier to understand and giving people a clearer view of their assets and activity.",
+    "decisionStory": {
+      "title": "Complex automation. Clearer decisions.",
+      "problem": "Trading platforms can overwhelm people with dense information, unfamiliar controls, and uncertainty about AI-driven decisions.",
+      "decision": "I organized the experience around distinct tasks: understand the portfolio, choose a bot, configure its settings, then monitor its activity.",
+      "result": "I delivered onboarding flows, dashboard and trading interfaces, AI / DCA / signal-bot screens, and an interactive Figma prototype.",
+      "evidenceTitle": "Explore the supporting designs",
+      "evidence": [
+        {
+          "title": "One portfolio overview",
+          "description": "The dashboard brings account balance, assets, bot options, and activity into one starting point.",
+          "image": "/work/neurotrade-NeuroTrade-1-Dashboard-1024x728.png",
+          "alt": "NeuroTrade dashboard with assets, account balance, and AI, DCA, and signal bot options"
+        },
+        {
+          "title": "Make automation configurable",
+          "description": "The AI bot setup exposes the exchange account, risk selection, and investment amount before creation.",
+          "image": "/work/neurotrade-NeuroTrade-AI-Bots-1-1024x728.png",
+          "alt": "Create AI Bot panel with exchange account, risk selection, and investment amount"
+        },
+        {
+          "title": "Keep active bots visible",
+          "description": "Bot cards show active status, investment, runtime, trade count, and realized versus unrealized performance, with an edit action.",
+          "image": "/work/neurotrade-NeuroTrade-AI-Bots-2-1024x728.png",
+          "alt": "AI bot management view with active status, runtime, investment, and edit controls"
+        }
+      ]
+    },
+    "contributionTitle": "Research, interaction design, and the visual system.",
+    "contributions": [
+      {
+        "title": "Research & discovery",
+        "description": "Reviewed MVP requirements, explored the AI trading market, and used trader interviews, surveys, personas, and competitor analysis to identify complexity and trust concerns."
+      },
+      {
+        "title": "UX & agent workflows",
+        "description": "Mapped onboarding and account access, then designed exchange connection, bot configuration, trading, and portfolio monitoring as connected tasks."
+      },
+      {
+        "title": "UI & prototyping",
+        "description": "Created the visual interface, data displays, high-fidelity screens, and prototype, with reusable design foundations for responsive layouts and dark / light themes."
+      }
+    ],
+    "agentTitle": "From AI capability to a workflow people can follow.",
+    "agentIntro": "I translated AI-assisted trading into visible setup and monitoring steps. I made the automated workflow visible through bot configuration, activation, and ongoing oversight.",
+    "agentStages": [
+      {
+        "title": "Connect",
+        "description": "Choose an exchange account and establish the connection before configuring a bot."
+      },
+      {
+        "title": "Configure",
+        "description": "Select the bot approach, risk setting, investment amount, and relevant trading parameters."
+      },
+      {
+        "title": "Activate",
+        "description": "Move through the setup and activation states so the transition into automation is visible."
+      },
+      {
+        "title": "Monitor",
+        "description": "Return to active-bot cards and portfolio views to inspect activity, investment, runtime, and performance."
+      }
+    ],
+    "personalTitle": "A personal view across stocks and digital assets.",
+    "personalIntro": "My broader product direction brings stock tracking and digital-asset monitoring into a personal workspace: what I hold, what has changed, and which automated strategies need attention.",
+    "personalNote": "The original screens shown here focus on crypto trading and bot management; the stock-tracking scope extends that direction.",
+    "personalFocus": [
+      {
+        "title": "Portfolio context",
+        "description": "Keep holdings, account activity, and relevant market information connected to the person’s own portfolio."
+      },
+      {
+        "title": "Automation with oversight",
+        "description": "Separate bot setup from monitoring so people can understand the configuration and revisit ongoing activity."
+      }
+    ],
+    "galleryTitle": "Explore the trading workspace.",
+    "galleryIntro": "Browse the original product screens, from the portfolio overview to exchange connection and bot setup.",
+    "gallery": [
+      {
+        "title": "Portfolio dashboard",
+        "description": "Portfolio assets, account balance, activity, and entry points into the bot workflows.",
+        "image": "/work/neurotrade-NeuroTrade-1-Dashboard-1024x728.png",
+        "alt": "NeuroTrade portfolio dashboard"
+      },
+      {
+        "title": "Trading workspace",
+        "description": "A dedicated workspace for charts, market pairs, order information, and trading controls.",
+        "image": "/work/neurotrade-1-NeuroTrade-Trading-1024x1018.png",
+        "alt": "NeuroTrade trading screen with market chart and order information"
+      },
+      {
+        "title": "Connect an exchange",
+        "description": "The exchange selection step before bot configuration.",
+        "image": "/work/neurotrade-NeuroTrade-Connect-an-exchange-1024x728.png",
+        "alt": "NeuroTrade exchange connection screen"
+      },
+      {
+        "title": "Connection confirmed",
+        "description": "A connection-success state carries the user into the next task.",
+        "image": "/work/neurotrade-NeuroTrade-Connection-Successful-1024x728.png",
+        "alt": "NeuroTrade successful exchange connection state"
+      },
+      {
+        "title": "DCA bot overview",
+        "description": "A separate view for dollar-cost averaging bot activity.",
+        "image": "/work/neurotrade-NeuroTrade-DCA-Bots-1024x728.png",
+        "alt": "NeuroTrade DCA bot management view"
+      },
+      {
+        "title": "Configure a DCA bot",
+        "description": "Exchange, strategy, trading pair, and entry-order controls alongside a market chart.",
+        "image": "/work/neurotrade-NeuroTrade-Create-DCA-Bot-1024x728.png",
+        "alt": "NeuroTrade Create DCA Bot screen"
+      },
+      {
+        "title": "Bot activated",
+        "description": "The original activation state in the bot setup journey.",
+        "image": "/work/neurotrade-NeuroTrade-NeuroTrade-Bot-Activated-1024x728.png",
+        "alt": "NeuroTrade bot activated confirmation"
+      },
+      {
+        "title": "Create a signal bot",
+        "description": "A dedicated configuration screen for signal-based automation.",
+        "image": "/work/neurotrade-NeuroTrade-Creat-Signal-Bot-1024x728.png",
+        "alt": "NeuroTrade Create Signal Bot screen"
+      },
+      {
+        "title": "Signal bot overview",
+        "description": "A management view for signal-based bot activity.",
+        "image": "/work/neurotrade-NeuroTrade-Signal-Bot-1024x728.png",
+        "alt": "NeuroTrade signal bot management view"
+      },
+      {
+        "title": "AI bot starting state",
+        "description": "The initial AI bot view before creating an automated strategy.",
+        "image": "/work/neurotrade-NeuroTrade-AI-Bots-1024x728.png",
+        "alt": "NeuroTrade AI bot starting state"
+      },
+      {
+        "title": "Configure an AI bot",
+        "description": "Exchange, risk selection, and investment controls in a focused panel.",
+        "image": "/work/neurotrade-NeuroTrade-AI-Bots-1-1024x728.png",
+        "alt": "NeuroTrade AI bot creation panel"
+      },
+      {
+        "title": "Monitor AI bots",
+        "description": "Active status, runtime, investment, performance, and edit controls for each bot.",
+        "image": "/work/neurotrade-NeuroTrade-AI-Bots-2-1024x728.png",
+        "alt": "NeuroTrade active AI bot cards"
+      },
+      {
+        "title": "Marketplace",
+        "description": "The original marketplace exploration within the broader trading product.",
+        "image": "/work/neurotrade-NeuroTrade-Marketplace-1024x797.png",
+        "alt": "NeuroTrade marketplace interface"
+      }
+    ],
+    "artifactNote": "Original design artifacts · Figures inside the screens are sample interface data, not verified investment returns or project outcome metrics.",
+    "researchTitle": "Research & supporting flows",
+    "researchIntro": "The project account describes market and competitor research, trader interviews and surveys, and personas spanning casual investors, advanced traders, and AI enthusiasts. The key concerns were interface complexity, trust in automated decisions, and the learning curve for beginners.",
+    "research": [
+      {
+        "title": "Account access & recovery",
+        "description": "Original FigJam flow showing PIN and password sign-in paths, notification checks, and recovery decisions.",
+        "image": "/work/neurotrade-NeuroTrade-bots-FIGJAM2.png",
+        "alt": "Original FigJam login flow with PIN, password, and account recovery paths"
+      },
+      {
+        "title": "Sign-up & verification",
+        "description": "Original FigJam flow showing registration, account review, verification, and the route into login.",
+        "image": "/work/neurotrade-NeuroTrade-bots-FIGJAM.png",
+        "alt": "Original FigJam registration and verification user flow"
+      }
+    ],
+    "validationTitle": "What I would validate next.",
+    "validationIntro": "The next evaluation would test whether people understand the setup and can monitor automation with confidence. These are evaluation priorities, not measured project results.",
+    "validation": [
+      {
+        "title": "Setup comprehension",
+        "description": "Can a participant explain the selected account, risk setting, and investment before creating a bot?"
+      },
+      {
+        "title": "Monitoring clarity",
+        "description": "Can they identify an active bot, distinguish realized from unrealized performance, and find its edit controls?"
+      },
+      {
+        "title": "Recovery & control",
+        "description": "Can they recover from a connection problem and understand the next available action?"
+      }
+    ],
+    "prototypeUrl": "https://www.figma.com/proto/EYSj0ixlf5H9IliRkR13KQ/NeuroTrade---AI-Crypto-Trading---Portfolio?content-scaling=fixed&node-id=4740-58698&page-id=4740%3A47466&scaling=contain&t=5qXeQFVYwM7gQjcI-1&viewport=3992%2C227%2C0.25",
+    "prototypeNote": "Explore the original Figma prototype. Figma access may be required.",
+    "closing": "I designed the connection between intelligent automation and the person using it: clearer setup, visible activity, and a more understandable trading workspace."
+  },
+  "appleMusic": {
+    "mcpFlow": {
+      "title": "From design context to a working UI.",
+      "intro": "A natural-language prompt connects design intent, component knowledge, and code through an AI assistant and a local MCP server.",
+      "prompt": "Create a compact listening view using our existing components.",
+      "stages": [
+        {
+          "title": "Design context",
+          "subtitle": "Figma + your prompt",
+          "detail": "Describe the UI you need and provide the relevant design context: layout, components, and interaction intent."
+        },
+        {
+          "title": "AI + MCP",
+          "subtitle": "Local context connection",
+          "detail": "The AI assistant uses Model Context Protocol (MCP) to discover available tools and retrieve design and component context."
+        },
+        {
+          "title": "Components + code",
+          "subtitle": "Storybook + repository",
+          "detail": "Storybook supplies component documentation and states. With permitted code tools, the assistant can apply changes using the existing codebase."
+        },
+        {
+          "title": "UI preview",
+          "subtitle": "Review + refine",
+          "detail": "Review the resulting interface, check its behavior, and refine the prompt before changes move toward release."
+        }
+      ],
+      "accelerations": [
+        {
+          "title": "Design → development",
+          "description": "Carry design intent and reusable patterns into the implementation context."
+        },
+        {
+          "title": "Development → product UI",
+          "description": "Use existing components to move from a request to a preview that can be reviewed and refined."
+        }
+      ],
+      "note": "Workflow illustration · Preview and review before release."
+    },
+    "decisionStory": {
+      "evidenceVersion": 2,
+      "title": "Problem → My decision → Result",
+      "problem": "Explore improvements to listening and discovery while working within Apple Music’s established interface patterns.",
+      "decision": "I connected research and flow mapping with sketches and Now Playing prototypes, and converted the Sketch work into reusable Figma foundations.",
+      "result": "I delivered interface explorations, user flows, interaction prototypes, and a Figma design system with shared libraries.",
+      "evidenceTitle": "Explore the supporting designs",
+      "evidence": [
+        {
+          "title": "Listening experience wireframes",
+          "description": "Original hand-drawn explorations of library navigation, playlists, playback controls, and screen transitions.",
+          "image": "/work/apple-music-apple-sketch-2.png",
+          "alt": "Original Apple Music hand-drawn wireframe board showing library, playlist, and playback interface ideas"
+        },
+        {
+          "title": "Navigation and flow mapping",
+          "description": "The original navigation map documents the connections between interface states considered in the design work.",
+          "image": "/work/apple-music-USER-FLOW-NAVIGATION-scaled-1.webp",
+          "alt": "Original Apple Music navigation user-flow map"
+        },
+        {
+          "title": "Listening interaction notes",
+          "description": "Annotated Apple Music screens explore playback controls, library actions, and navigation details.",
+          "image": "/work/apple-music-apple-sketch2-scaled.jpg",
+          "alt": "Original Apple Music screens with handwritten annotations around playback, library, and discovery controls"
+        }
+      ]
+    },
+    "heroSimulatorUrl": "https://apple-music-simulator-2022.figma.site/",
+    "cardCompany": "Apple Music",
+    "cardTitle": "Apple Music, from experience to design system.",
+    "cardDescription": "Lead product design, a Sketch-to-Figma design-system migration, and an MCP-connected repository workflow.",
+    "cardImage": "/work/apple-music-Apple-Music-portfolio-THUMBNAIL.jpg",
+    "cardAlt": "Apple Music UI enhancement portfolio artwork with mobile interface designs",
+    "client": "Apple",
+    "role": "Lead Product Designer · Consultant",
+    "timeline": "5 months",
+    "tools": "Sketch, Figma, Jira, Miro, MCP",
+    "overview": "I led product design across Apple Music experience improvements and the design foundations behind the work. The scope combined interface exploration, research and prototyping with a move from Sketch to Figma and a connected design-to-code workflow.",
+    "contributionTitle": "Experience, systems, and implementation context.",
+    "contributions": [
+      {
+        "title": "Product experience",
+        "description": "Led interface exploration, user-centered design and rapid prototyping, working within Apple Music’s established patterns across desktop and mobile."
+      },
+      {
+        "title": "Sketch → Figma",
+        "description": "Converted Sketch design work into a Figma design system and shared libraries, bringing reusable design foundations into the new workflow."
+      },
+      {
+        "title": "MCP → repository",
+        "description": "Connected MCP-assisted workflows with the code repository so design and implementation context could be reviewed together."
+      }
+    ],
+    "galleryTitle": "From exploration to the listening experience.",
+    "galleryIntro": "Original project artifacts show the Now Playing direction and the Sketch explorations behind the interface work. Open a design for a closer look.",
+    "gallery": [
+      {
+        "title": "Now Playing",
+        "description": "Original interface explorations for the listening experience.",
+        "image": "/work/apple-music-apple1a-portfolio-2-1.jpg",
+        "alt": "Apple Music Now Playing explorations shown on two phones"
+      },
+      {
+        "title": "Interaction sketches",
+        "description": "Annotated sketches explore how the interface and controls could work together.",
+        "image": "/work/apple-music-apple-sketch2-scaled.jpg",
+        "alt": "Annotated Apple Music interface sketches"
+      },
+      {
+        "title": "Sketch exploration board",
+        "description": "A broader view of the original Sketch explorations.",
+        "image": "/work/apple-music-apple-sketch-2.png",
+        "alt": "Apple Music Sketch exploration board"
+      }
+    ],
+    "workflowTitle": "A connected path from design to code.",
+    "workflowIntro": "A summary of my Sketch-to-Figma migration and MCP/repository work. Expand a stage for context.",
+    "workflow": [
+      {
+        "title": "Sketch",
+        "description": "The existing Sketch work provided the starting point for the migration."
+      },
+      {
+        "title": "Figma system",
+        "description": "Rebuilt the design foundations as a Figma design system and shared libraries."
+      },
+      {
+        "title": "MCP",
+        "description": "Connected MCP (Model Context Protocol) workflows with the repository to share relevant design and implementation context."
+      },
+      {
+        "title": "Repository",
+        "description": "Connected the workflow with the repository to support the move from design intent to implementation."
+      }
+    ],
+    "researchTitle": "Research & supporting flows",
+    "researchIntro": "Research explored listening and discovery needs, compared streaming features, and informed task flows and low-fidelity exploration. The work considered how new interactions could fit Apple Music’s existing design patterns.",
+    "research": [
+      {
+        "title": "Login flow",
+        "description": "Original user-flow artifact for access and entry into the experience.",
+        "image": "/work/apple-music-USER-FLOW-LOGIN-scaled.jpg",
+        "alt": "Apple Music login user-flow diagram"
+      },
+      {
+        "title": "Navigation flow",
+        "description": "Original map of navigation and the connections between interface states.",
+        "image": "/work/apple-music-USER-FLOW-NAVIGATION-scaled-1.webp",
+        "alt": "Apple Music navigation user-flow diagram"
+      }
+    ],
+    "motionTitle": "Explore the interaction.",
+    "motionNote": "Play the original interaction preview when you want to see the listening flow in motion.",
+    "motion": {
+      "src": "/work/apple-music-UPNEXT.gif",
+      "poster": "/work/apple-music-apple1a-portfolio-2-1.jpg",
+      "kind": "image",
+      "alt": "Apple Music interaction preview showing the Now Playing and Up Next experience"
+    },
+    "prototypeUrl": "",
+    "closing": "I connected hands-on interface design with shared design foundations and an MCP-assisted path toward implementation."
+  },
+  "fintechIrmp": {
+    "cardCompany": "FinTech IRMP",
+    "cardTitle": "Making tax-credit workflows easier to navigate.",
+    "cardDescription": "Innovation Refunds mobile product design, from pre-qualification to payroll information and reusable interface patterns.",
+    "cardImage": "/work/irmp-IR2-6-THUMBNAIL.jpg",
+    "cardAlt": "Innovation Refunds FinTech App 2.6 mobile interface designs",
+    "client": "Innovation Refunds",
+    "role": "Product design · Research, UX & UI",
+    "timeline": "4 months",
+    "tools": "Figma, FigJam, Miro, Bravo Studio",
+    "overview": "I worked across research, concept development, visual design and testing for ERC Mobile App 2.6. The design connects business information, payroll documents and financial progress through focused mobile workflows.",
+    "researchTitle": "Research shaped the product direction.",
+    "researchIntro": "Discovery combined domain research, stakeholder input, competitor analysis, a product audit and user interviews. Personas, flows, wireframes and prototypes supported the design process.",
+    "methods": [
+      {
+        "title": "Discover & evaluate",
+        "description": "Review MVP requirements and audit the experience through usability heuristics and the enterprise design framework."
+      },
+      {
+        "title": "Research & synthesize",
+        "description": "Combine competitor review, stakeholder perspectives and user interviews through thematic analysis."
+      },
+      {
+        "title": "Structure the experience",
+        "description": "Develop user flows and wireframes to connect the key tasks."
+      },
+      {
+        "title": "Prototype & test",
+        "description": "Bring the visual direction into high-fidelity screens and an interactive prototype."
+      }
+    ],
+    "onboardingTitle": "Start with the business, one step at a time.",
+    "onboardingIntro": "The pre-qualification exploration separates company information, employee counts and the initial estimate into focused steps. Original light and dark variants follow the page theme.",
+    "onboarding": [
+      {
+        "title": "Company information",
+        "description": "A focused form for the business details at the start of the journey.",
+        "image": "/work/irmp-ERC-Pre-qualification-Dark-1.png",
+        "alt": "Innovation Refunds mobile interface: Company information",
+        "lightImage": "/work/irmp-ERC-Pre-qualification-Light.png"
+      },
+      {
+        "title": "Employee information",
+        "description": "A dedicated question for yearly employee counts.",
+        "image": "/work/irmp-ERC-Pre-qualification-Dark-2.png",
+        "alt": "Innovation Refunds mobile interface: Employee information",
+        "lightImage": "/work/irmp-ERC-Pre-qualification-Light-2.png"
+      },
+      {
+        "title": "Initial estimate",
+        "description": "An estimate screen introduces the next stage of the application. Values are design examples.",
+        "image": "/work/irmp-ERC-Pre-qualification-Dark-4.png",
+        "alt": "Innovation Refunds mobile interface: Initial estimate",
+        "lightImage": "/work/irmp-ERC-Pre-qualification-Light-3.png"
+      }
+    ],
+    "assessmentTitle": "Keep the next action visible.",
+    "assessmentIntro": "Payroll screens explore document lists, uploads, connection states and confirmation. Each state supports a different moment in the workflow.",
+    "assessment": [
+      {
+        "title": "Payroll document list",
+        "description": "Monthly records and an upload option organize the payroll task.",
+        "image": "/work/irmp-Wizard-Payroll-wages-Light-2.png",
+        "alt": "Innovation Refunds mobile interface: Payroll document list",
+        "lightImage": "/work/irmp-1Wizard-Payroll-wages-Light-1.png"
+      },
+      {
+        "title": "Next payroll period",
+        "description": "The workflow continues into another reporting period.",
+        "image": "/work/irmp-2Wizard-Payroll-wages-Light-2.png",
+        "alt": "Innovation Refunds mobile interface: Next payroll period"
+      },
+      {
+        "title": "Completed records",
+        "description": "Completed months use a visible status indicator.",
+        "image": "/work/irmp-3Wizard-Payroll-wages-Light-3.png",
+        "alt": "Innovation Refunds mobile interface: Completed records"
+      },
+      {
+        "title": "Upload in progress",
+        "description": "Progress indicators and file actions make the upload state visible.",
+        "image": "/work/irmp-5Wizard-Payroll-wages-Light.png",
+        "alt": "Innovation Refunds mobile interface: Upload in progress"
+      },
+      {
+        "title": "Connection needs attention",
+        "description": "A connection-error state keeps retry and provider options available.",
+        "image": "/work/irmp-Wizard-Payroll-wages-Dark.png",
+        "alt": "Innovation Refunds mobile interface: Connection needs attention",
+        "lightImage": "/work/irmp-4Wizard-Payroll-wages-Light-4.png"
+      },
+      {
+        "title": "Upload confirmation",
+        "description": "A confirmation state marks the completion of the document step.",
+        "image": "/work/irmp-Wizard-Payroll-wages-Light.png",
+        "alt": "Innovation Refunds mobile interface: Upload confirmation"
+      },
+      {
+        "title": "Document actions",
+        "description": "A dark interface exploration for viewing and managing uploaded records.",
+        "image": "/work/irmp-Wizard-Payroll-wages-Light-3.png",
+        "alt": "Innovation Refunds mobile interface: Document actions"
+      }
+    ],
+    "wellnessTitle": "Consistent patterns across the experience.",
+    "wellnessIntro": "Shared form controls, benefit-document views and a data-protection explanation connect the product. These are original interface explorations, with sample content.",
+    "wellness": [
+      {
+        "title": "Benefit documents",
+        "description": "A mobile view of records, statuses and file actions.",
+        "image": "/work/irmp-IR-2-6-iphone-dark.png",
+        "alt": "Innovation Refunds mobile interface: Benefit documents",
+        "lightImage": "/work/irmp-IR-2-6-iphone-light.png"
+      },
+      {
+        "title": "Input fields",
+        "description": "A consistent pattern for entering company details.",
+        "image": "/work/irmp-IR-Wizard-Input-fields-DARK1.png",
+        "alt": "Innovation Refunds mobile interface: Input fields",
+        "lightImage": "/work/irmp-IR-Wizard-Input-fields-Light.png"
+      },
+      {
+        "title": "Segmented choices",
+        "description": "A grouped choice pattern for focused questions.",
+        "image": "/work/irmp-IR-Wizard-Segment-buttons-DARK2.png",
+        "alt": "Innovation Refunds mobile interface: Segmented choices",
+        "lightImage": "/work/irmp-IR-Wizard-Segment-buttons-Light.png"
+      },
+      {
+        "title": "Multiple selections",
+        "description": "Checkboxes support questions with more than one selection.",
+        "image": "/work/irmp-IR-Wizard-Checkboxes-DARK3.png",
+        "alt": "Innovation Refunds mobile interface: Multiple selections",
+        "lightImage": "/work/irmp-IR-Wizard-Checkboxes-Light.png"
+      },
+      {
+        "title": "Single selection",
+        "description": "Radio controls support a single answer within a group.",
+        "image": "/work/irmp-IR-Wizard-Radio-buttons-DARK4.png",
+        "alt": "Innovation Refunds mobile interface: Single selection",
+        "lightImage": "/work/irmp-IR-Wizard-Radio-buttons-Light.png"
+      },
+      {
+        "title": "Data-protection explanation",
+        "description": "An explanatory overlay appears within the document workflow.",
+        "image": "/work/irmp-IR-2-6-iphone-dark-2.png",
+        "alt": "Innovation Refunds mobile interface: Data-protection explanation",
+        "lightImage": "/work/irmp-Wizard-Payroll-wages-Light-1.png"
+      }
+    ],
+    "prototypeTitle": "Explore the product and its design system.",
+    "prototypeIntro": "The original project includes an interactive prototype and a shared design-system file.",
+    "prototypeUrl": "https://www.figma.com/proto/aNCW7O2L29U7wznCdnZdih/IR---Project-Wirth?mode=design&node-id=2046-83576&page-id=2046%3A77693&scaling=scale-down&starting-point-node-id=2046%3A83576",
+    "prototypeNote": "Open the original Figma resources in a separate tab. Figma access may be required.",
+    "prototypeImage": "/work/irmp-IR-ERC-FINTECH-TAX-Iphone-Mockup.png",
+    "prototypeAlt": "Innovation Refunds mobile product shown on two phones",
+    "visualTitle": "Research artifacts & early direction",
+    "visualIntro": "Explore the audit blueprint, interview synthesis, journey maps and wireframe direction behind the mobile work.",
+    "visuals": [
+      {
+        "title": "Product audit blueprint",
+        "description": "The original research and audit board.",
+        "image": "/work/irmp-UXResearch-Blueprint-Audit-ERC2.jpg",
+        "alt": "Innovation Refunds UX research blueprint and audit board"
+      },
+      {
+        "title": "Interview synthesis",
+        "description": "Original interview notes organized around insights and feelings.",
+        "image": "/work/irmp-User-Interviews-IR.jpg",
+        "alt": "Innovation Refunds interview synthesis board"
+      },
+      {
+        "title": "Pre-qualification workflow",
+        "description": "A workflow map for the early application journey.",
+        "image": "/work/irmp-HoneyShake-pre-qualification-App-workflow-1.jpg",
+        "alt": "Innovation Refunds pre-qualification workflow diagram"
+      },
+      {
+        "title": "Interface flows",
+        "description": "A map connecting the mobile interface states.",
+        "image": "/work/irmp-IR-26-UI-Flows-1.jpg",
+        "alt": "Innovation Refunds mobile interface flow map"
+      },
+      {
+        "title": "Wireframe direction",
+        "description": "Early campaign and company-information interface explorations.",
+        "image": "/work/irmp-wireframe-Iphone-Mockup.png",
+        "alt": "Innovation Refunds wireframe interfaces shown on phones"
+      },
+      {
+        "title": "Company-information concept",
+        "description": "An alternate visual exploration for company details.",
+        "image": "/work/irmp-IR-ERC-Phone-mockup4.png",
+        "alt": "Innovation Refunds company-information screen on a phone"
+      }
+    ],
+    "closing": "The work connects research, clear mobile workflows, document states and reusable interface patterns across light and dark themes.",
+    "designSystemUrl": "https://www.figma.com/file/DoAeHMmfvf30WQEX1rkSFF/IR---Design-System-4.0?mode=design&node-id=6-13",
+    "walkthroughTitle": "See the interactions in motion.",
+    "walkthroughIntro": "Original project videos show the product direction and a voice interaction exploration. Play each video when you want a closer look.",
+    "walkthroughs": [
+      {
+        "title": "Product overview",
+        "description": "Original Innovation Refunds mobile app presentation.",
+        "src": "/work/irmp-IR-ERCA_promo_v2.mp4",
+        "poster": "/work/irmp-IR2-6-THUMBNAIL.jpg"
+      },
+      {
+        "title": "Voice interaction",
+        "description": "A short recording of the voice and text interaction exploration.",
+        "src": "/work/irmp-IR-VOICE-TEXT-VIDEO.mp4",
+        "poster": "/work/irmp-IR-ERC-Phone-mockup4.png"
+      }
+    ]
+  },
+  "adaHealthcare": {
+    "cardCompany": "Ada Driven Healthcare & Wellness",
+    "cardTitle": "A clearer path to everyday wellness.",
+    "cardDescription": "Mobile product design for health assessment, wellness tracking and conversational AI.",
+    "cardImage": "/work/ada-ada-img-side-2.png",
+    "cardAlt": "Ada health and wellness interfaces presented on two phones",
+    "client": "ada",
+    "role": "Product design · Research, UX & UI",
+    "timeline": "3 months",
+    "tools": "Figma, FigJam, AI, Miro, Framer, Bravo Studio",
+    "overview": "I worked across research, conceptualization, visual design and testing to explore a connected healthcare and wellness experience. The mobile designs bring onboarding, personal health information, activity tracking and AI conversations into one product direction.",
+    "researchTitle": "From research to a connected mobile experience.",
+    "researchIntro": "The original project combined personas, a sitemap, wireframes and high-fidelity prototyping. My role spanned the complete product design process.",
+    "methods": [
+      {
+        "title": "Understand the person",
+        "description": "Use personas to frame the needs behind the health and wellness experience."
+      },
+      {
+        "title": "Structure the journey",
+        "description": "Connect the product’s information architecture and wireframes before developing the visual direction."
+      },
+      {
+        "title": "Make it tangible",
+        "description": "Bring the experience into high-fidelity screens and a prototype for exploration and testing."
+      }
+    ],
+    "onboardingTitle": "A welcoming start, with a clear next step.",
+    "onboardingIntro": "The introduction explains the wellness experience through focused screens for personalization, fitness, AI conversation and medication tracking.",
+    "onboarding": [
+      {
+        "title": "Welcome to Ada",
+        "description": "An illustrated introduction with a clear starting action.",
+        "image": "/work/ada-2-ada-Welcome-Screen.png",
+        "alt": "Ada mobile interface: Welcome to Ada"
+      },
+      {
+        "title": "Personalize the experience",
+        "description": "Introduce the idea of a personalized health and wellness experience.",
+        "image": "/work/ada-3-ada-Welcome-Screen.png",
+        "alt": "Ada mobile interface: Personalize the experience"
+      },
+      {
+        "title": "Fitness at a glance",
+        "description": "Introduce fitness tracking before asking for personal details.",
+        "image": "/work/ada-4-ada-Welcome-Screen.png",
+        "alt": "Ada mobile interface: Fitness at a glance"
+      },
+      {
+        "title": "Conversational support",
+        "description": "Explain the AI chatbot as part of the wellness experience.",
+        "image": "/work/ada-5-ada-Welcome-Screen.png",
+        "alt": "Ada mobile interface: Conversational support"
+      },
+      {
+        "title": "Medication tracking",
+        "description": "Introduce another part of the connected wellness journey.",
+        "image": "/work/ada-6-ada-Welcome-Screen.png",
+        "alt": "Ada mobile interface: Medication tracking"
+      }
+    ],
+    "assessmentTitle": "One question at a time.",
+    "assessmentIntro": "A progressive assessment uses focused questions and visual controls for personal information, habits and preferences.",
+    "assessment": [
+      {
+        "title": "Weight",
+        "description": "A unit selector and scale keep the question focused.",
+        "image": "/work/ada-7-Onboarding-Health-Assessment.png",
+        "alt": "Ada mobile interface: Weight"
+      },
+      {
+        "title": "Blood type",
+        "description": "A dedicated selection screen with a visible continuation action.",
+        "image": "/work/ada-8-Onboarding-Health-Assessment.png",
+        "alt": "Ada mobile interface: Blood type"
+      },
+      {
+        "title": "Fitness level",
+        "description": "An illustrated step selector for the current activity level.",
+        "image": "/work/ada-9-Onboarding-Health-Assessment.png",
+        "alt": "Ada mobile interface: Fitness level"
+      },
+      {
+        "title": "Sleep habits",
+        "description": "A vertical selector presents a range of sleep durations.",
+        "image": "/work/ada-Onboarding-Health-Assessment-1.png",
+        "alt": "Ada mobile interface: Sleep habits"
+      },
+      {
+        "title": "How you feel",
+        "description": "A visual selector explores emotional well-being.",
+        "image": "/work/ada-Onboarding-Health-Assessment-2.png",
+        "alt": "Ada mobile interface: How you feel"
+      },
+      {
+        "title": "Eating habits",
+        "description": "Cards organize the available dietary preferences.",
+        "image": "/work/ada-Onboarding-Health-Assessment-3.png",
+        "alt": "Ada mobile interface: Eating habits"
+      },
+      {
+        "title": "Medications",
+        "description": "A searchable selection pattern for medication information.",
+        "image": "/work/ada-Onboarding-Health-Assessment-4.png",
+        "alt": "Ada mobile interface: Medications"
+      },
+      {
+        "title": "Symptoms and allergies",
+        "description": "A selection interface for additional health context.",
+        "image": "/work/ada-Onboarding-Health-Assessment-5.png",
+        "alt": "Ada mobile interface: Symptoms and allergies"
+      }
+    ],
+    "wellnessTitle": "Make daily wellness easier to explore.",
+    "wellnessIntro": "The ongoing experience brings health indicators, activity and AI conversation into dedicated mobile views. Values shown are interface examples.",
+    "wellness": [
+      {
+        "title": "Blood pressure",
+        "description": "A visual exploration of trends and related health information.",
+        "image": "/work/ada-20-ada-Blood-Pressure2.png",
+        "alt": "Ada mobile interface: Blood pressure"
+      },
+      {
+        "title": "Heart rate",
+        "description": "A daily view combines a prominent reading with a trend chart.",
+        "image": "/work/ada-21-ada-Heart-Rate.png",
+        "alt": "Ada mobile interface: Heart rate"
+      },
+      {
+        "title": "Heart analysis",
+        "description": "A detail screen organizes related indicators in one view.",
+        "image": "/work/ada-22-ada-Heart-Rate-Details.png",
+        "alt": "Ada mobile interface: Heart analysis"
+      },
+      {
+        "title": "Daily activity",
+        "description": "Progress and a weekly chart bring activity information together.",
+        "image": "/work/ada-23-ada-Steps.png",
+        "alt": "Ada mobile interface: Daily activity"
+      },
+      {
+        "title": "AI conversations",
+        "description": "An overview of conversations and the assistant experience.",
+        "image": "/work/ada-25-ada-Wellness-AI-Chatbot.png",
+        "alt": "Ada mobile interface: AI conversations"
+      }
+    ],
+    "prototypeTitle": "Explore the connected experience.",
+    "prototypeIntro": "Move from individual screens to the original interactive prototype.",
+    "prototypeUrl": "https://www.figma.com/proto/aNCW7O2L29U7wznCdnZdih/IR---Project-Wirth?mode=design&node-id=2046-83576&page-id=2046%3A77693&scaling=scale-down&starting-point-node-id=2046%3A83576&t=gvMUdRkLd1dCZR2Z-1&type=design&viewport=5053%2C-5686%2C0.25",
+    "prototypeNote": "Open the original Figma prototype in a separate tab. Figma access may be required.",
+    "prototypeImage": "/work/ada-ada-img-side-3.png",
+    "prototypeAlt": "Ada conversational AI interface on two phones",
+    "visualTitle": "A consistent visual language.",
+    "visualIntro": "Rounded forms, illustration and a shared color palette connect the mobile experience.",
+    "visuals": [
+      {
+        "title": "Illustration and visual tone",
+        "description": "Wellness illustration from the original project.",
+        "image": "/work/ada-ada-ai-frame.png",
+        "alt": "Ada wellness illustration of a seated person"
+      },
+      {
+        "title": "AI conversation interface",
+        "description": "The mobile conversation overview combines topic cards, search and recent activity.",
+        "image": "/work/ada-ada-ai.png",
+        "alt": "Ada AI conversation overview on a phone"
+      }
+    ],
+    "closing": "The work connects a welcoming introduction, focused assessment and ongoing wellness into one mobile product experience."
+  },
+  "oneofSuperlogic": {
+    "client": "OneOf",
+    "role": "Research lead · UX & UI design",
+    "timeline": "2 months",
+    "tools": "Figma, FigJam, Miro",
+    "overview": "A dashboard experience for people collecting and creating digital assets. My work brought collections, activity, payouts, and NFT creation together across desktop and mobile.",
+    "deliveryStatus": "Shipped product",
+    "deliverySummary": "Design exploration → Tested prototype → Shipped product",
+    "approachTitle": "From product structure to interface detail.",
+    "approachIntro": "My work spanned research, product visualization, prototyping, and testing over a two-month project. These artifacts show how the experience was mapped and explored.",
+    "approach": [
+      {
+        "title": "Map the experience",
+        "description": "Use personas, sitemaps, and process maps to organize the dashboard experience before refining the screens."
+      },
+      {
+        "title": "Explore across devices",
+        "description": "Develop low- and high-fidelity directions for dashboards, collections, payouts, and creation on desktop and mobile."
+      },
+      {
+        "title": "Connect the journey",
+        "description": "Bring the screen designs into interactive prototyping and testing as part of the product design process."
+      }
+    ],
+    "startingTitle": "Product maps & early structure",
+    "startingIntro": "The original process maps capture the structure behind the dashboard and creation workflows.",
+    "starting": [
+      {
+        "title": "Product structure",
+        "description": "An overview of the product structure and the connections between its key areas.",
+        "image": "/work/oneof-one-of-miro-process-1.png",
+        "alt": "OneOf process map — view 1"
+      },
+      {
+        "title": "Workflow detail",
+        "description": "A closer look at the mapped product flows that informed the interface explorations.",
+        "image": "/work/oneof-one-of-miro-process-2.png",
+        "alt": "OneOf process map — view 2"
+      }
+    ],
+    "directionTitle": "Early visual directions",
+    "directionIntro": "Additional mobile and desktop explorations show how the visual language carried across screen sizes.",
+    "overviewVisuals": [
+      {
+        "title": "Mobile direction 01",
+        "description": "An early mobile presentation of the dashboard experience.",
+        "image": "/work/oneof-mobile2.png",
+        "alt": "OneOf mobile overview — direction 1"
+      },
+      {
+        "title": "Mobile direction 02",
+        "description": "An alternate mobile direction within the same product family.",
+        "image": "/work/oneof-mobile3.png",
+        "alt": "OneOf mobile overview — direction 2"
+      },
+      {
+        "title": "Desktop direction",
+        "description": "A desktop overview bringing the dashboard into its device context.",
+        "image": "/work/oneof-macbook-pro-1024x603.png",
+        "alt": "OneOf desktop overview"
+      }
+    ],
+    "desktopTitle": "One workspace. The details that matter.",
+    "desktopIntro": "Explore the dashboard directions, collection listings, and payout states. Each view makes a different part of managing digital assets visible.",
+    "desktop": [
+      {
+        "title": "Activity dashboard",
+        "description": "A summary of sales activity, key figures, and individual assets in one desktop view.",
+        "image": "/work/oneof-1-user-dashboard-v.1-dark-oneof.png",
+        "alt": "OneOf user dashboard — direction 1"
+      },
+      {
+        "title": "Analytics direction",
+        "description": "An alternate dashboard combines sales history and a sales breakdown with asset-level detail.",
+        "image": "/work/oneof-2-user-dashboard-v.1-dark-oneof.png",
+        "alt": "OneOf user dashboard — direction 2"
+      },
+      {
+        "title": "Collection listings",
+        "description": "A list-based view brings item details, status, value, and available actions into a consistent structure.",
+        "image": "/work/oneof-3-list-v.1-dark-oneof.png",
+        "alt": "OneOf collection list"
+      },
+      {
+        "title": "Items & payouts",
+        "description": "A dedicated view for reviewing items and payout information.",
+        "image": "/work/oneof-4-items-payouts-dark-oneof.png",
+        "alt": "OneOf items and payouts"
+      },
+      {
+        "title": "Payout empty state",
+        "description": "The payout experience also accounts for a state with no payout activity to display.",
+        "image": "/work/oneof-4-empty-payouts-dark-oneof.png",
+        "alt": "OneOf payouts — empty state"
+      }
+    ],
+    "creationTitle": "A complex task, one decision at a time.",
+    "creationIntro": "A seven-screen flow for creating a digital collectible (NFT), from blockchain selection to a final publishing review. Choose a step to see the design.",
+    "creation": [
+      {
+        "title": "Choose a blockchain",
+        "description": "Begin with the blockchain and payment options before moving into the creation details.",
+        "image": "/work/oneof-2-step-1-dark-oneof.png",
+        "alt": "OneOf nft creation — step 1"
+      },
+      {
+        "title": "Choose what to create",
+        "description": "Select a single item or a collection to define the next part of the journey.",
+        "image": "/work/oneof-3-step-2-dark-oneof.png",
+        "alt": "OneOf nft creation — step 2"
+      },
+      {
+        "title": "Upload the asset",
+        "description": "A focused upload step gives the asset its own space before the details are entered.",
+        "image": "/work/oneof-4-step-3-dark-oneof.png",
+        "alt": "OneOf nft creation — step 3"
+      },
+      {
+        "title": "Add item details",
+        "description": "Enter the item name, description, properties, and pricing information.",
+        "image": "/work/oneof-5-step-4-dark-oneof.png",
+        "alt": "OneOf nft creation — step 4"
+      },
+      {
+        "title": "Choose a collection",
+        "description": "Create a new collection or select an existing collection for the item.",
+        "image": "/work/oneof-6-step-5-dark-oneof.png",
+        "alt": "OneOf nft creation — step 5"
+      },
+      {
+        "title": "Set preferences",
+        "description": "Review communication preferences with individual controls for each option.",
+        "image": "/work/oneof-7-step-6-dark-oneof.png",
+        "alt": "OneOf nft creation — step 6"
+      },
+      {
+        "title": "Review & publish",
+        "description": "A final item preview provides a checkpoint before publishing.",
+        "image": "/work/oneof-8-step-7-dark-oneof.png",
+        "alt": "OneOf nft creation — step 7"
+      }
+    ],
+    "mobileTitle": "The same product, made for a smaller screen.",
+    "mobileIntro": "Swipe through dashboard and selection screens. The mobile work keeps the focus on one task at a time.",
+    "mobile": [
+      {
+        "title": "Dashboard overview",
+        "description": "A mobile view of the dashboard and its key product information.",
+        "image": "/work/oneof-dashboard-v1-iphone1.png",
+        "alt": "OneOf mobile dashboard — direction 1"
+      },
+      {
+        "title": "Dashboard alternative",
+        "description": "An alternate mobile dashboard direction.",
+        "image": "/work/oneof-dashboard-v2-iphone1.png",
+        "alt": "OneOf mobile dashboard — direction 2"
+      },
+      {
+        "title": "Choose a collection",
+        "description": "A focused collection-selection screen for the mobile workflow.",
+        "image": "/work/oneof-dashboard-choose-list-iphone1.png",
+        "alt": "OneOf choose a collection"
+      },
+      {
+        "title": "Select an item",
+        "description": "Item selection presented as a dedicated mobile task.",
+        "image": "/work/oneof-dashboard-choose-selectitem-iphone1.png",
+        "alt": "OneOf select an item"
+      },
+      {
+        "title": "Choose a blockchain",
+        "description": "Blockchain selection adapted to a narrow screen.",
+        "image": "/work/oneof-dashboard-choose-blockchain-iphone1.png",
+        "alt": "OneOf choose a blockchain"
+      }
+    ],
+    "closing": "The work connects a desktop dashboard, mobile views, and a guided creation flow into one coherent product direction.",
+    "contribution": {
+      "title": "Turning complexity into clear product decisions.",
+      "led": "I led research, UX and UI design across desktop and mobile—from product structure and flows to prototyping and testing.",
+      "learned": "My design takeaway: managing digital assets and creating a collectible need different experiences. One calls for an overview; the other, a focused sequence of decisions.",
+      "changed": "I designed connected activity, collection and payout views, a guided NFT creation flow, and mobile screens.",
+      "evidenceTitle": "Design decisions & supporting screens",
+      "evidence": [
+        {
+          "title": "Separate managing assets from creating them",
+          "description": "I gave ongoing activity and asset information a dashboard view, while creation starts in a dedicated flow. These screens show how I separated monitoring from making a new collectible.",
+          "references": [
+            {
+              "group": "desktop",
+              "index": 0
+            },
+            {
+              "group": "creation",
+              "index": 0
+            }
+          ]
+        },
+        {
+          "title": "Clarity before commitment",
+          "description": "I organized NFT creation into focused decisions and separated item details from the final publishing review. My intent was to give creators a clear sequence and a checkpoint to review their collectible before publishing.",
+          "references": [
+            {
+              "group": "creation",
+              "index": 3
+            },
+            {
+              "group": "creation",
+              "index": 6
+            }
+          ]
+        },
+        {
+          "title": "Design the payout experience before data exists",
+          "description": "I included both a payout view and an empty state, so the interface also accounts for an account with no payout activity to display.",
+          "references": [
+            {
+              "group": "desktop",
+              "index": 3
+            },
+            {
+              "group": "desktop",
+              "index": 4
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "availityEssentials": {
+    "client": "Elevance Health",
+    "role": "Product design · Research to visualization",
+    "timeline": "1.5 months",
+    "tools": "Figma, FigJam, Miro",
+    "overview": "A healthcare information network connecting eligibility, authorizations, claims, and remittances. I worked across research, workflow design, UI, and data visualization to make complex information easier to navigate.",
+    "researchTitle": "Understanding the work behind healthcare decisions",
+    "researchIntro": "The research explored digital interactions and habits, then translated those observations into UI and UX direction, wireframes, and high-fidelity prototypes.",
+    "methods": [
+      {
+        "title": "Understand users",
+        "description": "Study digital interactions and habits to understand how people work across healthcare information and operational tasks."
+      },
+      {
+        "title": "Map the experience",
+        "description": "Use personas, sitemaps, and wireframes to connect user needs with the product’s goals."
+      },
+      {
+        "title": "Make the direction tangible",
+        "description": "Build high-fidelity prototypes and supporting visual assets to explore the proposed experience."
+      }
+    ],
+    "auditTitle": "Evaluate the product before defining the solution",
+    "auditIntro": "A product audit reviewed usability heuristics and the enterprise design framework, identified problem areas, and informed design recommendations.",
+    "audit": [
+      {
+        "title": "Heuristic evaluation",
+        "description": "Review the interface against usability principles and identify where the experience creates friction."
+      },
+      {
+        "title": "Overall findings",
+        "description": "Bring observations together to clarify problem areas and opportunities for the design."
+      },
+      {
+        "title": "Enterprise design validation",
+        "description": "Consider the existing design framework and validate the direction against enterprise needs."
+      }
+    ],
+    "directionTitle": "Connect workflows, data, and decisions",
+    "directionIntro": "The design exploration brought direct data entry and data visualization together, from eligibility and authorizations to claims and remittances. The clinical-data concept explored how teams could review information and support decision-making.",
+    "prototypeUrl": "https://www.figma.com/proto/aNCW7O2L29U7wznCdnZdih/IR---Project-Wirth?mode=design&node-id=2046-83576&page-id=2046%3A77693&scaling=scale-down&starting-point-node-id=2046%3A83576",
+    "prototypeImage": "/work/availity-availity-img-iphones-3.png",
+    "prototypeAlt": "Availity Essentials mobile screens presented on three phones",
+    "workflowTitle": "From information to connected workflows",
+    "workflowIntro": "Original workflow artifacts show the starting points behind the product direction.",
+    "prototypeNote": "Explore the original high-fidelity design prototype in Figma. Access may require signing in. These visuals document design explorations; no measured production outcomes are presented.",
+    "workflows": [
+      {
+        "title": "Workflow exploration 1",
+        "description": "Original workflow artifact from the Availity Essentials project.",
+        "image": "/work/availity-availity-workflow1.png",
+        "alt": "Availity Essentials workflow exploration 1"
+      },
+      {
+        "title": "Workflow exploration 2",
+        "description": "Original workflow artifact from the Availity Essentials project.",
+        "image": "/work/availity-availity-workflow3.png",
+        "alt": "Availity Essentials workflow exploration 2"
+      },
+      {
+        "title": "Workflow exploration 3",
+        "description": "Original workflow artifact from the Availity Essentials project.",
+        "image": "/work/availity-availity-workflow2.png",
+        "alt": "Availity Essentials workflow exploration 3"
+      },
+      {
+        "title": "Workflow exploration 4",
+        "description": "Original workflow artifact from the Availity Essentials project.",
+        "image": "/work/availity-availity-workflow5.png",
+        "alt": "Availity Essentials workflow exploration 4"
+      }
+    ],
+    "desktopTitle": "Desktop experience",
+    "desktopIntro": "Dashboard and data visualization explorations for the desktop experience.",
+    "desktop": [
+      {
+        "title": "Dashboard direction 1",
+        "description": "A desktop dashboard exploration from the original project.",
+        "image": "/work/availity-Dashboard-V1.png",
+        "alt": "Availity Essentials desktop dashboard direction 1"
+      },
+      {
+        "title": "Dashboard direction 2",
+        "description": "A desktop dashboard exploration from the original project.",
+        "image": "/work/availity-Dashboard-v2.png",
+        "alt": "Availity Essentials desktop dashboard direction 2"
+      }
+    ],
+    "mobileTitle": "Mobile experience",
+    "mobileIntro": "Mobile interface explorations showing how the experience carries across smaller screens.",
+    "mobile": [
+      {
+        "title": "Mobile exploration 1",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-21.png",
+        "alt": "Availity Essentials mobile interface exploration 1"
+      },
+      {
+        "title": "Mobile exploration 2",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-23.png",
+        "alt": "Availity Essentials mobile interface exploration 2"
+      },
+      {
+        "title": "Mobile exploration 3",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-26.png",
+        "alt": "Availity Essentials mobile interface exploration 3"
+      },
+      {
+        "title": "Mobile exploration 4",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-24.png",
+        "alt": "Availity Essentials mobile interface exploration 4"
+      },
+      {
+        "title": "Mobile exploration 5",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-25.png",
+        "alt": "Availity Essentials mobile interface exploration 5"
+      },
+      {
+        "title": "Mobile exploration 6",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-20.png",
+        "alt": "Availity Essentials mobile interface exploration 6"
+      },
+      {
+        "title": "Mobile exploration 7",
+        "description": "A mobile interface artifact from the original project.",
+        "image": "/work/availity-avaibility-iphone-22.png",
+        "alt": "Availity Essentials mobile interface exploration 7"
+      }
+    ],
+    "closing": "The work connected research, an enterprise product audit, workflow design, and visual prototyping into one product direction."
+  },
+  "portfolioHeroes": {
+    "shopping": {
+      "badge": "State Farm / Portfolio",
+      "title": "A guided shopping experience.",
+      "description": "Explore the Digital Assistant shopping simulator, from customer intent to guided next steps.",
+      "tags": [
+        "Conversational AI",
+        "Interaction design"
+      ],
+      "image": "/work/state-farm-hero-phone.png",
+      "lightImage": "",
+      "imageAlt": "State Farm Digital Assistant shopping interface",
+      "framing": "full"
+    },
+    "returning": {
+      "badge": "State Farm Experience",
+      "title": "Reimagining Insurance with AI-Powered Experiences",
+      "description": "Reimagining Auto, Home, and Renters insurance through AI-powered personalization, embedded intelligence, and seamless customer journeys. A modern, intuitive experience designed to simplify coverage decisions, anticipate customer needs, and evolve toward proactive, agentic AI.",
+      "tags": [
+        "Personalization",
+        "Product design"
+      ],
+      "image": "/work/state-farm-hero-laptop.png",
+      "lightImage": "",
+      "imageAlt": "State Farm returning customer experience on a laptop",
+      "framing": "full"
+    },
+    "event-flow": {
+      "badge": "Scoop News Group / Upgather / Portfolio",
+      "title": "Simplifying complex enterprise experiences.",
+      "description": "I connect UX research, product strategy, and hands-on design to make complex enterprise workflows easier to navigate.",
+      "tags": [
+        "Enterprise UX",
+        "Experience architecture"
+      ],
+      "image": "/work/upgather-portfolio-hero-v2.png",
+      "lightImage": "/work/upgather-portfolio-hero-light.png",
+      "imageAlt": "Upgather dashboard for event operations, registrations, and task management",
+      "framing": "full"
+    },
+    "oneof-superlogic": {
+      "badge": "OneOf–Superlogic / Portfolio",
+      "title": "Making Web3 dashboards easier to navigate.",
+      "description": "Mobile and desktop dashboard design for collectors and creators.",
+      "tags": [
+        "Web3 UX",
+        "Product design"
+      ],
+      "image": "/work/oneof-dashboard-fp-top-header2.png",
+      "lightImage": "",
+      "imageAlt": "OneOf dashboard design explorations",
+      "framing": "full"
+    },
+    "availity-essentials": {
+      "badge": "Availity — Essentials / Portfolio",
+      "title": "Making healthcare workflows easier to navigate.",
+      "description": "Healthcare product design, data visualization, and prototypes for eligibility, authorizations, claims, and remittances.",
+      "tags": [
+        "Healthcare UX",
+        "Data visualization"
+      ],
+      "image": "/work/availity-availity-mac-laptop-2-1.png",
+      "lightImage": "",
+      "imageAlt": "Availity Essentials desktop interface presented on a laptop",
+      "framing": "full"
+    },
+    "ada-healthcare-wellness": {
+      "badge": "Ada Driven Healthcare & Wellness / Portfolio",
+      "title": "A clearer path to everyday wellness.",
+      "description": "Mobile product design for health assessment, wellness tracking and conversational AI.",
+      "tags": [
+        "Healthcare UX",
+        "Conversational AI"
+      ],
+      "image": "/work/ada-ada-img-side-2.png",
+      "lightImage": "",
+      "imageAlt": "Ada health and wellness interfaces presented on two phones",
+      "framing": "full"
+    },
+    "fintech-irmp": {
+      "badge": "FinTech IRMP / Portfolio",
+      "title": "Making tax-credit workflows easier to navigate.",
+      "description": "Innovation Refunds mobile product design, from pre-qualification to payroll information and reusable interface patterns.",
+      "tags": [
+        "FinTech UX",
+        "Mobile product design"
+      ],
+      "image": "/work/irmp-IR-ERC-FINTECH-TAX-Iphone-Mockup.png",
+      "lightImage": "",
+      "imageAlt": "Innovation Refunds mobile application shown on two phones",
+      "framing": "full"
+    },
+    "neurotrade": {
+      "badge": "NeuroTrade / Portfolio",
+      "title": "AI trading. Human understanding.",
+      "description": "Designing a clearer path from personal portfolio tracking to AI-assisted trading and bot management.",
+      "tags": [
+        "Agentic AI",
+        "FinTech UX"
+      ],
+      "image": "/work/neurotrade-NeuroTrade-1-Dashboard-1024x728.png",
+      "lightImage": "",
+      "imageAlt": "NeuroTrade portfolio dashboard with assets and AI trading bots",
+      "framing": "full"
+    },
+    "apple-music": {
+      "badge": "Apple Music / Portfolio",
+      "title": "Refining Apple Music. Connecting design to code.",
+      "description": "Lead product design, a Sketch-to-Figma design-system migration, and an MCP-connected repository workflow.",
+      "tags": [
+        "Product design",
+        "Design systems"
+      ],
+      "image": "/work/apple-music-apple-music-header-1.png",
+      "lightImage": "",
+      "imageAlt": "Apple Music mobile interfaces for listening, discovery and radio",
+      "framing": "full"
+    }
+  },
+  "stateFarmCopyVersion": 1,
+  "stateFarmEvidenceVersion": 2,
+  "home": {
+    "heroBadge": "AI Product Design & Experience Strategy",
+    "heroLines": [
+      "Human insight.",
+      "AI strategy.",
+      "Product design.",
+      "Better products."
+    ],
+    "heroDescription": "I turn complex systems into clear, useful products through human–AI interaction and hands-on design.",
+    "workTitle": "Complexity, made useful.",
+    "workDescription": "AI experiences, enterprise products, and systems built with Product and Engineering.",
+    "aboutTitle": "Strategy in mind.\nCraft in hand.",
+    "aboutParagraphs": [
+      "I’m Terry Germany, a senior and principal-level product design leader based in Carrollton, Texas. I bring 25+ years of experience across Apple, Cisco, State Farm, and Scoop News Group.",
+      "I connect human–AI interaction, research, and hands-on design with Product and Engineering—making complex systems clear, useful, and trusted."
+    ]
+  },
+  "projectOrder": [
+    "digital-assistance",
+    "apple-intelligence",
+    "upgather",
+    "design-systems"
+  ],
+  "studies": {
+    "digital-assistance": {
+      "project": {
+        "slug": "digital-assistance",
+        "company": "State Farm",
+        "title": "Making complex insurance feel human.",
+        "subtitle": "State Farm Digital Assistant + AI — B2C Experience",
+        "role": "Senior Experience Lead, AI & Digital Assistance",
+        "domain": "Focus: AI Experience Strategy · Conversational AI · Generative AI · Agentic Experiences · Research · Product Design · Experience Architecture · Design Systems · Team Leadership",
+        "challenge": "State Farm had multiple digital journeys, service experiences, and emerging AI initiatives being developed across separate teams. Customers often had to navigate complex forms, disconnected experiences, and traditional task-based interfaces to accomplish relatively simple goals.\nThe opportunity was to rethink those experiences around an AI-first assistance model—one capable of understanding customer intent, guiding users through complex insurance decisions, completing tasks, explaining recommendations, and escalating to a human when appropriate.",
+        "contribution": [
+          "Led 25+ specialists across Design, Research, Data Science, Engineering, Product, Content, and AI.",
+          "Owned strategy across 12+ journeys: SmartQuote, quote review/purchase, service, registration/onboarding, claims/FNOL, and policy/vehicle management.",
+          "Directed research, prototypes, experimentation, and the Digital Assistance Design Kit; implemented the Level 1–3 AI Maturity Model with Product and Engineering."
+        ],
+        "evidence": "Established shared AI experience principles, reusable interaction patterns, and experience governance across State Farm’s consumer ecosystem. Connected near-term product work with a longer-term roadmap for generative AI, predictive assistance, and emerging agentic experiences.",
+        "takeaway": "AI should help people accomplish a goal while making its behavior understandable. Trust, accessibility, transparency, and human support belong in the interaction model from the start.",
+        "decisions": [
+          {
+            "title": "Match assistance to the customer’s task.",
+            "text": "Designed full-page AI, widgets, side panels, embedded assistance, and mobile experiences, with transitions between conversational and traditional interfaces."
+          },
+          {
+            "title": "Give AI a shared interaction foundation.",
+            "text": "Built and governed the Digital Assistance Design Kit: prompt and input behavior, quick replies, AI-generated cards, explainability, human handoff, error recovery, trust, and responsive desktop/mobile patterns."
+          },
+          {
+            "title": "Test discovery, usefulness, and trust.",
+            "text": "Evaluated AI entry points, CTA language, suggestion chips, proactive assistance, visual treatments, AI identity, and human escalation through research and experimentation."
+          }
+        ]
+      },
+      "scope": "Led the B2C AI and Digital Assistant experience across 12+ customer journeys, guiding a 25+ person cross-functional team across Product Design, Research, Data Science, Engineering, Content, and Product.",
+      "collaboration": "Aligned Product, Engineering, Research, Data Science, and Content around a shared Digital Assistance vision. Mentored designers and connected experience standards, experimentation, and delivery planning.",
+      "visualLabel": "Conversational assistant prototype",
+      "researchIntro": "I embedded research in product strategy, partnering with researchers, data scientists, Product, and Engineering to evaluate whether AI felt useful, understandable, trustworthy, and appropriate for the State Farm brand.",
+      "researchNote": "Methods included usability studies, A/B experimentation, prototype validation, and AI trust/brand studies. Specific findings and post-test performance results are not supplied.",
+      "outcomeNote": "Agentic experiences were a longer-term direction. Program scale describes reach and responsibility; measured conversion, service-resolution, or customer-satisfaction results are not provided.",
+      "insights": [
+        "Compare conversational and traditional flows, and widget versus full-page assistance, against the customer’s task.",
+        "Test entry points, CTA language, suggestion chips, proactive assistance, and visual treatments to understand how people discover and use AI.",
+        "Evaluate AI identity, explanations, and human escalation for trust, brand fit, and customer control."
+      ],
+      "choice": "Match assistance to the customer’s task.",
+      "why": "Designed full-page AI, widgets, side panels, embedded assistance, and mobile experiences around task context. Hybrid interactions let customers move between conversation and traditional UI rather than forcing every task into a chat.",
+      "directional": "A shared foundation for State Farm’s B2C AI experience.",
+      "strategy": {
+        "context": "Connect assistance to customer intent across shopping, quoting, service, onboarding, claims, and policy management. Evaluate discovery, continuity, and trust across conversational and traditional experiences.",
+        "comparisons": [
+          {
+            "title": "Entry points",
+            "question": "How do comparable insurance and service experiences make assistance recognizable at the moment of need?"
+          },
+          {
+            "title": "Task continuity",
+            "question": "How do widgets, panels, and full-page flows preserve context across a complex task?"
+          },
+          {
+            "title": "Trust & handoff",
+            "question": "How clearly does the experience explain the next step and a path to human help?"
+          }
+        ],
+        "opportunity": "Test where contextual and proactive assistance can reduce uncertainty and help customers complete an insurance task while preserving their choice and access to human support.",
+        "engagement": [
+          {
+            "title": "Invite in context",
+            "direction": "Evaluate entry points, CTA language, suggestion chips, and visual treatments within the customer’s insurance journey."
+          },
+          {
+            "title": "Guide a useful next step",
+            "direction": "Use contextual assistance, clear explanations, and hybrid conversational/traditional interactions to support complex decisions and tasks."
+          },
+          {
+            "title": "Make trust actionable",
+            "direction": "Define AI identity, transparency, error recovery, and human escalation as part of the interaction—not as an afterthought."
+          }
+        ],
+        "signals": [
+          "Assistance entry-point recognition",
+          "Task completion and actions required",
+          "Successful handoff to human help"
+        ]
+      },
+      "evidence": [
+        {
+          "id": "research",
+          "title": "Research + experimentation",
+          "status": "Project summary",
+          "summary": "Research into how customers find, use, and trust digital assistance.",
+          "detail": "I directed research and experimentation with Research, Data Science, Product, and Engineering to understand where digital assistance could make insurance easier. We explored entry points, conversational versus traditional interfaces, proactive help, personalization, AI identity, trust, and human handoff.\n\nThe work included prototypes and variations for moderated research and A/B testing. Program data covering 27,700 onboarding and service interactions helped frame the opportunity: 14,612 were resolved without escalation, while 13,088 needed additional support. I used that context to focus the design on clearer guidance and smoother transitions to human help."
+        },
+        {
+          "id": "interviews",
+          "title": "Interview snippets",
+          "status": "Placeholder",
+          "summary": "Approved excerpts and context to be added.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here. Include the participant context, date, and how the excerpt affected a decision."
+        },
+        {
+          "id": "whiteboards",
+          "title": "FigJam / whiteboards",
+          "status": "Placeholder",
+          "summary": "Workshop and synthesis artifacts to be added.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here. Explain the question explored and the resulting decision."
+        },
+        {
+          "id": "concepts",
+          "title": "Early concepts",
+          "status": "Artifact available",
+          "summary": "Exploring a simpler way to complete insurance tasks.",
+          "detail": "I explored how a Digital Assistant could help customers move through shopping, service, onboarding, and claims. The concepts combined conversation with useful interface elements, so customers could describe their goal and take the next step in the same experience.\n\nThe mobile prototype below shows one of those directions. I explored assistance entry points, widget and full-page formats, suggestion chips, contextual guidance, and paths to human support. The aim was to reduce navigation effort while keeping customers informed and in control.",
+          "src": "/work/state-farm-assistant.png"
+        },
+        {
+          "id": "failed",
+          "title": "Failed concepts",
+          "status": "Placeholder",
+          "summary": "An abandoned direction and what it taught us.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here. No failed concept is documented in the current notes. Add the alternative, why it was dropped, and the evidence."
+        },
+        {
+          "id": "testing",
+          "title": "Testing findings",
+          "status": "Placeholder",
+          "summary": "Specific findings and post-test changes pending.",
+          "detail": "Entry-point, button, and interface variations were developed for moderated research and A/B testing. Specific findings and post-test changes have not been added yet."
+        },
+        {
+          "id": "stakeholders",
+          "title": "Stakeholder communication",
+          "status": "Project summary",
+          "summary": "Contribution and alignment from project notes.",
+          "detail": "Experience strategy across 12+ customer journeys. Influence across 15+ cross-functional teams. Conversation patterns and a Digital Assistance design kit. Research direction and executive prototypes. AI Maturity Model implemented with Product and Engineering: Level 1 to Level 3. Add approved workshop notes or a decision record to substantiate stakeholder changes."
+        },
+        {
+          "id": "product",
+          "title": "Product constraints",
+          "status": "Project summary",
+          "summary": "Context that shaped the experience.",
+          "detail": "Insurance journeys span products, channels, identity systems, and moments of uncertainty. Digital assistance needed a consistent interaction model to guide customers while preserving clarity and human control."
+        },
+        {
+          "id": "engineering",
+          "title": "Design + Engineering alignment",
+          "status": "Project summary",
+          "summary": "A shared direction for design, product, and engineering.",
+          "detail": "I connected the customer experience with a shared direction for Design, Research, Data Science, Engineering, Product, Content, and AI.\n\nI directed prototypes, experimentation, and the Digital Assistance Design Kit, and implemented the Level 1–3 AI Maturity Model with Product and Engineering. Shared conversation patterns and experience standards helped connect the vision to delivery planning. I also mentored designers and kept the work aligned across teams."
+        },
+        {
+          "id": "competitive-intelligence",
+          "title": "Competitive intelligence",
+          "status": "Placeholder",
+          "summary": "Competitor comparisons and source artifacts to be added.",
+          "detail": "Comparison framework: Entry points: How do comparable insurance and service experiences make assistance recognizable at the moment of need? Task continuity: How do widgets, panels, and full-page flows preserve context across a complex task? Trust & handoff: How clearly does the experience explain the next step and a path to human help? Add named comparators, dated sources or approved screenshots, observed strengths and gaps, and the decision each finding influenced. This framework is not a completed benchmark or a claim that competitive research was performed. Engagement signals are proposed measures; no results are supplied."
+        },
+        {
+          "id": "ai-maturity",
+          "title": "AI Maturity Model",
+          "status": "Project summary",
+          "summary": "A practical path from Level 1 to Level 3 AI assistance.",
+          "detail": "I implemented the AI Maturity Model with Product and Engineering to give teams a shared way to plan the progression from Level 1 to Level 3. It connected AI capabilities to the customer experience we wanted to create.\n\nLevel 1 — Assisted Automation: rules-based help for defined tasks.\n\nLevel 2 — Context-Aware AI: assistance that responds to the customer’s situation.\n\nLevel 3 — Predictive AI Companion: assistance that anticipates needs and offers proactive guidance.\n\nThe model helped align priorities and experience standards across teams. It describes the direction of the work; individual features progressed at different stages."
+        }
+      ],
+      "media": [
+        {
+          "title": "Conversational mobile assistant",
+          "caption": "Project prototype. Select to inspect the complete screen.",
+          "src": "/work/state-farm-assistant.png",
+          "type": "image"
+        }
+      ],
+      "sectionOrder": [
+        "maturity",
+        "evidence",
+        "research",
+        "strategy",
+        "decisions",
+        "impact"
+      ]
+    },
+    "apple-intelligence": {
+      "project": {
+        "slug": "apple-intelligence",
+        "company": "Apple",
+        "title": "Intelligence that belongs in the experience.",
+        "subtitle": "Interaction patterns, research, and systems thinking across intelligent product surfaces.",
+        "role": "Senior Product Designer · Apple Intelligence (contract)",
+        "domain": "Intelligent ecosystems",
+        "challenge": "Intelligent capabilities need to fit familiar product behavior while remaining understandable, accessible, and consistent across platforms.",
+        "contribution": [
+          "UI/UX for Apple Intelligence product surfaces",
+          "Research, strategy, and experience architecture",
+          "Sketch-to-Figma migration and component systems",
+          "Designer mentorship and prototype validation"
+        ],
+        "evidence": "A high-level account of role and approach. Proprietary screens, internal research, and implementation details are not reproduced here.",
+        "takeaway": "The most useful intelligence feels coherent with the product around it.",
+        "decisions": [
+          {
+            "title": "Start with the interaction",
+            "text": "Translated intelligent system behavior into product flows and patterns aligned with Apple's Human Interface Guidelines and accessibility principles."
+          },
+          {
+            "title": "Build a common foundation",
+            "text": "Supported the shift from Sketch to Figma through unified systems, reusable components, and cross-team workflows."
+          },
+          {
+            "title": "Validate before scaling",
+            "text": "Used usability testing and prototype iteration to refine interaction quality and shared design standards."
+          }
+        ]
+      },
+      "scope": "iOS · macOS · tvOS · web",
+      "collaboration": "Partnered with data scientists, ML engineers, and platform teams on interaction patterns and prototype validation.",
+      "visualLabel": "Concept visual · not an Apple product screen",
+      "researchIntro": "UX research, usability testing, and prototype iteration supported the work. Internal findings remain private.",
+      "researchNote": "These points summarize the project account; they are not participant quotations or measured findings.",
+      "outcomeNote": "Quantitative launch results are not available in these project notes.",
+      "insights": [
+        "Intelligent capabilities need to fit familiar product behavior.",
+        "Accessibility and platform consistency informed interaction decisions.",
+        "Usability testing and prototype iteration supported interaction quality; internal findings remain private."
+      ],
+      "choice": "Start with the interaction people already understand.",
+      "why": "Translated intelligent system behavior into familiar product flows while supporting a common component foundation across teams.",
+      "directional": "Interaction patterns, reusable components, and prototype validation.",
+      "strategy": {
+        "context": "Make intelligent capabilities understandable and useful within familiar product interactions.",
+        "comparisons": [
+          {
+            "title": "Discoverability",
+            "question": "How do comparable intelligent experiences introduce a capability without disrupting the familiar task?"
+          },
+          {
+            "title": "Interaction clarity",
+            "question": "How clearly do product patterns communicate what an intelligent capability does and how to use it?"
+          },
+          {
+            "title": "Platform coherence",
+            "question": "How consistently do interactions support accessibility and familiar behavior across surfaces?"
+          }
+        ],
+        "opportunity": "Explore whether familiar, accessible interaction patterns make intelligent capabilities easier to understand and use across platforms.",
+        "engagement": [
+          {
+            "title": "Start with the task",
+            "direction": "Connect intelligent behavior to familiar flows aligned with Human Interface Guidelines and accessibility principles."
+          },
+          {
+            "title": "Build understanding",
+            "direction": "Use experience architecture, interaction design, and prototype validation to refine how capabilities fit the product."
+          },
+          {
+            "title": "Support consistency",
+            "direction": "Carry shared patterns and reusable components across iOS, macOS, tvOS, and web."
+          }
+        ],
+        "signals": [
+          "Capability discovery and comprehension",
+          "Usability and accessibility findings",
+          "Consistency across product surfaces"
+        ]
+      },
+      "evidence": [
+        {
+          "id": "research",
+          "title": "User research",
+          "status": "Project summary",
+          "summary": "Research approach and validation methods.",
+          "detail": "UX research, usability testing, and prototype validation supported interaction work. Internal findings and research artifacts remain private."
+        },
+        {
+          "id": "interviews",
+          "title": "Interview snippets",
+          "status": "Placeholder",
+          "summary": "Approved excerpts and context to be added.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here. Include the participant context, date, and how the excerpt affected a decision."
+        },
+        {
+          "id": "whiteboards",
+          "title": "FigJam / whiteboards",
+          "status": "Placeholder",
+          "summary": "Workshop and synthesis artifacts to be added.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here. Explain the question explored and the resulting decision."
+        },
+        {
+          "id": "concepts",
+          "title": "Early concepts",
+          "status": "Placeholder",
+          "summary": "Approved concepts to be added.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here."
+        },
+        {
+          "id": "failed",
+          "title": "Failed concepts",
+          "status": "Placeholder",
+          "summary": "An abandoned direction and what it taught us.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here. No failed concept is documented in the current notes. Add the alternative, why it was dropped, and the evidence."
+        },
+        {
+          "id": "testing",
+          "title": "Testing findings",
+          "status": "Placeholder",
+          "summary": "Specific findings and post-test changes pending.",
+          "detail": "Usability testing and prototype iteration are documented methods. Specific internal findings and implementation changes are not reproduced here."
+        },
+        {
+          "id": "stakeholders",
+          "title": "Stakeholder communication",
+          "status": "Project summary",
+          "summary": "Contribution and alignment from project notes.",
+          "detail": "UI/UX for Apple Intelligence product surfaces. Research, strategy, and experience architecture. Sketch-to-Figma migration and component systems. Designer mentorship and prototype validation. Add approved workshop notes or a decision record to substantiate stakeholder changes."
+        },
+        {
+          "id": "product",
+          "title": "Product constraints",
+          "status": "Project summary",
+          "summary": "Context that shaped the experience.",
+          "detail": "Intelligent capabilities need to fit familiar product behavior while remaining understandable, accessible, and consistent across platforms."
+        },
+        {
+          "id": "engineering",
+          "title": "Engineering constraints",
+          "status": "Project summary",
+          "summary": "System and implementation considerations.",
+          "detail": "Partnered with ML engineers and platform teams on UI/UX and prototype validation. Technical behavior informed product interaction. Proprietary implementation details are not shown. Add an approved decision record for the specific technical constraint and its effect."
+        },
+        {
+          "id": "competitive-intelligence",
+          "title": "Competitive intelligence",
+          "status": "Placeholder",
+          "summary": "Competitor comparisons and source artifacts to be added.",
+          "detail": "Comparison framework: Discoverability: How do comparable intelligent experiences introduce a capability without disrupting the familiar task? Interaction clarity: How clearly do product patterns communicate what an intelligent capability does and how to use it? Platform coherence: How consistently do interactions support accessibility and familiar behavior across surfaces? Add named comparators, dated sources or approved screenshots, observed strengths and gaps, and the decision each finding influenced. This framework is not a completed benchmark or a claim that competitive research was performed. Engagement signals are proposed measures; no results are supplied."
+        }
+      ],
+      "media": [],
+      "sectionOrder": [
+        "evidence",
+        "research",
+        "strategy",
+        "decisions",
+        "impact"
+      ]
+    },
+    "upgather": {
+      "project": {
+        "slug": "upgather",
+        "company": "Scoop News Group / Upgather",
+        "title": "Clarity for people running complex work.",
+        "subtitle": "Enterprise platform design spanning event operations, analytical data, and connected workflows.",
+        "role": "Principal Product Designer · AI & Government SaaS",
+        "domain": "Enterprise product design",
+        "challenge": "Event and data workflows span speakers, organizations, invitations, content, and publishing. People need to see their next step without understanding the underlying system.",
+        "contribution": [
+          "Cross-product direction and hands-on design",
+          "Event-page creator and operational workflows",
+          "Members, organizations, invitations, and confirmations",
+          "Design-system alignment with engineering"
+        ],
+        "evidence": "The event-creator and system-alignment work are ongoing design initiatives. Integration concepts and automation plans are distinguished from completed production capabilities.",
+        "takeaway": "A strong enterprise experience makes the next decision obvious, even when the system underneath is complex.",
+        "decisions": [
+          {
+            "title": "Give creation a clear start",
+            "text": "Separated guided event setup from ongoing management: choose a new layout, reuse an existing layout, or save a draft before returning to the operational workspace."
+          },
+          {
+            "title": "Make complexity navigable",
+            "text": "Used AG Grid and contextual panels for operational work, with consistent draft states and deliberate minimize behavior."
+          },
+          {
+            "title": "Close the design-to-code gap",
+            "text": "Worked with engineering on consistency and change tracking across Figma, Storybook, and the repository. Automation remains an evolving workflow."
+          }
+        ]
+      },
+      "scope": "Event creation · operational workflows · design system",
+      "collaboration": "Worked with Engineering on consistency and change tracking across Figma, Storybook, and the repository.",
+      "visualLabel": "Upgather editorial workflow exploration",
+      "researchIntro": "The project notes identify these design questions; validated research findings are not supplied.",
+      "researchNote": "These points summarize the project account; they are not participant quotations or measured findings.",
+      "outcomeNote": "Quantitative launch results are not available in these project notes.",
+      "insights": [
+        "Event work connects speakers, organizations, invitations, content, and publishing.",
+        "Guided creation and ongoing management need distinct starting points.",
+        "Draft states and contextual panels make operational work easier to navigate. These are design directions, not measured usability findings."
+      ],
+      "choice": "Support all three paths within a clear creation flow.",
+      "why": "Separated guided event setup from ongoing management. New layouts, reusable layouts, and drafts address different starting conditions rather than competing for one winner.",
+      "directional": "Guided creation, reusable layouts, contextual panels, and shared system alignment.",
+      "strategy": {
+        "context": "Help operators start event and editorial work, see what needs attention, and resume unfinished tasks.",
+        "comparisons": [
+          {
+            "title": "Creation paths",
+            "question": "How do comparable event and enterprise platforms balance new creation, template reuse, and draft recovery?"
+          },
+          {
+            "title": "Operational context",
+            "question": "How do tables and contextual panels make the next decision visible across connected workflows?"
+          },
+          {
+            "title": "Workflow continuity",
+            "question": "How are draft states and transitions between creation, management, and publishing communicated?"
+          }
+        ],
+        "opportunity": "Test whether guided creation and a consistent operational workspace help people move through connected work with less uncertainty.",
+        "engagement": [
+          {
+            "title": "Give creation a start",
+            "direction": "Offer a new layout, a reusable layout, or a saved draft within the documented event setup direction."
+          },
+          {
+            "title": "Keep context visible",
+            "direction": "Use AG Grid, contextual panels, and consistent draft states for ongoing operational work."
+          },
+          {
+            "title": "Make returning easier",
+            "direction": "Use the separation between guided setup and management to support continuing unfinished work."
+          }
+        ],
+        "signals": [
+          "Creation flow completion",
+          "Layout reuse and draft recovery",
+          "Time and errors in operational tasks"
+        ]
+      },
+      "evidence": [
+        {
+          "id": "research",
+          "title": "User research",
+          "status": "Placeholder",
+          "summary": "Research findings to be added.",
+          "detail": "Research findings have not been added to this project. The current account describes design direction and methods."
+        },
+        {
+          "id": "interviews",
+          "title": "Interview snippets",
+          "status": "Placeholder",
+          "summary": "Approved excerpts and context to be added.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here. Include the participant context, date, and how the excerpt affected a decision."
+        },
+        {
+          "id": "whiteboards",
+          "title": "FigJam / whiteboards",
+          "status": "Placeholder",
+          "summary": "Workshop and synthesis artifacts to be added.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here. Explain the question explored and the resulting decision."
+        },
+        {
+          "id": "concepts",
+          "title": "Early concepts",
+          "status": "Artifact available",
+          "summary": "Editorial workflow exploration.",
+          "detail": "The supplied sequence shows an editorial workflow exploration. It does not establish production status or measured effects.",
+          "src": "/work/editorial-ai.png"
+        },
+        {
+          "id": "failed",
+          "title": "Failed concepts",
+          "status": "Placeholder",
+          "summary": "An abandoned direction and what it taught us.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here. No failed concept is documented in the current notes. Add the alternative, why it was dropped, and the evidence."
+        },
+        {
+          "id": "testing",
+          "title": "Testing findings",
+          "status": "Placeholder",
+          "summary": "Specific findings and post-test changes pending.",
+          "detail": "The work is an ongoing design initiative. Test results and post-test changes have not been supplied; they should be added alongside an approved creator prototype."
+        },
+        {
+          "id": "stakeholders",
+          "title": "Stakeholder communication",
+          "status": "Project summary",
+          "summary": "Contribution and alignment from project notes.",
+          "detail": "Cross-product direction and hands-on design. Event-page creator and operational workflows. Members, organizations, invitations, and confirmations. Design-system alignment with engineering. Add approved workshop notes or a decision record to substantiate stakeholder changes."
+        },
+        {
+          "id": "product",
+          "title": "Product constraints",
+          "status": "Project summary",
+          "summary": "Context that shaped the experience.",
+          "detail": "Event and data workflows span speakers, organizations, invitations, content, and publishing. People need to see their next step without understanding the underlying system."
+        },
+        {
+          "id": "engineering",
+          "title": "Engineering constraints",
+          "status": "Project summary",
+          "summary": "System and implementation considerations.",
+          "detail": "Worked on system consistency and change tracking across Figma, Storybook, and the repository. A traceable design-to-code direction. Integration concepts and automation are not claimed as shipped. Add an approved decision record for the specific technical constraint and its effect."
+        },
+        {
+          "id": "competitive-intelligence",
+          "title": "Competitive intelligence",
+          "status": "Placeholder",
+          "summary": "Competitor comparisons and source artifacts to be added.",
+          "detail": "Comparison framework: Creation paths: How do comparable event and enterprise platforms balance new creation, template reuse, and draft recovery? Operational context: How do tables and contextual panels make the next decision visible across connected workflows? Workflow continuity: How are draft states and transitions between creation, management, and publishing communicated? Add named comparators, dated sources or approved screenshots, observed strengths and gaps, and the decision each finding influenced. This framework is not a completed benchmark or a claim that competitive research was performed. Engagement signals are proposed measures; no results are supplied."
+        }
+      ],
+      "media": [
+        {
+          "title": "Editorial workflow exploration",
+          "caption": "Supplied Upgather design exploration. Select to inspect the full sequence.",
+          "src": "/work/editorial-ai.png",
+          "type": "image"
+        },
+        {
+          "title": "Event journey map",
+          "caption": "Supplied event-flow diagram. Design exploration, not a measured production outcome.",
+          "src": "/work/event-flow.png",
+          "type": "image"
+        }
+      ],
+      "sectionOrder": [
+        "evidence",
+        "research",
+        "strategy",
+        "decisions",
+        "impact"
+      ]
+    },
+    "design-systems": {
+      "project": {
+        "slug": "design-systems",
+        "company": "Across products",
+        "title": "Shared language. Better delivery.",
+        "subtitle": "Systems connecting interaction decisions, reusable components, and implementation.",
+        "role": "Design systems & engineering partnership",
+        "domain": "Systems + scale",
+        "challenge": "A library becomes useful when designers and engineers understand the same component behavior, variation, and constraints.",
+        "contribution": [
+          "Reusable Figma components and interaction patterns",
+          "Design standards and implementation alignment",
+          "Designer mentoring and cross-team collaboration",
+          "Structured handoff and change tracking"
+        ],
+        "evidence": "This cross-project overview describes methods and contributions. It does not imply that Figma MCP automatically synchronizes systems or that proposed automation is deployed.",
+        "takeaway": "Design ahead. Engineer alongside. Build together.",
+        "decisions": [
+          {
+            "title": "Define behavior",
+            "text": "Documented states, accessibility, content, responsive behavior, and handoff expectations alongside visual components."
+          },
+          {
+            "title": "Engineer alongside design",
+            "text": "Worked through implementation trade-offs and prototype reviews, using Storybook and repository workflows as shared references."
+          },
+          {
+            "title": "Make changes traceable",
+            "text": "Explored a Figma-to-repository change process with documented changes and tracked work before advancing toward automation."
+          }
+        ]
+      },
+      "scope": "Components · behavior · handoff · change tracking",
+      "collaboration": "Worked through implementation trade-offs with Engineering using working sessions, prototypes, and shared references.",
+      "visualLabel": "Concept visual · a shared system of parts",
+      "researchIntro": "The project notes identify these design questions; validated research findings are not supplied.",
+      "researchNote": "These points summarize the project account; they are not participant quotations or measured findings.",
+      "outcomeNote": "Quantitative launch results are not available in these project notes.",
+      "insights": [
+        "Component usefulness depends on shared understanding of behavior and constraints.",
+        "States, accessibility, content, and responsive behavior belong alongside visual specifications.",
+        "Documented changes and tracked work come before proposed automation."
+      ],
+      "choice": "Define behavior and engineer alongside design.",
+      "why": "Working sessions, prototypes, and shared references make constraints visible early while preserving room for product-specific choices.",
+      "directional": "Reusable components, documented standards, implementation alignment, and mentoring.",
+      "strategy": {
+        "context": "Help designers and engineers understand, adopt, and maintain a shared component language.",
+        "comparisons": [
+          {
+            "title": "Documentation depth",
+            "question": "How do comparable design systems describe behavior, states, accessibility, content, and responsive variation?"
+          },
+          {
+            "title": "Design-to-code alignment",
+            "question": "How are design intent and implementation connected through component examples and shared references?"
+          },
+          {
+            "title": "Change visibility",
+            "question": "How do teams communicate revisions and distinguish tracked changes from proposed automation?"
+          }
+        ],
+        "opportunity": "Explore whether behavior-first documentation and traceable changes make shared components easier to adopt and maintain.",
+        "engagement": [
+          {
+            "title": "Make patterns usable",
+            "direction": "Pair reusable Figma components with behavior, content, accessibility, and handoff expectations."
+          },
+          {
+            "title": "Engineer alongside",
+            "direction": "Use working sessions, prototype reviews, Storybook, and repository references to clarify trade-offs."
+          },
+          {
+            "title": "Sustain the system",
+            "direction": "Support mentoring and tracked changes before advancing toward proposed automation."
+          }
+        ],
+        "signals": [
+          "Component adoption and reuse",
+          "Design-to-code consistency",
+          "Accessibility and change-review findings"
+        ]
+      },
+      "evidence": [
+        {
+          "id": "research",
+          "title": "User research",
+          "status": "Placeholder",
+          "summary": "Research findings to be added.",
+          "detail": "Research findings have not been added to this project. The current account describes design direction and methods."
+        },
+        {
+          "id": "interviews",
+          "title": "Interview snippets",
+          "status": "Placeholder",
+          "summary": "Approved excerpts and context to be added.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here. Include the participant context, date, and how the excerpt affected a decision."
+        },
+        {
+          "id": "whiteboards",
+          "title": "FigJam / whiteboards",
+          "status": "Placeholder",
+          "summary": "Workshop and synthesis artifacts to be added.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here. Explain the question explored and the resulting decision."
+        },
+        {
+          "id": "concepts",
+          "title": "Early concepts",
+          "status": "Placeholder",
+          "summary": "Approved concepts to be added.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here."
+        },
+        {
+          "id": "failed",
+          "title": "Failed concepts",
+          "status": "Placeholder",
+          "summary": "An abandoned direction and what it taught us.",
+          "detail": "Placeholder — add an approved artifact and its context. No findings or quotations are asserted here. No failed concept is documented in the current notes. Add the alternative, why it was dropped, and the evidence."
+        },
+        {
+          "id": "testing",
+          "title": "Testing findings",
+          "status": "Placeholder",
+          "summary": "Specific findings and post-test changes pending.",
+          "detail": "Prototype reviews and implementation trade-offs are documented methods. A specific test, failed concept, and resulting component revision have not been supplied."
+        },
+        {
+          "id": "stakeholders",
+          "title": "Stakeholder communication",
+          "status": "Project summary",
+          "summary": "Contribution and alignment from project notes.",
+          "detail": "Reusable Figma components and interaction patterns. Design standards and implementation alignment. Designer mentoring and cross-team collaboration. Structured handoff and change tracking. Add approved workshop notes or a decision record to substantiate stakeholder changes."
+        },
+        {
+          "id": "product",
+          "title": "Product constraints",
+          "status": "Project summary",
+          "summary": "Context that shaped the experience.",
+          "detail": "A library becomes useful when designers and engineers understand the same component behavior, variation, and constraints."
+        },
+        {
+          "id": "engineering",
+          "title": "Engineering constraints",
+          "status": "Project summary",
+          "summary": "System and implementation considerations.",
+          "detail": "Worked through implementation trade-offs and prototype reviews. Storybook and repository workflows became shared references for alignment. Add an approved decision record for the specific technical constraint and its effect."
+        },
+        {
+          "id": "competitive-intelligence",
+          "title": "Competitive intelligence",
+          "status": "Placeholder",
+          "summary": "Competitor comparisons and source artifacts to be added.",
+          "detail": "Comparison framework: Documentation depth: How do comparable design systems describe behavior, states, accessibility, content, and responsive variation? Design-to-code alignment: How are design intent and implementation connected through component examples and shared references? Change visibility: How do teams communicate revisions and distinguish tracked changes from proposed automation? Add named comparators, dated sources or approved screenshots, observed strengths and gaps, and the decision each finding influenced. This framework is not a completed benchmark or a claim that competitive research was performed. Engagement signals are proposed measures; no results are supplied."
+        }
+      ],
+      "media": [],
+      "sectionOrder": [
+        "evidence",
+        "research",
+        "strategy",
+        "decisions",
+        "impact"
+      ]
+    }
+  },
+  "maturity": {
+    "contribution": "I introduced and implemented the AI Maturity Model with State Farm Product and Engineering, giving teams a shared framework for the progression from Level 1 Assisted Automation to Level 3 Predictive AI Companion.",
+    "levels": [
+      {
+        "level": 1,
+        "name": "Assisted Automation",
+        "principle": "Rules + basic AI",
+        "stage": "Where we started",
+        "summary": "The customer asks. The system follows a defined path.",
+        "capabilities": [
+          "Rule-based responses",
+          "Scripted interaction flows",
+          "Basic recommendations"
+        ],
+        "product": "Define clear, repeatable assistance for known customer tasks.",
+        "engineering": "Connect predictable rules and decision paths to the experience.",
+        "customer": "Useful answers, with the customer initiating each step.",
+        "example": "How do I get help with my claim?",
+        "exampleResponse": "Choose the claim topic you need help with, and I’ll guide you to the next step."
+      },
+      {
+        "level": 2,
+        "name": "Context-Aware AI",
+        "principle": "Reactive + situational",
+        "stage": "The transition",
+        "summary": "The system responds with awareness of the customer's situation.",
+        "capabilities": [
+          "Journey-aware guidance",
+          "Contextual recommendations",
+          "More relevant conversations"
+        ],
+        "product": "Connect assistance to the journey and the customer's immediate need.",
+        "engineering": "Make the relevant journey context available to the interaction.",
+        "customer": "Guidance that fits the task instead of restarting from a generic answer.",
+        "example": "I’m in the middle of a quote. What should I do next?",
+        "exampleResponse": "Let’s continue from the step you’re on and clarify the information you need."
+      },
+      {
+        "level": 3,
+        "name": "Predictive AI Companion",
+        "principle": "Where differentiation begins",
+        "stage": "Where we progressed",
+        "summary": "The experience anticipates a relevant need and offers a next step.",
+        "capabilities": [
+          "Signals that inform assistance",
+          "Proactive suggestions",
+          "A more connected companion experience"
+        ],
+        "product": "Identify moments where anticipation can create useful guidance across insurance journeys.",
+        "engineering": "Connect signals and context to timely suggestions while preserving customer control.",
+        "customer": "Relevant help before another question is needed, with a choice about what happens next.",
+        "example": "A relevant life change could affect your coverage.",
+        "exampleResponse": "Would you like to review your options? You decide whether to explore the next step."
+      }
+    ]
+  },
+  "stateFarmReturningBadgeVersion": 1,
+  "stateFarmReturningTitleVersion": 2
+}

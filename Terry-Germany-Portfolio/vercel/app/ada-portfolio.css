@@ -1,0 +1,59 @@
+/* Ada follows the shared portfolio layout and the site's light/dark theme tokens. */
+.ada-portfolio { --ada-gutter:clamp(20px,5cqw,72px); }
+/* A black hero band in both themes; the rest of the page follows the theme. */
+.ada-portfolio:not(.irmp-portfolio) :is(.upgather-toolbar,.ada-hero) {
+ --background:#000;--foreground:#f4f3f8;--muted-foreground:#b5b1c0;--primary:#c8afff;--border:#392e43;
+ background:#000;color:var(--foreground);color-scheme:dark;
+ box-shadow:0 0 0 100vmax #000;clip-path:inset(0 -100vmax);
+}
+.ada-portfolio :is(h1,h2,h3,p,dt,dd,a,button,summary) { overflow-wrap:anywhere; }
+.ada-portfolio .upgather-toolbar { padding-inline:var(--ada-gutter);height:auto;min-height:80px; }
+.ada-portfolio .upgather-toolbar-actions { flex-shrink:0; }
+.ada-portfolio .ada-hero { position:relative;display:grid;grid-template-columns:minmax(0,1.15fr) minmax(0,.85fr);align-items:center;gap:24px 48px;padding:24px var(--ada-gutter) 32px;border-bottom:1px solid var(--border); }
+.ada-portfolio .ada-hero::after { content:"";position:absolute;left:0;right:0;bottom:-1px;height:1px;background:var(--border);box-shadow:0 0 0 100vmax var(--border);clip-path:inset(0 -100vmax);pointer-events:none; }
+.ada-portfolio .ada-hero-heading { grid-column:1/-1;display:flex;align-items:center;justify-content:space-between;gap:16px; }
+.ada-portfolio .ada-hero-heading .availity-eyebrow { font-size:12px;margin:0!important; }
+.ada-portfolio .ada-edit-link { display:inline-flex;align-items:center;gap:6px;flex-shrink:0;font-size:12px;min-height:44px;color:var(--muted-foreground); }
+.ada-portfolio .ada-hero-copy h1 { font-size:clamp(32px,3.6cqw,48px);line-height:1.12;letter-spacing:-.045em;font-weight:600;max-width:19ch;text-wrap:balance; }
+.ada-portfolio .ada-hero-copy>p { color:var(--muted-foreground);font-size:16px;line-height:1.8;max-width:46ch;margin-top:20px; }
+.ada-portfolio .ada-hero-art { width:100%; }
+.ada-portfolio .ada-hero-art img { display:block;width:100%;max-height:440px;object-fit:contain; }
+.ada-portfolio .ada-hero-art .ada-image-light { display:none; }
+:root.light .ada-portfolio .ada-hero-art .ada-image-light { display:block; }
+:root.light .ada-portfolio .ada-hero-art .ada-image-dark { display:none; }
+.ada-portfolio .ada-primary-link { display:inline-flex;align-items:center;gap:16px;min-height:44px;border-radius:100px;background:var(--primary);color:var(--background);padding:12px 18px;margin-top:24px;font-size:13px;font-weight:550;text-decoration:none; }
+.ada-portfolio .availity-section { padding:40px var(--ada-gutter); }
+.ada-portfolio .ada-overview { padding-top:0; }
+.ada-portfolio .availity-facts dt { font-size:12px; }
+.ada-portfolio .availity-facts dd { font-size:14px;line-height:1.7; }
+.ada-portfolio .availity-overview { max-width:100%; }
+.ada-portfolio .ada-chapters { display:flex;flex-wrap:wrap;gap:12px 28px;margin-top:24px; }
+.ada-portfolio .ada-chapters a { min-height:44px;display:inline-flex;align-items:center;color:var(--primary);font-size:11px;letter-spacing:.035em;text-underline-offset:4px; }
+.ada-portfolio .ada-journey { scroll-margin-top:20px; }
+.ada-portfolio .availity-heading-row { gap:32px; }
+.ada-portfolio .availity-heading-row h2 { font-size:clamp(26px,2.6cqw,34px);line-height:1.2; }
+.ada-portfolio .availity-heading-row>p { font-size:14px;line-height:1.8; }
+.ada-portfolio .availity-eyebrow { font-size:12px; }
+.ada-portfolio .availity-mobile-carousel-card { flex-basis:min(220px,82%);border:0;background:transparent;overflow:visible; }
+.ada-portfolio .availity-mobile-carousel-screen { aspect-ratio:375/812;padding:0;background:transparent;border-radius:20px;overflow:hidden; }
+.ada-portfolio .availity-mobile-carousel-card figcaption { padding:16px 2px 0; }
+.ada-portfolio .availity-mobile-carousel-card figcaption p { font-size:12px;line-height:1.7; }
+.ada-portfolio .availity-prototype>img { max-height:280px; }
+.ada-portfolio .availity-prototype h3 { font-size:22px;line-height:1.4; }
+.ada-portfolio .ada-visuals { margin-top:28px;border-top:1px solid var(--border); }
+.ada-portfolio .ada-visuals>summary { display:flex;align-items:center;justify-content:space-between;gap:16px;min-height:64px;padding:20px 0;list-style:none;cursor:pointer;font-size:15px;line-height:1.7; }
+.ada-portfolio .ada-visuals>summary::-webkit-details-marker { display:none; }
+.ada-portfolio .ada-visuals>summary svg { flex-shrink:0;color:var(--primary); }
+.ada-portfolio .ada-visuals[open]>summary svg { transform:rotate(180deg); }
+.ada-portfolio .ada-visuals>p { color:var(--muted-foreground);font-size:14px;line-height:1.8;margin-bottom:20px; }
+.ada-portfolio .ada-visual-grid { display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px; }
+.ada-portfolio .ada-visual-grid button { display:block;width:100%;padding:0;border:1px solid var(--border);border-radius:12px;background:var(--card);cursor:zoom-in; }
+.ada-portfolio .ada-visual-grid img { display:block;width:100%;height:240px;object-fit:contain;padding:12px; }
+.ada-portfolio .ada-visual-grid h3 { margin:16px 0 8px;font-size:15px;line-height:1.6;font-weight:500; }
+.ada-portfolio .ada-visual-grid p { font-size:12px;line-height:1.7;color:var(--muted-foreground); }
+.ada-portfolio :is(a,button,summary):focus-visible { outline:2px solid var(--primary);outline-offset:4px; }
+.ada-image-dialog>img { max-height:75dvh;object-fit:contain; }
+.gallery-piece-ada-healthcare-wellness { background:var(--secondary); }
+@container(max-width:900px) { .ada-portfolio .availity-heading-row { grid-template-columns:minmax(0,1fr);gap:16px; } }
+@container(max-width:760px) { .ada-portfolio .ada-hero { grid-template-columns:minmax(0,1fr);gap:24px;padding-bottom:28px; } .ada-portfolio .ada-hero-art { max-width:380px;justify-self:center; } .ada-portfolio .ada-hero-art img { max-height:360px; } .ada-portfolio .ada-hero-copy h1 { max-width:24ch; } .ada-portfolio .availity-section { padding-block:28px; } .ada-portfolio .ada-overview { padding-top:0; } .ada-portfolio .ada-hero-heading { align-items:flex-start; } .ada-portfolio .ada-chapters { gap:4px 20px; } }
+@container(max-width:500px) { .ada-portfolio .ada-hero-heading { flex-wrap:wrap;gap:8px; } .ada-portfolio .ada-visual-grid { grid-template-columns:minmax(0,1fr); } }

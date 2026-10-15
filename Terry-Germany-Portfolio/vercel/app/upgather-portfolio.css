@@ -1,0 +1,113 @@
+/* The selected UpGather research frame, with native layouts below 1440px. */
+.upgather-research{max-width:1440px;margin-inline:auto;min-height:100dvh;font-family:StateFarmHeroInter,Inter,Arial,sans-serif;font-optical-sizing:none;--card:#131017;--muted-foreground:#b5b1c0;--proof-accent:#e992a1;container-type:inline-size}
+.upgather-research :is(p,h1,h2,h3,figure){margin:0}
+.upgather-research *{min-width:0}
+.upgather-research>[data-name]{width:100%;max-width:100%}
+.upgather-research [data-name="Key insight"]{max-width:100%}
+.upgather-research [data-name="Row text"]>p{max-width:100%}
+.upgather-research [data-name="Artifact context row"],.upgather-research [data-name="Product example row"]{height:auto;min-height:91px}
+.upgather-research button[aria-haspopup]{background:transparent;text-align:left;border:0;padding:0;flex-shrink:0;min-height:44px;cursor:pointer}
+.upgather-research button[aria-haspopup]:hover{text-decoration:underline;text-underline-offset:4px}
+.upgather-toolbar{display:flex;align-items:center;justify-content:space-between;gap:16px;width:100%;height:80px;padding:16px 72px;border-bottom:1px solid var(--border);background:var(--background)}
+.upgather-toolbar .proof-back{gap:8px;border:1px solid var(--border);border-radius:100px;padding:0 16px;min-height:44px;font-size:14px;font-weight:400;background:var(--background)}
+.upgather-toolbar-actions{display:flex;gap:12px;align-items:center}
+.upgather-toolbar-actions :is(.theme-toggle,.study-close){display:flex;align-items:center;justify-content:center;width:46px;height:46px;border:1px solid var(--border);border-radius:100px;background:var(--background);color:var(--foreground)}
+.upgather-context-art{display:grid;gap:20px}
+.upgather-context-art img{display:block;width:100%;height:auto;border-radius:8px}
+.upgather-edit-cover{position:absolute;right:16px;bottom:16px;padding:8px 14px;min-height:44px;border:1px solid var(--border);border-radius:100px;background:var(--background);color:var(--primary);font-size:14px;opacity:0;transition:opacity .15s}
+.upgather-research [data-name="Image"]:is(:hover,:focus-within) .upgather-edit-cover{opacity:1}
+.light .upgather-research{--card:#f5f1f8;--muted-foreground:#665c73;--proof-accent:#985665}
+.upgather-product-direction{display:flex;flex-direction:column;gap:32px;padding:0 72px 43px;width:100%}
+.upgather-product-rule{height:1px;width:100%;background:var(--border)}
+.upgather-product-heading{display:flex;flex-direction:column;gap:12px}
+.upgather-product-eyebrow{font-size:14px;font-weight:500;line-height:28px;color:var(--primary)}
+.upgather-product-heading h2{font-size:36px;font-weight:600;line-height:43px;letter-spacing:-2px;color:var(--foreground)}
+.upgather-product-heading>p:last-child{font-size:16px;line-height:28px;color:var(--muted-foreground)}
+.upgather-product-cards{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:12px;width:100%;align-items:stretch}
+.upgather-product-card{display:flex;flex-direction:column;background:var(--card);border:1px solid var(--border);border-radius:12px;overflow:hidden;min-width:0}
+.upgather-research button.upgather-product-image{display:block;position:relative;width:100%;aspect-ratio:642/345;min-height:0;padding:0;border:0;border-radius:0;background:#fff;cursor:pointer;overflow:hidden;flex-shrink:0}
+.upgather-product-image img{display:block;width:100%;height:100%;object-fit:cover}
+.upgather-product-caption{display:flex;flex:1;flex-direction:column;gap:8px;border-top:1px solid var(--border);padding:22px}
+.upgather-product-caption-header{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px}
+.upgather-product-caption h3{font-size:14px;font-weight:400;line-height:23.1px;color:var(--primary)}
+.upgather-research button.upgather-product-badge{position:relative;display:inline-flex;align-items:center;justify-content:center;min-height:26px;padding:3px 8px;border:0;border-radius:6px;background:var(--secondary);font:inherit;font-size:12px;line-height:20.4px;color:var(--muted-foreground);cursor:pointer}
+.upgather-product-badge:after{content:"";position:absolute;inset:-8px 0}
+.upgather-product-caption>p{font-size:14px;font-weight:400;line-height:23.1px;color:var(--muted-foreground)}
+.upgather-product-context{display:flex;align-items:center;justify-content:space-between;gap:24px;min-height:91px;padding:24px 0;border-top:1px solid var(--border)}
+.upgather-product-context>div{display:flex;flex-direction:column;gap:6px}
+.upgather-product-context p{font-size:16px;font-weight:500;line-height:22.4px;color:var(--foreground)}
+.upgather-product-context span{font-size:12px;line-height:20.4px;color:var(--muted-foreground)}
+.upgather-product-context button{font:inherit;font-size:14px;line-height:23.1px;color:var(--proof-accent);white-space:nowrap}
+.upgather-research .upgather-product-card button:focus-visible,.upgather-product-context button:focus-visible{outline:2px solid var(--primary);outline-offset:-3px}
+.upgather-prototype-viewer{display:flex;flex-direction:column;width:100%;height:100dvh;padding:0;gap:0;max-width:none;border:0;border-radius:0;transform:none;z-index:70;font-family:StateFarmHeroInter,Inter,Arial,sans-serif;color:var(--foreground)}
+.upgather-prototype-viewer-header{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:16px 24px;background:var(--background);border-bottom:1px solid var(--border);flex-shrink:0}
+.upgather-prototype-viewer-header [data-slot="dialog-title"]{font-size:18px;line-height:1.4}
+.upgather-prototype-viewer-header [data-slot="dialog-description"]{font-size:14px;line-height:1.5;color:var(--muted-foreground);margin-top:4px}
+.upgather-prototype-viewer-actions{display:flex;align-items:center;gap:12px;flex-shrink:0}
+.upgather-prototype-open{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:44px;padding:8px 12px;border:1px solid var(--border);border-radius:100px;background:transparent;color:var(--primary);font:inherit;font-size:14px;cursor:pointer}
+.upgather-prototype-close{display:flex;align-items:center;justify-content:center;width:44px;height:44px;border:1px solid var(--border);border-radius:50%;background:var(--background);color:var(--foreground);cursor:pointer}
+.upgather-prototype-open:hover{background:var(--secondary)}
+.upgather-prototype-open:focus-visible,.upgather-prototype-close:focus-visible{outline:2px solid var(--primary);outline-offset:3px}
+.upgather-prototype-frame{flex:1;width:100%;min-height:0;background:#fff;overflow:auto;overscroll-behavior-x:contain}
+.upgather-prototype-frame iframe{display:block;width:100%;min-width:1280px;height:100%;border:0}
+.upgather-prototype-frame:focus-visible{outline:2px solid var(--primary);outline-offset:-3px}
+.upgather-prototype-swipe{display:none;margin:0;padding:10px 16px;font-size:14px;line-height:1.5;color:var(--muted-foreground);background:var(--background)}
+.upgather-context-art figure{margin:0}
+.upgather-context-art figcaption{margin-top:8px;color:var(--muted-foreground);font-size:14px;line-height:1.5}
+@container(max-width:1120px){.upgather-product-cards{grid-template-columns:repeat(2,minmax(0,1fr))}}
+@container(max-width:760px){.upgather-product-cards{grid-template-columns:minmax(0,1fr)}.upgather-product-context{align-items:flex-start;gap:12px}}
+@media(max-width:1280px){.upgather-prototype-swipe{display:block}}
+@media(max-width:600px){.upgather-prototype-viewer-header{padding:12px;gap:12px;flex-wrap:wrap}.upgather-prototype-viewer-actions{margin-left:auto;gap:8px}.upgather-product-caption{padding:20px}.upgather-product-context{flex-direction:column;align-items:flex-start}}
+@media(max-width:1200px){
+ .upgather-toolbar{padding-inline:40px}
+ .upgather-research>[data-name]{padding-inline:40px}
+ .upgather-research [data-name="Introduction narrative"]{gap:32px}
+ .upgather-research [data-name="Introduction narrative"]>h1{width:52%;flex:0 1 52%}
+ .upgather-research [data-name="Introduction narrative"]>[data-name="Purpose"]{width:auto;flex:1 1 45%}
+ .upgather-research [data-name="Facts table"]{gap:32px}
+ .upgather-research [data-name="End-to-end process"]{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:12px}
+ .upgather-research [data-name="Process relationship"]{flex-basis:0}
+}
+@media(max-width:900px){
+ .upgather-toolbar{padding-inline:28px}
+ .upgather-research>[data-name]{padding-inline:28px}
+ .upgather-research [data-name="Introduction narrative"]{flex-direction:column;align-items:stretch;gap:24px}
+ .upgather-research [data-name="Introduction narrative"]>h1,.upgather-research [data-name="Introduction narrative"]>[data-name="Purpose"]{width:100%;flex:auto}
+ .upgather-research [data-name="Facts table"]{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+ .upgather-research [data-name="Method row"]{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+ .upgather-research [data-name="Research method"]{min-width:0}
+ .upgather-research [data-name="Related project cards"]{flex-wrap:wrap}
+ .upgather-research [data-name="Related project cards"]>div{flex-basis:calc(50% - 12px)}
+ .upgather-research [data-name="Signals to action"]{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:24px}
+ .upgather-research [data-name="What I led"]{flex-direction:column;gap:24px}
+ .upgather-research [data-name="Leadership statement"],.upgather-research [data-name="Ownership grid"]{width:100%}
+ .upgather-research [data-name="Partnership relationship"]{flex-direction:column;align-items:stretch;gap:16px}
+ .upgather-research [data-name="My role"]{max-width:100%}
+}
+@media(max-width:600px){
+ .upgather-toolbar{height:76px;padding:16px 20px}
+ .upgather-toolbar-actions{gap:8px}
+ .upgather-toolbar-actions :is(.theme-toggle,.study-close){width:44px;height:44px}
+ .upgather-research>[data-name]{padding:32px 20px;gap:24px}
+ .upgather-research [data-name="Introduction narrative"] :is(h1,h2){font-size:34px;line-height:35.7px;letter-spacing:-1.87px;min-width:0;flex:none;width:100%}
+ .upgather-research [data-name="Introduction narrative"]>[data-name="Purpose"]{min-width:0}
+ .upgather-research [data-name="Research purpose"]{overflow:visible}
+ .upgather-research [data-name="Image"]{aspect-ratio:350/200}
+ .upgather-research [data-name="Method row"],.upgather-research [data-name="Ownership row"],.upgather-research [data-name="Artifact pair"],.upgather-research [data-name="Signals to action"]{display:flex;flex-direction:column;gap:20px;align-items:stretch}
+ .upgather-research [data-name="Research method"],.upgather-research [data-name="Ownership area"],.upgather-research [data-name="Ownership grid"]{min-width:0;width:100%;flex:none}
+ .upgather-research [data-name="Related project cards"]{flex-direction:column;gap:16px;padding-top:16px}
+ .upgather-research [data-name="Related project cards"]>div{width:100%;flex:auto}
+ .upgather-research [data-name="Key insight"]{padding:24px}
+ .upgather-research [data-name="Key insight"]>p:nth-child(2){font-size:28px}
+ .upgather-research [data-name="Key insight"]>p:nth-child(2)>span{line-height:1.2}
+ .upgather-research [data-name="Artifact card"]{width:100%;flex:none}
+ .upgather-research [data-name="Caption header"],.upgather-research [data-name="Provenance bar"]{flex-wrap:wrap;gap:8px}
+ .upgather-research [data-name="Artifact context row"],.upgather-research [data-name="Product example row"]{gap:12px;align-items:flex-start}
+ .upgather-research [data-name="Leadership statement"]>p:nth-child(2){font-size:44px;line-height:1.1}
+ .upgather-research [data-name="End-to-end process"]{grid-template-columns:repeat(2,minmax(0,1fr))}
+ .upgather-research [data-name="Role chips"]{gap:8px}
+ .upgather-research [data-name="Role chip"]{max-width:100%}
+ .upgather-research [data-name="Role chip"]>p{white-space:normal}
+ .upgather-research [data-name="Section heading"] h2,.upgather-research [data-name="Partnership heading"] h3{font-size:28px;line-height:1.2;letter-spacing:-1px}
+ .upgather-research [data-name="Facts table"]{gap:18px 12px}
+}

@@ -100,7 +100,7 @@ export default function WorkShowcase() {
     if (!file) return;
     setError(""); setMessage("");
     if (!acceptedMediaTypes.includes(file.type)) { setError("Use JPG, PNG, WebP, AVIF, MP4, or WebM."); return; }
-    if (file.size > maxMediaBytes) { setError("Choose a file under 4 MB."); return; }
+    if (file.size > maxMediaBytes) { setError("Choose a file under 50 MB."); return; }
     const slot = selected;
     setBusy(true);
     try {
@@ -179,7 +179,7 @@ export default function WorkShowcase() {
               {busy ? <LoaderCircle size={18} className="hero-loading-icon" /> : <Upload size={18} />}{busy ? "Saving…" : "Choose image or video"}
               <input ref={fileInput} type="file" onClick={event => { event.currentTarget.value = ""; }} accept={acceptedMediaTypes.join(",")} onChange={event => void upload(event)} disabled={busy} aria-label={`Upload media for ${slotLabels[selected]}`} />
             </label>
-            <p className="hero-upload-hint">JPG, PNG, WebP, AVIF, MP4, or WebM · Up to 4 MB</p>
+            <p className="hero-upload-hint">JPG, PNG, WebP, AVIF, MP4, or WebM · Up to 50 MB</p>
             {current.uploaded && <button className="hero-reset" disabled={busy} onClick={() => void reset()}>Use original placeholder</button>}
           </div>
           {error && <p role="alert" className="hero-editor-error">{error}</p>}
